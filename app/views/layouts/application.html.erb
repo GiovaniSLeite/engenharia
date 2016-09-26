@@ -1,49 +1,133 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-<head>
-  <title>Ruby Getting Started on Heroku</title>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-<nav class="navbar navbar-default navbar-static-top navbar-inverse">
-  <div class="container">
-    <ul class="nav navbar-nav">
-      <li class="active">
-        <a href="/"><span class="glyphicon glyphicon-home"></span> Home</a>
-      </li>
-      <li>
-        <a href="https://devcenter.heroku.com/articles/how-heroku-works"><span class="glyphicon glyphicon-user"></span> How Heroku Works</a>
-      </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-info-sign"></span> Getting Started Guides <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="https://devcenter.heroku.com/articles/getting-started-with-ruby">Getting Started with Ruby on Heroku</a></li>
-            <li><a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started with Node on Heroku</a></li>
-            <li><a href="https://devcenter.heroku.com/articles/getting-started-with-php">Getting Started with PHP on Heroku</a></li>
-            <li><a href="https://devcenter.heroku.com/articles/getting-started-with-python">Getting Started with Python on Heroku</a></li>
-            <li><a href="https://devcenter.heroku.com/articles/getting-started-with-java">Getting Started with Java on Heroku</a></li>
-            <li><a href="https://devcenter.heroku.com/articles/getting-started-with-go">Getting Started with Go on Heroku</a></li>
-            <li><a href="https://devcenter.heroku.com/articles/getting-started-with-clojure">Getting Started with Clojure on Heroku</a></li>
-            <li><a href="https://devcenter.heroku.com/articles/getting-started-with-scala">Getting Started with Scala on Heroku</a></li>
-            <li class="divider"></li>
-            <li><a href="https://devcenter.heroku.com/articles/getting-started-with-heroku-and-connect-without-local-dev">Getting Started on Heroku with Heroku Connect</a></li>
-            <li><a href="https://devcenter.heroku.com/articles/getting-started-with-jruby">Getting Started with Ruby on Heroku (Microsoft Windows)</a></li>
-          </ul>
-      </li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li class="navbar-right">
-        <a href="https://devcenter.heroku.com"><span class="glyphicon glyphicon-book"></span> Heroku Dev Center</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<%= yield %>
-
-</body>
+	<head>
+		<title>Home | Dobro ou Nada</title>
+		<meta charset="utf-8">
+		
+		<%= stylesheet_link_tag 'style' %>
+		<%= stylesheet_link_tag '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' %>
+    	<%= javascript_include_tag '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' %> 
+    <%= csrf_meta_tags %>
+		
+		
+		<link href="https:" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+		<script src="" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		<link href="stylesheets/style.css" rel="stylesheet"/>
+		<script src="javascripts/script.js"></script>
+	</head>
+	
+	<body>
+		<div class="bloco-home">
+			<div class="bloco-home" id="banner-bloco-home">
+				<div class="bloco-home" id="cor-preto-bloco-home">
+					<div class="bloco-home" id="gradient-white">
+						<div class="card-bloco-home">
+						</div>
+						<div class="card-bloco-home">
+							<div id="conteudo-banner-bloco-home">
+								<p id="titulo-banner-bloco-home">Dobro ou Nada</p>
+								<hr/>
+								<br/>
+								<br/>
+								<input type="button" value="Conheça" class="botao-banner-bloco-home"/>
+								<input type="button" value="Entrar" class="botao-banner-bloco-home" id="entrar-banner-bloco-home"/>
+							</div>
+						</div>
+						
+						<div class="card-bloco-home">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bloco-home" id="content-home">
+			<div class="metade-home">
+				<div class="box-content-home" id="circulo-content-home-1">
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<div class="imagem-content-home" id="content-home-1">
+					</div>
+					<br/>
+					<p class="sub-content-home">Como Funciona</p>
+				</div>
+			</div>
+			
+			<div class="metade-home">
+				<div class="etapa-bloco-home ajuste-etapa">
+					<br/>
+					<p class="titulo-etapa-bloco-home">Lorem Ipsum</p>
+					<br/>
+					<p class="conteudo-etapa-bloco-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit nulla laoreet velit dictum, eget tincidunt libero maximus. Nam posuere varius dolor sed pharetra. Maecenas congue velit et facilisis gravida. Nunc sodales mauris eget enim.</p>
+					<p class="conteudo-etapa-bloco-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit nulla laoreet velit dictum, eget tincidunt libero maximus. Nam posuere varius dolor sed pharetra. Maecenas congue velit et facilisis gravida. Nunc sodales mauris eget enim.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bloco-home" id="content-home">
+			<div class="metade-home">
+				<div class="etapa-bloco-home ajuste-etapa">
+					<br/>
+					<p class="titulo-etapa-bloco-home">Lorem Ipsum</p>
+					<br/>
+					<p class="conteudo-etapa-bloco-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit nulla laoreet velit dictum, eget tincidunt libero maximus. Nam posuere varius dolor sed pharetra. Maecenas congue velit et facilisis gravida. Nunc sodales mauris eget enim.</p>
+					<p class="conteudo-etapa-bloco-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit nulla laoreet velit dictum, eget tincidunt libero maximus. Nam posuere varius dolor sed pharetra. Maecenas congue velit et facilisis gravida. Nunc sodales mauris eget enim.</p>
+				</div>
+			</div>
+		
+			<div class="metade-home">
+				<div class="box-content-home" id="circulo-content-home-2">
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<div class="imagem-content-home" id="content-home-1">
+					</div>
+					<br/>
+					<p class="sub-content-home">Como Funciona</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bloco-home" id="conheca">
+			<div class="card-bloco-home">
+				<div class="etapa-bloco-home">
+					<div class="imagem-etapa-bloco-home" id="etapa-1">
+					</div>
+					<br/>
+					<p class="titulo-etapa-bloco-home">Lorem Ipsum</p>
+					<br/>
+					<p class="conteudo-etapa-bloco-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit nulla laoreet velit dictum, eget tincidunt libero maximus. Nam posuere varius dolor sed pharetra. Maecenas congue velit et facilisis gravida. Nunc sodales mauris eget enim.</p>
+				</div>
+			</div>
+			
+			<div class="card-bloco-home">
+				<div class="etapa-bloco-home">
+					<div class="imagem-etapa-bloco-home" id="etapa-2">
+					</div>
+					<br/>
+					<p class="titulo-etapa-bloco-home">Lorem Ipsum</p>
+					<br/>
+					<p class="conteudo-etapa-bloco-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit nulla laoreet velit dictum, eget tincidunt libero maximus. Nam posuere varius dolor sed pharetra. Maecenas congue velit et facilisis gravida. Nunc sodales mauris eget enim.</p>
+				</div>
+			</div>
+			
+			<div class="card-bloco-home">
+				<div class="etapa-bloco-home">
+					<div class="imagem-etapa-bloco-home" id="etapa-3">
+					</div>
+					<br/>
+					<p class="titulo-etapa-bloco-home">Lorem Ipsum</p>
+					<br/>
+					<p class="conteudo-etapa-bloco-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit nulla laoreet velit dictum, eget tincidunt libero maximus. Nam posuere varius dolor sed pharetra. Maecenas congue velit et facilisis gravida. Nunc sodales mauris eget enim.</p>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
