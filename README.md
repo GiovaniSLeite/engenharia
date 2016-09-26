@@ -1,68 +1,25 @@
-# ruby-getting-started
+Nome do Projeto: "O dobro ou nada - Sistema de apostas"
 
-A barebones Rails app, which can easily be deployed to Heroku.
+Code climate:<br/>
+<a href="https://codeclimate.com/github/GiovaniSLeite/dobroounada"><img src="https://codeclimate.com/github/GiovaniSLeite/dobroounada/badges/gpa.svg" /></a><br/>
 
-This application support the [Getting Started with Ruby on Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby) article - check it out.
+Travis CI:<br/>
+<a href="https://travis-ci.org/GiovaniSLeite/dobroounada"><img src="https://travis-ci.org/GiovaniSLeite/dobroounada.svg?branch=master" /></a><br/>
 
-## Running Locally
+Heroku:<br/>
+https://dobroounada.herokuapp.com/<br/>
 
-Make sure you have Ruby installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+Pivotal Tracker:<br/>
+https://www.pivotaltracker.com/n/projects/1862747<br/>
 
-```sh
-$ git clone git@github.com:heroku/ruby-getting-started.git
-$ cd ruby-getting-started
-$ bundle install
-$ bundle exec rake db:create db:migrate
-$ heroku local
-```
+Integrantes do grupo:<br/>
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Alex Gwo Jen Lan NUSP: 8921311<br/>
+Caio Tavares Cruz NUSP: 8921840<br/>
+Decio de Souza Oliveira Junior NUSP: 9065701<br/>
+Fabio Eduardo Alves Conejo NUSP: 	9004320<br/>
+Giovani de Sousa Leite NUSP: 8921902<br/>
+Marcus Vinicius Campos Rodrigues da Silva NUSP: 8921176<br/>
 
-## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku run rake db:migrate
-$ heroku open
-```
-
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Docker
-
-The app can be run and tested using the [Heroku Docker CLI plugin](https://devcenter.heroku.com/articles/introduction-local-development-with-docker).
-
-Make sure the plugin is installed:
-
-    heroku plugins:install heroku-docker
-
-Configure Docker and Docker Compose:
-
-    heroku docker:init
-
-And run the app locally:
-
-    docker-compose up web
-
-The app will now be available on the Docker daemon IP on port 8080.
-
-To work with the local database and do migrations, you can open a shell:
-
-    docker-compose run shell
-    bundle exec rake db:migrate
-
-You can also use Docker to release to Heroku:
-
-    heroku create
-    heroku docker:release
-    heroku open
-
-## Documentation
-
-For more information about using Ruby on Heroku, see these Dev Center articles:
-
-- [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
-
+Proposta de SaaS:
+Uma plataforma online para apostas, na qual um usuário "comum" cria sua própria proposta de aposta e então outros interagem com essa proposta apostando também. Um exemplo: O usuário Daniel cria uma aposta de quantas vezes haverá frango grelhado no bandejão universitário e define qual valor mínimo de aposta deve ser aceito. Então outros usuários veêm essa aposta e dão os seus respectivos palpites (junto com a quantia a ser apostada). Assim que a data informada pelo Daniel ocorrer, o sistema divulga quem ganhou a aposta, transfere a quantia para o vencedor e debita a quantia apostada dos perdedores.
