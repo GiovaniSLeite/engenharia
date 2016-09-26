@@ -17,6 +17,8 @@
 default: &default
   adapter: postgresql
   encoding: SQL_ASCII
+  username: ubuntu
+  password: ubuntu
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
@@ -81,5 +83,3 @@ test:
 production:
   <<: *default
   database: ruby-getting-started_production
-  username: ruby-getting-started
-  password: <%= ENV['RUBY-GETTING-STARTED_DATABASE_PASSWORD'] %>
