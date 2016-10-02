@@ -20,10 +20,14 @@ module RubyGettingStarted
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     
-    #RSpec
-    config.generators do |g|
-      g.test_framework :rspec
-    end
-    
+    # #RSpec - Vi no tutorial, mas pelo jeito ja eh feito.
+    # Com esse codigo soh seria gerado testes de model
+    # config.generators do |g|
+    #   g.test_framework :rspec, :view_specs => false,
+    #                             :controller_specs => false,
+    #                             :helper_specs => false,
+    #                             :routing_specs => false,
+    #                             :request_specs => false
+    # end
   end
 end
