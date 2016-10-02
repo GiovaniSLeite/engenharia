@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @sala.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @sala.description %>
+</p>
+
+<p>
+  <strong>Idowner:</strong>
+  <%= @sala.idOwner %>
+</p>
+
+<p>
+  <strong>Sala type:</strong>
+  <%= @sala.sala_type %>
+</p>
+
+<p>
+  <strong>Reward:</strong>
+  <%= @sala.reward %>
+</p>
+
+<p>
+  <strong>Stake:</strong>
+  <%= @sala.stake %>
+</p>
+
+<%= link_to 'Edit', edit_sala_path(@sala) %> |
+<%= link_to 'Back', salas_path %>

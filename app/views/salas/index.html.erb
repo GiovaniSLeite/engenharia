@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Salas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Idowner</th>
+      <th>Sala type</th>
+      <th>Reward</th>
+      <th>Stake</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @salas.each do |sala| %>
+      <tr>
+        <td><%= sala.name %></td>
+        <td><%= sala.description %></td>
+        <td><%= sala.idOwner %></td>
+        <td><%= sala.sala_type %></td>
+        <td><%= sala.reward %></td>
+        <td><%= sala.stake %></td>
+        <td><%= link_to 'Show', sala %></td>
+        <td><%= link_to 'Edit', edit_sala_path(sala) %></td>
+        <td><%= link_to 'Destroy', sala, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Sala', new_sala_path %>

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :salas
+  resources :salas
   resources :usuarios
   get 'welcome/index'
 
