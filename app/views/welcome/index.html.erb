@@ -11,7 +11,7 @@
 								<br/>
 								<br/>
 								<input type="button" value="Conheça" class="botao-banner-bloco-home"/>
-								<input type="button" value="Entrar" class="botao-banner-bloco-home" id="entrar-banner-bloco-home"/>
+								<a href="#janela1" rel="modal"><input type="button" value="Entrar" class="botao-banner-bloco-home" id="entrar-banner-bloco-home"/></a>
 							</div>
 						</div>
 						
@@ -108,3 +108,40 @@
 				</div>
 			</div>
 		</div>
+		
+		<div class="window" id="janela1">
+			<a href="#" class="fechar">X Fechar</a>
+			
+			<h4>Login</h4>
+			
+			<%= form_for @usuario, url: {controller: "usuarios", action: "login"} do |f| %>
+				
+				<div class="field">
+					<%= f.label "E-mail" %>
+					<%= f.text_field :email %>
+				</div>
+				
+				<div class="field">
+					<%= f.label "Senha" %>
+					<%= f.password_field :access_token %>
+				</div>
+					
+				<div class="actions">
+					<%= f.submit "Entrar" %>
+				</div>
+			
+			<% end %>
+			
+			<br>
+			<br>
+				
+			É novo? <%= link_to 'Cadastre-se', controller: 'usuarios', action: 'cadastro' %>
+				
+			<br>
+				
+			<%= link_to "Login com Facebook", "/auth/facebook" %>
+		</div>
+		 
+		 
+		<!-- mascara para cobrir o site -->  
+		<div id="mascara"></div>

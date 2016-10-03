@@ -16,6 +16,45 @@ class UsuariosController < ApplicationController
   def new
     @usuario = Usuario.new
   end
+  
+  # POST /usuarios/login
+  def login
+	
+  	@usuario = Usuario.find_by(email: usuario_params[:email], provider: "email")
+  	
+  	if @usuario == nil
+  		redirect_to controller: 'welcome', action: 'index', :notice => "Falha ao logar"
+  	else
+  		if @usuario.access_token == usuario_params[:access_token]
+  			session[:user_id] = @usuario.id
+  			redirect_to controller: 'welcome', action: 'painel', :notice => "Bem vindo"
+  		else
+  			redirect_to controller: 'welcome', action: 'index', :notice => "Falha ao logar"
+  		end
+  	end
+	
+  end
+  
+  # GET /usuarios/cadastro
+  def cadastro
+  	@usuario = Usuario.new
+  end
+  
+  # POST /usuarios/cadastro_create
+  def cadastro_create
+  	@usuario = Usuario.new(usuario_params)
+  	@usuario.provider = "email"
+  	@usuario.status = true
+  	@usuario.user_type = "2"
+  	@usuario.data_ingresso = Time.now
+  	
+  	if @usuario.save
+  		session[:user_id] = @usuario.id
+  		redirect_to controller: 'welcome', action: 'painel'
+  	else
+  		redirect_to :cadastro, :notice => "Nao foi possivel cadastrar"
+  	end
+  end
 
   # GET /usuarios/1/edit
   def edit

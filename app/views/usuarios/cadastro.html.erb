@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Cadastre-se</h1>
+
+<%= form_for @usuario, url: {controller: "usuarios", action: "cadastro_create"} do |f| %>
+
+  <div class="field">
+    <%= f.label "Nome" %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label "E-mail" %>
+    <%= f.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= f.label "Senha" %>
+    <%= f.password_field :access_token %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+  
+<% end %>
