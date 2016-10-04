@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources :aposta
   resources :aposta
   resources :aposta
+  resources :aposta
   post "/usuarios/login" => "usuarios#login"
   get "/usuarios/cadastro" => "usuarios#cadastro"
   get "/painel" => "welcome#painel"

@@ -1,4 +1,4 @@
 json.array!(@aposta) do |apostum|
-  json.extract! apostum, :id, :t.integer, :idSala, :t.integer, :t.string
+  json.extract! apostum, :id, :idSala, :idUser, :palpite
   json.url apostum_url(apostum, format: :json)
 end

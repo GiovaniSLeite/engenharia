@@ -69,6 +69,6 @@ class ApostaController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def apostum_params
-      params.require(:apostum).permit(:t.integer, :idSala, :t.integer, :t.string)
+      params.require(:apostum).permit(:idSala, :idUser, :palpite)
     end
 end

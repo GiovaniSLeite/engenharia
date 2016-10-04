@@ -3,10 +3,9 @@ require 'rails_helper'
 RSpec.describe "aposta/edit", type: :view do
   before(:each) do
     @apostum = assign(:apostum, Apostum.create!(
-      :t.integer => "MyString",
-      :idSala => "MyString",
-      :t.integer => "",
-      :t.string => ""
+      :idSala => 1,
+      :idUser => 1,
+      :palpite => "MyString"
     ))
   end
 
@@ -15,13 +14,11 @@ RSpec.describe "aposta/edit", type: :view do
 
     assert_select "form[action=?][method=?]", apostum_path(@apostum), "post" do
 
-      assert_select "input#apostum_t.integer[name=?]", "apostum[t.integer]"
-
       assert_select "input#apostum_idSala[name=?]", "apostum[idSala]"
 
-      assert_select "input#apostum_t.integer[name=?]", "apostum[t.integer]"
+      assert_select "input#apostum_idUser[name=?]", "apostum[idUser]"
 
-      assert_select "input#apostum_t.string[name=?]", "apostum[t.string]"
+      assert_select "input#apostum_palpite[name=?]", "apostum[palpite]"
     end
   end
 end
