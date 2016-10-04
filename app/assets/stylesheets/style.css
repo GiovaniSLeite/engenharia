@@ -10,6 +10,16 @@ hr {
 	border-bottom: 2px solid #FFFFFF;
 }
 
+@font-face {
+	font-family: 'Pier Sans';
+	src: url("../fonts/pier-regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'bariol';
+	src: url('../fonts/Bariol.woff') format('woff');
+}
+
 @keyframes semi-aparecer {
     from {background-color: rgba(0, 0, 0, 0);}
     to {background-color: rgba(0, 0, 0, 0.7);}
