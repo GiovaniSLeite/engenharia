@@ -12,12 +12,12 @@ hr {
 
 @font-face {
 	font-family: 'Pier Sans';
-	src: url("../fonts/pier-regular.otf") format("opentype");
+	src: url("/assets/pier-regular.otf") format("opentype");
 }
 
 @font-face {
 	font-family: 'bariol';
-	src: url('../fonts/Bariol.woff') format('woff');
+	src: url('/assets/Bariol.woff') format('woff');
 }
 
 @keyframes semi-aparecer {
