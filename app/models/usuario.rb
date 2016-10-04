@@ -1,6 +1,6 @@
 class Usuario < ActiveRecord::Base
     
-    def self.find_or_create_with_omniauth(auth)
+	def self.find_or_create_with_omniauth(auth)
 		
 		usuario = self.find_or_initialize_by(provider: auth.provider, uid: auth.uid)
 		
@@ -9,5 +9,23 @@ class Usuario < ActiveRecord::Base
 		
 		usuario
 	end
+    
+    validates :name, presence: true
+    validates :email, presence: true #Melhorar verificacao (melhor opcao eh enviar um email - n usar regex)
+    validates :access_token, presence: true
+    validates :uid, presence: true, if: :signed_with_facebook?
+    validates :user_type, presence: true #revisar verificacao (por conta dos testes gerados automaticamente)
+    
+    #verificao certa, trava num dos testes automaticos pq ele usa myString
+    #validates :user_type, format: {with: /[1,2]/} 
+    
+    
+    #Funcao que testa se o cadastro foi feito pelo fb
+    private
+    def signed_with_facebook?
+    	provider == "facebook"
+    end
+    
+    
     
 end

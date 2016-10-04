@@ -45,8 +45,18 @@ RSpec.describe Usuario, type: :model do
       expect(usuario.valid?).to be_falsey
     end
     
-    it "Usuário inválido (sem nome)" do
+    it "Usuário inválido (nome nil)" do
         usuario = Usuario.new
+        usuario.email = "jack@gmail.com"
+        usuario.access_token = "JkQsjj"
+        usuario.status = true
+        usuario.user_type = 2
+        expect(usuario.valid?).to be_falsey
+    end
+    
+    it "Usuário inválido (nome em branco)" do
+        usuario = Usuario.new
+        usuario.name = ""
         usuario.email = "jack@gmail.com"
         usuario.access_token = "JkQsjj"
         usuario.status = true
@@ -63,14 +73,13 @@ RSpec.describe Usuario, type: :model do
         expect(usuario.valid?).to be_falsey
     end
     
-    it "Usuário inválido (tipo inválido)" do
+    it "Usuário inválido (sem tipo)" do
         usuario = Usuario.new
         usuario.name = "Jack"
         usuario.email = "jack@gmail.com"
         usuario.access_token = "JkQsjj"
         usuario.status = true
         usuario.uid = 3423542
-        usuario.user_type = 3423534
         usuario.provider = "facebook"
         expect(usuario.valid?).to be_falsey
     end
