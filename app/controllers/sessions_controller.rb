@@ -4,6 +4,11 @@ class SessionsController < ApplicationController
 			
 		auth = request.env["omniauth.auth"]
 		usuario = Usuario.find_or_create_with_omniauth(auth)
+		
+		if usuario == nil
+		    self.failure
+		end
+		
 		session[:user_id] = usuario.id
 		redirect_to controller: 'welcome', action: 'painel', :notice => "Voce esta online"
 	end
