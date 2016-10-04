@@ -12,12 +12,12 @@ hr {
 
 @font-face {
 	font-family: 'Pier Sans';
-	src: url("../fonts/pier-regular.otf") format("opentype");
+	src: url("/assets/pier-regular.otf") format("opentype");
 }
 
 @font-face {
 	font-family: 'bariol';
-	src: url('../fonts/Bariol.woff') format('woff');
+	src: url('/assets/Bariol.woff') format('woff');
 }
 
 @keyframes semi-aparecer {
@@ -189,12 +189,11 @@ hr {
 #titulo-banner-bloco-home {
 	text-align: center;
 	font-family: "Pier Sans";
-	font-size: 65px;
+	font-size: 50px;
+	
 	
 	margin: 0px;
 	padding: 0px;
-	
-	white-space: nowrap;
 }
 
 #content-home-1 {
@@ -222,6 +221,11 @@ hr {
 #gradient-white {
 	background: linear-gradient(transparent 98%, #F4F4F4);
 }
+
+#link-entrar {
+	color: #FFFFFF;
+}
+
 
 /* --------------- LOGIN ---------------- */
 

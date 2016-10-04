@@ -11,7 +11,7 @@
 								<br/>
 								<br/>
 								<input type="button" value="Conheça" class="botao-banner-bloco-home"/>
-								<a href="#janela1" rel="modal"><input type="button" value="Entrar" class="botao-banner-bloco-home" id="entrar-banner-bloco-home"/></a>
+								<a href="#janela1" rel="modal" id="link-entrar"><input type="button" value="Entrar" class="botao-banner-bloco-home" id="entrar-banner-bloco-home"/></a>
 							</div>
 						</div>
 						
@@ -110,34 +110,41 @@
 		</div>
 		
 		<div class="window" id="janela1">
-			<a href="#" class="fechar">X Fechar</a>
+						<div class="panel panel-default" id="painel-login">
+							<div class="panel-body">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo-icone" id="icone-painel-login"></div>
+								<!--form class="form-horizontal" role="form"-->
+								<%= form_for @usuario, url: {controller: "usuarios", action: "login"} do |f|, :class => "form-horizontal"%>
+									<div class="field form-group">
+										<label class="control-label col-sm-2" for="usuario">Usuário:</label>
+										<div class="col-sm-9">
+											<!--input class="form-control" id="usr-login" type="text" placeholder="Digite seu usuário..."-->
+											<%= f.text_field :email, :id=>"usr-login", :placeholder="Digite seu usuário...", :class="form-control"%>
+										</div>
+									</div>
+									
+									<div class="field form-group">
+										<label class="control-label col-sm-2" for="senha">Senha:</label>
+										<div class="col-sm-9">
+											<!--input class="form-control" id="psw-login" type="password" placeholder="Digite sua senha..."-->
+											<%= f.password_field :access_token, :id=>"psw-login", :placeholder="Digite sua senha...", :class="form-control"%>
+										</div>
+									</div>
+								<% end %>
+								<!--/form-->
+							</div>
+							<div class="actions panel-footer">
+								<!--button type="button" class="btn btn-primary full-height full-width" id="btn-login">Login</button-->
+								<%= f.submit "Entrar", :id=>"btn-login", :class="btn btn-primary full-height full-width"%>
+							</div>
+						</div>
 			
-			<h4>Login</h4>
-			
-			<%= form_for @usuario, url: {controller: "usuarios", action: "login"} do |f| %>
-				
-				<div class="field">
-					<%= f.label "E-mail" %>
-					<%= f.text_field :email %>
-				</div>
-				
-				<div class="field">
-					<%= f.label "Senha" %>
-					<%= f.password_field :access_token %>
-				</div>
-					
-				<div class="actions">
-					<%= f.submit "Entrar" %>
-				</div>
-			
-			<% end %>
-			
-			<br>
-			<br>
+			<br/>
+			<br/>
 				
 			É novo? <%= link_to 'Cadastre-se', controller: 'usuarios', action: 'cadastro' %>
 				
-			<br>
+			<br/>
 				
 			<%= link_to "Login com Facebook", "/auth/facebook" %>
 		</div>
