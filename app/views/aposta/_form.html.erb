@@ -1,0 +1,33 @@
+<%= form_for(@apostum) do |f| %>
+  <% if @apostum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@apostum.errors.count, "error") %> prohibited this apostum from being saved:</h2>
+
+      <ul>
+      <% @apostum.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :t.integer %><br>
+    <%= f.text_field :t.integer %>
+  </div>
+  <div class="field">
+    <%= f.label :idSala %><br>
+    <%= f.text_field :idSala %>
+  </div>
+  <div class="field">
+    <%= f.label :t.integer %><br>
+    <%= f.text_field :t.integer %>
+  </div>
+  <div class="field">
+    <%= f.label :t.string %><br>
+    <%= f.text_field :t.string %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

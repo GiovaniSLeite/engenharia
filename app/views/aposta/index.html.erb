@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Aposta</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>T.integer</th>
+      <th>Idsala</th>
+      <th>T.integer</th>
+      <th>T.string</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @aposta.each do |apostum| %>
+      <tr>
+        <td><%= apostum.t.integer %></td>
+        <td><%= apostum.idSala %></td>
+        <td><%= apostum.t.integer %></td>
+        <td><%= apostum.t.string %></td>
+        <td><%= link_to 'Show', apostum %></td>
+        <td><%= link_to 'Edit', edit_apostum_path(apostum) %></td>
+        <td><%= link_to 'Destroy', apostum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Apostum', new_apostum_path %>
