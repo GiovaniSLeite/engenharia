@@ -189,12 +189,11 @@ hr {
 #titulo-banner-bloco-home {
 	text-align: center;
 	font-family: "Pier Sans";
-	font-size: 65px;
+	font-size: 50px;
+	
 	
 	margin: 0px;
 	padding: 0px;
-	
-	white-space: nowrap;
 }
 
 #content-home-1 {
