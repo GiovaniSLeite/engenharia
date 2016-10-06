@@ -6606,3 +6606,83 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 
+
+
+Started GET "/" for 143.107.59.221 at 2016-10-04 21:32:22 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (33.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 145ms (ActiveRecord: 86.5ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/welcome/index.html.erb:117: syntax error, unexpected ','
+...rios", action: "login"} do |f|, :class => "form-horizontal")...
+...                               ^
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:117: syntax error, unexpected ')', expecting keyword_end
+...|, :class => "form-horizontal");@output_buffer.safe_append='
+...                               ^
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting =>
+...id=>"usr-login", :placeholder="Digite seu usuário...", :cla...
+...                               ^
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:122: syntax error, unexpected ',', expecting ')'
+...older="Digite seu usuário...", :class="form-control");@outp...
+...                               ^
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:130: syntax error, unexpected tSTRING_BEG, expecting =>
+...id=>"psw-login", :placeholder="Digite sua senha...", :class=...
+...                               ^
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:130: syntax error, unexpected ',', expecting ')'
+...ceholder="Digite sua senha...", :class="form-control");@outp...
+...                               ^
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:138: syntax error, unexpected tSTRING_BEG, expecting =>
+...ar", :id=>"btn-login", :class="btn btn-primary full-height f...
+...                               ^
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:155: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:157: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/welcome/index.html.erb:117: syntax error, unexpected ','
+  app/views/welcome/index.html.erb:117: syntax error, unexpected ')', expecting keyword_end
+  app/views/welcome/index.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting =>
+  app/views/welcome/index.html.erb:122: syntax error, unexpected ',', expecting ')'
+  app/views/welcome/index.html.erb:130: syntax error, unexpected tSTRING_BEG, expecting =>
+  app/views/welcome/index.html.erb:130: syntax error, unexpected ',', expecting ')'
+  app/views/welcome/index.html.erb:138: syntax error, unexpected tSTRING_BEG, expecting =>
+  app/views/welcome/index.html.erb:155: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/welcome/index.html.erb:157: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (100.4ms)
+
+
+Started GET "/" for 10.240.0.204 at 2016-10-04 21:35:04 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (29.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 85.7ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/welcome/index.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting =>
+...id=>"usr-login", :placeholder="Digite seu usuário...", :cla...
+...                               ^
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:122: syntax error, unexpected ',', expecting ')'
+...older="Digite seu usuário...", :class="form-control");@outp...
+...                               ^
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:130: syntax error, unexpected tSTRING_BEG, expecting =>
+...id=>"psw-login", :placeholder="Digite sua senha...", :class=...
+...                               ^
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:130: syntax error, unexpected ',', expecting ')'
+...ceholder="Digite sua senha...", :class="form-control");@outp...
+...                               ^
+/home/ubuntu/workspace/app/views/welcome/index.html.erb:138: syntax error, unexpected tSTRING_BEG, expecting =>
+...ar", :id=>"btn-login", :class="btn btn-primary full-height f...
+...                               ^):
+  app/views/welcome/index.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting =>
+  app/views/welcome/index.html.erb:122: syntax error, unexpected ',', expecting ')'
+  app/views/welcome/index.html.erb:130: syntax error, unexpected tSTRING_BEG, expecting =>
+  app/views/welcome/index.html.erb:130: syntax error, unexpected ',', expecting ')'
+  app/views/welcome/index.html.erb:138: syntax error, unexpected tSTRING_BEG, expecting =>
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (109.8ms)

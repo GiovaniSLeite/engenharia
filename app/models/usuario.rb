@@ -16,7 +16,7 @@ class Usuario < ActiveRecord::Base
     validates :uid, presence: true, if: :signed_with_facebook?
     validates :user_type, presence: true #revisar verificacao (por conta dos testes gerados automaticamente)
     
-    #verificao certa, trava num dos testes automaticos pq ele usa myString
+    #verificao certa, trava num dos testes automaticos pq ele usa "myString"
     #validates :user_type, format: {with: /[1,2]/} 
     
     
@@ -25,7 +25,5 @@ class Usuario < ActiveRecord::Base
     def signed_with_facebook?
     	provider == "facebook"
     end
-    
-    
     
 end
