@@ -107,6 +107,8 @@ hr {
 	font-family: "bariol";
 	font-size: 22px;
 	text-align: center;
+	
+	line-height: 1.4;
 }
 
 .box-content-home {
@@ -232,7 +234,7 @@ hr {
 
 @keyframes show-top-to-center {
     from {margin-top: -80%; opacity: 0.2}
-    to {margin-top: 15%; opacity: 0.95}
+    to {margin-top: 0%; opacity: 0.95}
 }
 
 #fundo-login {
@@ -243,8 +245,6 @@ hr {
 }
 
 #painel-login {
-	margin-top: 15%;
-	
 	animation-name: show-top-to-center;
 	animation-duration: 2s;
 	
@@ -300,9 +300,24 @@ hr {
 }
 
 #btn-login {
-	font-size: 20px;
+	font-size: 25px;
 	
 	transition: 0.3s all ease;
+	
+	background-color: #384587;
+	border: 2px solid #384587;
+	
+	border-radius: 3px;
+	
+	color: #F4F4F4;
+	
+	font-family: 'bariol';
+}
+#btn-login:hover {
+	background-color: #5865A7;
+	border: 2px solid #5865A7;
+	
+	cursor: pointer;
 }
 
 .item-menu-painel {
