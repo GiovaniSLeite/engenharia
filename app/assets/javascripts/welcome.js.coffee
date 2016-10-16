@@ -5,7 +5,7 @@
 root = exports ? this
 
 root.verificacaoLogin = () ->
-	linkAtual = root.window.href.location
+	linkAtual = window.location.href
 	alert linkAtual
 	indicacaoFalhaLogin = linkAtual.indexOf "notice=Falha+ao+logar", 0
 	alert indicacaoFalhaLogin
