@@ -3,5 +3,7 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 verificacaoLogin = ->
-	if window.href.location == 'http://dobroounada.herokuapp.com/welcome/index?notice=Falha+ao+logar'
+	linkAtual = window.href.location
+	indicacaoFalhaLogin = linkAtual.indexOf "notice=Falha+ao+logar", 0
+	if indicacaoFalhaLogin >= 0
 		alert "Login e/ou senha incorretos"
