@@ -17,7 +17,11 @@ gem 'rspec-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
-gem 'capybara'
+gem 'capybara', group: [:test, :development]
+gem 'cucumber', group: [:test, :development]
+gem 'selenium-webdriver', group: [:test, :development]
+gem 'capybara-webkit', group: [:test, :development]
+gem "factory_girl_rails", "~> 4.0", group: [:test, :development]
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -35,6 +39,9 @@ gem 'spring',        group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'puma'
+
+# Adding email validation
+gem 'valid_email'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

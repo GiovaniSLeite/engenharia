@@ -25,10 +25,12 @@ RSpec.describe UsuariosController, type: :controller do
   # adjust the attributes here as well.
   let(:valid_attributes) {
     skip("Add a hash of attributes valid for your model")
+    #{ name: 'Jack', email: 'jack@gmail.com', access_token: 'chan', status: true, user_type: 2}
   }
 
   let(:invalid_attributes) {
     skip("Add a hash of attributes invalid for your model")
+    #{ name: 'Jack', email: '', access_token: 'chan', status: true, user_type: 2}
   }
 
   # This should return the minimal set of values that should be in the session

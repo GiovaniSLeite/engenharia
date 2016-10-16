@@ -11,7 +11,7 @@ class Usuario < ActiveRecord::Base
 	end
     
     validates :name, presence: true
-    validates :email, presence: true #Melhorar verificacao (melhor opcao eh enviar um email - n usar regex)
+    validates :email, presence: true, email: true #Melhorar verificacao (melhor opcao eh enviar um email - n usar regex)
     validates :access_token, presence: true
     validates :uid, presence: true, if: :signed_with_facebook?
     validates :user_type, presence: true #revisar verificacao (por conta dos testes gerados automaticamente)

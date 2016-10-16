@@ -6686,3 +6686,1150 @@ SyntaxError (/home/ubuntu/workspace/app/views/welcome/index.html.erb:122: syntax
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (109.8ms)
+
+
+Started GET "/" for 187.101.242.55 at 2016-10-16 16:17:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+ArgumentError (Unknown validator: 'MessageValidator'):
+  app/models/usuario.rb:13:in `<class:Usuario>'
+  app/models/usuario.rb:1:in `<top (required)>'
+  app/controllers/welcome_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.8ms)
+
+
+Started GET "/" for 187.101.242.55 at 2016-10-16 16:20:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 812ms (Views: 690.1ms | ActiveRecord: 85.2ms)
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:20:10 +0000
+
+
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:20:10 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:20:10 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:20:11 +0000
+
+
+Started GET "/assets/style.self-a8b0dd72527b017c680bdfe48da1fc36d8efea4d21f546e43d3291c5db703a77.css?body=1" for 187.101.242.55 at 2016-10-16 16:20:11 +0000
+
+
+Started GET "/assets/theme.self-11f1629efecd322a87c07940c7727af203bf65035d1775a323e3f806934242e3.css?body=1" for 187.101.242.55 at 2016-10-16 16:20:11 +0000
+
+
+Started GET "/assets/usuarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:20:11 +0000
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:20:11 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:20:12 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 187.101.242.55 at 2016-10-16 16:20:12 +0000
+
+
+Started GET "/" for 187.101.242.55 at 2016-10-16 16:20:12 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 90ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-4c7649dd655c61cb850cfd2e71f937c3bbf3e3a752a3499ed8bb9884473fe1dd.js?body=1" for 187.101.242.55 at 2016-10-16 16:20:12 +0000
+
+
+Started GET "/assets/turbolinks.self-b4cb65f20a705cd6b0800a76ad18f9582fa65d4484a04784e70b6a14ea06b96e.js?body=1" for 187.101.242.55 at 2016-10-16 16:20:12 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:20:14 +0000
+
+
+Started GET "/assets/jquery_ujs.self-6ab23e892e77da88e18858a9137d4243a9f157d7c8457bfd489a4f931e6df840.js?body=1" for 187.101.242.55 at 2016-10-16 16:20:14 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:20:15 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 187.101.242.55 at 2016-10-16 16:20:16 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:20:16 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:20:16 +0000
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:20:18 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:20:18 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 187.101.242.55 at 2016-10-16 16:20:19 +0000
+
+
+Started GET "/assets/pier-regular.otf" for 187.101.242.55 at 2016-10-16 16:20:43 +0000
+
+
+Started GET "/assets/banner-home.jpg" for 187.101.242.55 at 2016-10-16 16:20:43 +0000
+
+
+Started GET "/assets/Bariol.woff" for 187.101.242.55 at 2016-10-16 16:20:58 +0000
+
+
+Started GET "/assets/content-home-1.png" for 187.101.242.55 at 2016-10-16 16:20:58 +0000
+
+
+Started GET "/assets/etapa-1.png" for 187.101.242.55 at 2016-10-16 16:20:58 +0000
+
+
+Started GET "/assets/etapa-2.png" for 187.101.242.55 at 2016-10-16 16:20:58 +0000
+
+
+Started GET "/assets/etapa-3.png" for 187.101.242.55 at 2016-10-16 16:20:58 +0000
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:22:06 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 107ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:22:10 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"80CqC5A0CvEa51psPi8OhKd/4rbZZ2fU67cr0CEsL/vLbKabv9ZqUR3sKiX67Yk0QsLHIq9f1xzhUtoXEHIlPA==", "usuario"=>{"name"=>"Alou", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `save' for nil:NilClass):
+  app/controllers/usuarios_controller.rb:51:in `block in cadastro_create'
+  app/controllers/usuarios_controller.rb:50:in `cadastro_create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (93.2ms)
+
+
+Started GET "/" for 187.101.242.55 at 2016-10-16 16:26:16 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (45.7ms)
+Completed 200 OK in 558ms (Views: 434.0ms | ActiveRecord: 85.6ms)
+
+
+Started GET "/" for 187.101.242.55 at 2016-10-16 16:26:18 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 112ms (Views: 111.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 187.101.242.55 at 2016-10-16 16:26:19 +0000
+
+
+Started GET "/assets/Bariol.woff" for 187.101.242.55 at 2016-10-16 16:27:10 +0000
+
+
+Started GET "/assets/pier-regular.otf" for 187.101.242.55 at 2016-10-16 16:27:10 +0000
+
+
+Started GET "/assets/content-home-1.png" for 187.101.242.55 at 2016-10-16 16:27:10 +0000
+
+
+Started GET "/assets/etapa-1.png" for 187.101.242.55 at 2016-10-16 16:27:10 +0000
+
+
+Started GET "/assets/etapa-2.png" for 187.101.242.55 at 2016-10-16 16:27:10 +0000
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:27:10 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 139ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/etapa-3.png" for 187.101.242.55 at 2016-10-16 16:27:10 +0000
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:27:30 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"diLnbknC65FUS/LCI5LoIY4IUif2vtDgsxAbwJ9ORINODuv+ZiCLMVNAgovnUG+Ra7V3s4CGYCi59eoHrhBORA==", "usuario"=>{"name"=>"isaudhsdiuah", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `valid?' for nil:NilClass):
+  app/controllers/usuarios_controller.rb:51:in `block in cadastro_create'
+  app/controllers/usuarios_controller.rb:50:in `cadastro_create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.5ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:29:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (28.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (64.1ms)
+Completed 200 OK in 521ms (Views: 399.2ms | ActiveRecord: 86.5ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:29:08 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 92ms (Views: 91.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:29:13 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"meebMXGvmttqrISriC9V6cDf1IdRL1HnS6ZSbltMSQehy5ehXk36e22n9OJM7dJZJWLxEycX4S9BQ6OpahJDwA==", "usuario"=>{"name"=>"Giovani", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.9ms)[0m  BEGIN
+  [1m[36m (28.1ms)[0m  [1mROLLBACK[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+cadastrar
+Completed 406 Not Acceptable in 459ms (ActiveRecord: 56.0ms)
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/usuarios_controller.rb:50:in `cadastro_create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.2ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:30:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"meebMXGvmttqrISriC9V6cDf1IdRL1HnS6ZSbltMSQehy5ehXk36e22n9OJM7dJZJWLxEycX4S9BQ6OpahJDwA==", "usuario"=>{"name"=>"Giovani", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.3ms)[0m  BEGIN
+  [1m[36m (27.5ms)[0m  [1mROLLBACK[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+cadastrar
+Completed 302 Found in 573ms (ActiveRecord: 140.2ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+cadastrar" for 187.101.242.55 at 2016-10-16 16:30:09 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao cadastrar"}
+  Rendered welcome/index.html.erb within layouts/application (47.8ms)
+Completed 200 OK in 489ms (Views: 485.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:30:10 +0000
+
+
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:30:10 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:30:10 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:30:10 +0000
+
+
+Started GET "/assets/style.self-a8b0dd72527b017c680bdfe48da1fc36d8efea4d21f546e43d3291c5db703a77.css?body=1" for 187.101.242.55 at 2016-10-16 16:30:10 +0000
+
+
+Started GET "/assets/theme.self-11f1629efecd322a87c07940c7727af203bf65035d1775a323e3f806934242e3.css?body=1" for 187.101.242.55 at 2016-10-16 16:30:10 +0000
+
+
+Started GET "/assets/usuarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:30:10 +0000
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:30:10 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:30:10 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 187.101.242.55 at 2016-10-16 16:30:10 +0000
+
+
+Started GET "/welcome/index?notice=Falha+ao+cadastrar" for 187.101.242.55 at 2016-10-16 16:30:10 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao cadastrar"}
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-4c7649dd655c61cb850cfd2e71f937c3bbf3e3a752a3499ed8bb9884473fe1dd.js?body=1" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/jquery_ujs.self-6ab23e892e77da88e18858a9137d4243a9f157d7c8457bfd489a4f931e6df840.js?body=1" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/turbolinks.self-b4cb65f20a705cd6b0800a76ad18f9582fa65d4484a04784e70b6a14ea06b96e.js?body=1" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/banner-home.jpg" for 187.101.242.55 at 2016-10-16 16:30:11 +0000
+
+
+Started GET "/assets/pier-regular.otf" for 187.101.242.55 at 2016-10-16 16:30:22 +0000
+
+
+Started GET "/assets/Bariol.woff" for 187.101.242.55 at 2016-10-16 16:30:22 +0000
+
+
+Started GET "/assets/content-home-1.png" for 187.101.242.55 at 2016-10-16 16:30:22 +0000
+
+
+Started GET "/assets/etapa-1.png" for 187.101.242.55 at 2016-10-16 16:30:22 +0000
+
+
+Started GET "/assets/etapa-2.png" for 187.101.242.55 at 2016-10-16 16:30:22 +0000
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:30:23 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/etapa-3.png" for 187.101.242.55 at 2016-10-16 16:30:23 +0000
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:30:23 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:30:28 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kE8Frd5bx6SbiyE2wOkgq2krk9Ac83a4W3cWoaA4DO+oYwk98bmnBJyAUX8EK6cbjJa2RGrLxnBRkudmkWYGKA==", "usuario"=>{"name"=>"sakduhsa", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.3ms)[0m  BEGIN
+  [1m[36m (27.4ms)[0m  [1mROLLBACK[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+cadastrar
+Completed 302 Found in 59ms (ActiveRecord: 54.7ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+cadastrar" for 187.101.242.55 at 2016-10-16 16:30:28 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao cadastrar"}
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+cadastrar" for 187.101.242.55 at 2016-10-16 16:30:29 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao cadastrar"}
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 187.101.242.55 at 2016-10-16 16:30:29 +0000
+
+
+Started GET "/assets/pier-regular.otf" for 187.101.242.55 at 2016-10-16 16:31:03 +0000
+
+
+Started GET "/assets/Bariol.woff" for 187.101.242.55 at 2016-10-16 16:31:03 +0000
+
+
+Started GET "/assets/content-home-1.png" for 187.101.242.55 at 2016-10-16 16:31:03 +0000
+
+
+Started GET "/assets/etapa-1.png" for 187.101.242.55 at 2016-10-16 16:31:03 +0000
+
+
+Started GET "/assets/etapa-2.png" for 187.101.242.55 at 2016-10-16 16:31:03 +0000
+
+
+Started GET "/assets/etapa-3.png" for 187.101.242.55 at 2016-10-16 16:31:03 +0000
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:31:52 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (78.9ms)
+Completed 200 OK in 619ms (Views: 495.8ms | ActiveRecord: 85.5ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:31:54 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 118ms (Views: 117.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:32:01 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nu1I0IqJqBFZ+pLTXCPxWfZm/1tvnMEM7MwuLWX7UtQOwURApWvIsV7x4pqY4XbpE9vazxmkccTmKd/qVKVYEw==", "usuario"=>{"name"=>"Giovani", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.4ms)[0m  BEGIN
+  [1m[36m (27.9ms)[0m  [1mROLLBACK[0m
+Redirected to 
+Completed 500 Internal Server Error in 448ms (ActiveRecord: 55.3ms)
+
+ActionController::UrlGenerationError (No route matches {:action=>"cadastro", :controller=>"usuario", :notice=>"Falha ao cadastrar"}):
+  app/controllers/usuarios_controller.rb:54:in `cadastro_create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (108.2ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:33:35 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (79.4ms)
+Completed 200 OK in 589ms (Views: 466.8ms | ActiveRecord: 84.6ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:33:37 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 182ms (Views: 181.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:33:50 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1WA4B7kn43J1eYsUphufyLTgrg7mHSCtSpw2xR4bsvbtTDSXlsWD0nJy+11i2Rh4UV2LmpAlkGVAeccCL0W4MQ==", "usuario"=>{"name"=>"asdiuhsai", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.3ms)[0m  BEGIN
+  [1m[36m (27.4ms)[0m  [1mROLLBACK[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/usuarios/cadastro?notice=Falha+ao+cadastrar
+Completed 302 Found in 398ms (ActiveRecord: 54.6ms)
+
+
+Started GET "/usuarios/cadastro?notice=Falha+ao+cadastrar" for 187.101.242.55 at 2016-10-16 16:33:51 +0000
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"Falha ao cadastrar"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 88ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro?notice=Falha+ao+cadastrar" for 187.101.242.55 at 2016-10-16 16:33:52 +0000
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"Falha ao cadastrar"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:38:22 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (75.1ms)
+Completed 200 OK in 665ms (Views: 537.2ms | ActiveRecord: 85.8ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:38:24 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 167ms (Views: 165.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:38:33 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vv4t7vcnqhAY+gQI5wHpMG3tqsaf5R7uyzjjqKQWO3tu0iF+2MXKsB/xdEEjw26AiFCPUundribB3RJvlUgxvA==", "usuario"=>{"name"=>"g", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.5ms)[0m  BEGIN
+  [1m[36m (27.7ms)[0m  [1mROLLBACK[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/usuarios/cadastro?notice=%23%3CActiveModel%3A%3AErrors%3A0x00000006a39368%3E
+Completed 302 Found in 393ms (ActiveRecord: 55.2ms)
+
+
+Started GET "/usuarios/cadastro?notice=%23%3CActiveModel%3A%3AErrors%3A0x00000006a39368%3E" for 187.101.242.55 at 2016-10-16 16:38:33 +0000
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"#<ActiveModel::Errors:0x00000006a39368>"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro?notice=%23%3CActiveModel%3A%3AErrors%3A0x00000006a39368%3E" for 187.101.242.55 at 2016-10-16 16:38:34 +0000
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"#<ActiveModel::Errors:0x00000006a39368>"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:42:19 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (89.1ms)
+Completed 200 OK in 633ms (Views: 505.4ms | ActiveRecord: 86.2ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:42:21 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 124ms (Views: 123.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:42:30 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0HEjLp2DrsW9Ls7+Q8Q4phxFBo0vkErexOwfZgOFW4ToXS++smHOZbolvreHBr8W+fgjGVmo+hbOCe6hMttRQw==", "usuario"=>{"name"=>"Giovani", "email"=>"as", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.3ms)[0m  BEGIN
+  [1m[36m (29.0ms)[0m  [1mROLLBACK[0m
+Redirected to 
+Completed 500 Internal Server Error in 501ms (ActiveRecord: 56.4ms)
+
+NoMethodError (undefined method `cadastro_url' for #<UsuariosController:0x0000000521ceb0>
+Did you mean?  cadastro):
+  app/controllers/usuarios_controller.rb:55:in `cadastro_create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.5ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:43:57 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0HEjLp2DrsW9Ls7+Q8Q4phxFBo0vkErexOwfZgOFW4ToXS++smHOZbolvreHBr8W+fgjGVmo+hbOCe6hMttRQw==", "usuario"=>{"name"=>"Giovani", "email"=>"as", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.6ms)[0m  BEGIN
+  [1m[36m (27.3ms)[0m  [1mROLLBACK[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/usuarios/cadastro?notice=Nao+foi+possivel+cadastrar
+Completed 302 Found in 544ms (ActiveRecord: 139.7ms)
+
+
+Started GET "/usuarios/cadastro?notice=Nao+foi+possivel+cadastrar" for 187.101.242.55 at 2016-10-16 16:43:59 +0000
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"Nao foi possivel cadastrar"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (57.7ms)
+Completed 200 OK in 390ms (Views: 389.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/style.self-a8b0dd72527b017c680bdfe48da1fc36d8efea4d21f546e43d3291c5db703a77.css?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/theme.self-11f1629efecd322a87c07940c7727af203bf65035d1775a323e3f806934242e3.css?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/usuarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/usuarios/cadastro?notice=Nao+foi+possivel+cadastrar" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"Nao foi possivel cadastrar"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-4c7649dd655c61cb850cfd2e71f937c3bbf3e3a752a3499ed8bb9884473fe1dd.js?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/jquery_ujs.self-6ab23e892e77da88e18858a9137d4243a9f157d7c8457bfd489a4f931e6df840.js?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/turbolinks.self-b4cb65f20a705cd6b0800a76ad18f9582fa65d4484a04784e70b6a14ea06b96e.js?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:44:00 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:44:01 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 187.101.242.55 at 2016-10-16 16:44:01 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:44:01 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:44:01 +0000
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:44:01 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:44:01 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 187.101.242.55 at 2016-10-16 16:44:01 +0000
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:44:04 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Xjysa+K6TCsyVkb59YOVjZsahgjJpIF0O7o5jmzUAslmEKD7zVgsizVdNrAxQRI9fqejnL+cMbwxX8hJXYoIDg==", "usuario"=>{"name"=>"gbgrb", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/usuarios/cadastro?notice=Nao+foi+possivel+cadastrar
+Completed 302 Found in 59ms (ActiveRecord: 54.4ms)
+
+
+Started GET "/usuarios/cadastro?notice=Nao+foi+possivel+cadastrar" for 187.101.242.55 at 2016-10-16 16:44:05 +0000
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"Nao foi possivel cadastrar"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro?notice=Nao+foi+possivel+cadastrar" for 187.101.242.55 at 2016-10-16 16:44:05 +0000
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"Nao foi possivel cadastrar"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 16:46:19 +0000
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (27.8ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 128ms (Views: 99.4ms | ActiveRecord: 27.8ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 16:46:20 +0000
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (27.5ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 102ms (Views: 73.2ms | ActiveRecord: 27.5ms)
+
+
+Started GET "/usuarios/new" for 187.101.242.55 at 2016-10-16 16:47:50 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (71.2ms)
+  Rendered usuarios/new.html.erb within layouts/application (89.0ms)
+Completed 200 OK in 517ms (Views: 403.9ms | ActiveRecord: 84.9ms)
+
+
+Started GET "/usuarios/new" for 187.101.242.55 at 2016-10-16 16:47:53 +0000
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (9.6ms)
+  Rendered usuarios/new.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 98ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 16:48:00 +0000
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (28.0ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (31.4ms)
+Completed 200 OK in 82ms (Views: 52.7ms | ActiveRecord: 28.0ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 16:48:00 +0000
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (27.7ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (32.5ms)
+Completed 200 OK in 125ms (Views: 96.5ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/usuarios/new" for 187.101.242.55 at 2016-10-16 16:48:02 +0000
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (11.8ms)
+  Rendered usuarios/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 107ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios" for 187.101.242.55 at 2016-10-16 16:50:07 +0000
+Processing by UsuariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0tG82XZeAFQDbAMRYbzP2U1MG/jhYQMB/jb3BHHl8B3q/bBJWbxg9ARnc1ilfkhpqPE+bJdZs8n00wbDQLv62g==", "usuario"=>{"name"=>"hvjhg", "email"=>"", "access_token"=>"", "uid"=>"", "photo_url"=>"", "provider"=>"", "status"=>"0", "reason"=>"", "user_type"=>"", "data_ingresso(1i)"=>"2016", "data_ingresso(2i)"=>"10", "data_ingresso(3i)"=>"16"}, "commit"=>"Create Usuario"}
+  [1m[35m (27.5ms)[0m  BEGIN
+  [1m[36m (28.2ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/_form.html.erb (12.6ms)
+  Rendered usuarios/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 600ms (Views: 92.0ms | ActiveRecord: 142.4ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 16:50:08 +0000
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (27.7ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 181ms (Views: 152.4ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:52:34 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:52:35 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:52:40 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PoOejRqzLCvpMKvSX+hZIr8XjT4y6PMBy2dc7kNmU24Gr5IdNVFMi+4725ubKt6SWqqoqkTQQ8nBgq0pcjhZqQ==", "usuario"=>{"name"=>"abc", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/usuarios/cadastro?notice=Nao+foi+possivel+cadastrar
+Completed 302 Found in 60ms (ActiveRecord: 54.7ms)
+
+
+Started GET "/usuarios/cadastro?notice=Nao+foi+possivel+cadastrar" for 187.101.242.55 at 2016-10-16 16:52:40 +0000
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"Nao foi possivel cadastrar"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro?notice=Nao+foi+possivel+cadastrar" for 187.101.242.55 at 2016-10-16 16:52:40 +0000
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"Nao foi possivel cadastrar"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro?notice=Nao+foi+possivel+cadastrar" for 187.101.242.55 at 2016-10-16 16:53:55 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"Nao foi possivel cadastrar"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (68.8ms)
+Completed 200 OK in 535ms (Views: 420.9ms | ActiveRecord: 84.8ms)
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:53:57 +0000
+
+
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:53:57 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/style.self-a8b0dd72527b017c680bdfe48da1fc36d8efea4d21f546e43d3291c5db703a77.css?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/theme.self-11f1629efecd322a87c07940c7727af203bf65035d1775a323e3f806934242e3.css?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/usuarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/usuarios/cadastro?notice=Nao+foi+possivel+cadastrar" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+Processing by UsuariosController#cadastro as HTML
+  Parameters: {"notice"=>"Nao foi possivel cadastrar"}
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/jquery.self-4c7649dd655c61cb850cfd2e71f937c3bbf3e3a752a3499ed8bb9884473fe1dd.js?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/jquery_ujs.self-6ab23e892e77da88e18858a9137d4243a9f157d7c8457bfd489a4f931e6df840.js?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/turbolinks.self-b4cb65f20a705cd6b0800a76ad18f9582fa65d4484a04784e70b6a14ea06b96e.js?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:53:58 +0000
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:53:59 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 187.101.242.55 at 2016-10-16 16:53:59 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 187.101.242.55 at 2016-10-16 16:53:59 +0000
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:54:00 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 115ms (Views: 113.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:54:00 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:54:04 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0lUAs7gUnPbsfh1uN0sZeoOFgmS+XxJ0X1gp6KrMPQLqeQwjl/b8Vut1bSfziZ7KZjin8MhnorxVvdgvm5I3xQ==", "usuario"=>{"name"=>"dsdfs", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.4ms)[0m  BEGIN
+  [1m[36m (27.6ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/_form.html.erb (18.3ms)
+  Rendered usuarios/new.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 336ms (Views: 80.3ms | ActiveRecord: 55.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:54:05 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0lUAs7gUnPbsfh1uN0sZeoOFgmS+XxJ0X1gp6KrMPQLqeQwjl/b8Vut1bSfziZ7KZjin8MhnorxVvdgvm5I3xQ==", "usuario"=>{"name"=>"dsdfs", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.5ms)[0m  BEGIN
+  [1m[36m (27.8ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/_form.html.erb (7.8ms)
+  Rendered usuarios/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 115ms (Views: 55.5ms | ActiveRecord: 55.3ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:54:05 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:56:27 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 561ms (Views: 443.1ms | ActiveRecord: 85.6ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:56:29 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 86ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:56:38 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dhQFfrODNQywLYQdnDhkLG2rTP/Pd2GRb2Qyi+D8q3BOOAnunGFVrLcm9FRY+uOciBZpa7lP0VllgcNM0aKhtw==", "usuario"=>{"name"=>"Giovani", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.6ms)[0m  BEGIN
+  [1m[36m (27.7ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/cadastro.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 514ms (Views: 69.3ms | ActiveRecord: 55.3ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:56:39 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:56:56 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b5ZDOm3g6UrJTXVf+z+9tArlrlNPWW1aboqjZgwwqE5Xuk+qQgKJ6s5GBRY//ToE71iLxzlh3ZJkb1KhPW6iiQ==", "usuario"=>{"name"=>"Giovani", "email"=>"sousa_giovani@hotmail.com", "access_token"=>"qqissohein"}, "commit"=>"Create Usuario"}
+  [1m[35m (27.5ms)[0m  BEGIN
+  [1m[36mSQL (28.8ms)[0m  [1mINSERT INTO "usuarios" ("name", "email", "access_token", "provider", "status", "user_type", "data_ingresso", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Giovani"], ["email", "sousa_giovani@hotmail.com"], ["access_token", "qqissohein"], ["provider", "email"], ["status", "t"], ["user_type", "2"], ["data_ingresso", "2016-10-16"], ["created_at", "2016-10-16 16:56:56.563998"], ["updated_at", "2016-10-16 16:56:56.563998"]]
+  [1m[35m (28.4ms)[0m  COMMIT
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/usuarios/4
+Completed 302 Found in 154ms (ActiveRecord: 112.5ms)
+
+
+Started GET "/usuarios/4" for 187.101.242.55 at 2016-10-16 16:56:57 +0000
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUsuario Load (27.9ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered usuarios/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 129ms (Views: 54.9ms | ActiveRecord: 27.9ms)
+
+
+Started GET "/usuarios/4" for 187.101.242.55 at 2016-10-16 16:56:57 +0000
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUsuario Load (27.7ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered usuarios/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 83ms (Views: 53.1ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:58:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (28.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (87.2ms)
+Completed 200 OK in 638ms (Views: 510.2ms | ActiveRecord: 85.1ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:58:31 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 120ms (Views: 119.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:58:32 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:58:38 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2cOEClqaRnx5P7wXJdEWIU68dDxwxBa1UirQxcyK+VDh74iadXgm3H40zF7hE5GRqwFRqAb8pn1YzyEC/dTzlw==", "usuario"=>{"name"=>"Giovani", "email"=>"", "access_token"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (27.6ms)[0m  BEGIN
+  [1m[36m (27.7ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/cadastro.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 488ms (Views: 65.1ms | ActiveRecord: 55.3ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:58:39 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:58:57 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BR/PKx/PQkL/4HyHtOzp02vfi3Qdb8t1J7OHsTFPrC49M8O7MC0i4vjrDM5wLm5jjmKu4GtXe70tVnZ2ABGm6Q==", "usuario"=>{"name"=>"Giovani", "email"=>"sousa_giovani@hotmail.com", "access_token"=>"qqissohein"}, "commit"=>"Create Usuario"}
+  [1m[35m (27.6ms)[0m  BEGIN
+  [1m[36mSQL (28.1ms)[0m  [1mINSERT INTO "usuarios" ("name", "email", "access_token", "provider", "status", "user_type", "data_ingresso", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Giovani"], ["email", "sousa_giovani@hotmail.com"], ["access_token", "qqissohein"], ["provider", "email"], ["status", "t"], ["user_type", "2"], ["data_ingresso", "2016-10-16"], ["created_at", "2016-10-16 16:58:57.344084"], ["updated_at", "2016-10-16 16:58:57.344084"]]
+  [1m[35m (28.5ms)[0m  COMMIT
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/painel?notice=Usuario+was+successfully+created.
+Completed 302 Found in 154ms (ActiveRecord: 111.8ms)
+
+
+Started GET "/painel?notice=Usuario+was+successfully+created." for 187.101.242.55 at 2016-10-16 16:58:57 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Usuario was successfully created."}
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Por+favor+efetue+o+login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?notice=Por+favor+efetue+o+login" for 187.101.242.55 at 2016-10-16 16:58:58 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Por favor efetue o login"}
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?notice=Por+favor+efetue+o+login" for 187.101.242.55 at 2016-10-16 16:58:58 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Por favor efetue o login"}
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 53ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 187.101.242.55 at 2016-10-16 16:58:58 +0000
+
+
+Started GET "/assets/pier-regular.otf" for 187.101.242.55 at 2016-10-16 16:58:59 +0000
+
+
+Started GET "/assets/Bariol.woff" for 187.101.242.55 at 2016-10-16 16:58:59 +0000
+
+
+Started GET "/assets/content-home-1.png" for 187.101.242.55 at 2016-10-16 16:58:59 +0000
+
+
+Started GET "/assets/etapa-1.png" for 187.101.242.55 at 2016-10-16 16:58:59 +0000
+
+
+Started GET "/assets/etapa-2.png" for 187.101.242.55 at 2016-10-16 16:58:59 +0000
+
+
+Started GET "/assets/etapa-3.png" for 187.101.242.55 at 2016-10-16 16:58:59 +0000
+
+
+Started GET "/usuarios/cadastor" for 187.101.242.55 at 2016-10-16 16:59:46 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"cadastor"}
+  [1m[35mUsuario Load (27.7ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 218ms (ActiveRecord: 140.6ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Usuario with 'id'=cadastor):
+  app/controllers/usuarios_controller.rb:127:in `set_usuario'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.4ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:59:49 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (46.5ms)
+Completed 200 OK in 436ms (Views: 424.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 16:59:50 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 17:00:04 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9qV8+tXQM1OwXGN7sh1rGkZ238rKLP48Jl8421AOIEzOiXBq+jJT87dXEzJ23+yqo8v6XrwUTvQsuskcYVAqiw==", "usuario"=>{"name"=>"Giovani", "email"=>"vem_monstro", "access_token"=>"123"}, "commit"=>"Create Usuario"}
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.6ms)[0m  ROLLBACK
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 440ms (Views: 59.2ms | ActiveRecord: 54.9ms)
+
+
+Started GET "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 17:00:05 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 187.101.242.55 at 2016-10-16 17:00:18 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hexK2+MWM06ht3ETmMZ0cKgPq4YlhXUn4sIYHGUNog29wEZLzPRT7qa8AVpcBPPATbKOElO9xe/oJ+nbVFOoyg==", "usuario"=>{"name"=>"Giovani", "email"=>"vem_monstro@vem_monstro.com", "access_token"=>"123"}, "commit"=>"Create Usuario"}
+  [1m[36m (27.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.6ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "provider", "status", "user_type", "data_ingresso", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["name", "Giovani"], ["email", "vem_monstro@vem_monstro.com"], ["access_token", "123"], ["provider", "email"], ["status", "t"], ["user_type", "2"], ["data_ingresso", "2016-10-16"], ["created_at", "2016-10-16 17:00:18.136073"], ["updated_at", "2016-10-16 17:00:18.136073"]]
+  [1m[36m (28.1ms)[0m  [1mCOMMIT[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/painel?notice=Usuario+was+successfully+created.
+Completed 302 Found in 150ms (ActiveRecord: 83.0ms)
+
+
+Started GET "/painel?notice=Usuario+was+successfully+created." for 187.101.242.55 at 2016-10-16 17:00:18 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Usuario was successfully created."}
+  Rendered welcome/painel.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/painel?notice=Usuario+was+successfully+created." for 187.101.242.55 at 2016-10-16 17:00:19 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Usuario was successfully created."}
+  Rendered welcome/painel.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 17:22:59 +0000
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (27.9ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (55.9ms)
+Completed 200 OK in 150ms (Views: 121.1ms | ActiveRecord: 27.9ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 17:23:00 +0000
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (27.8ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (31.8ms)
+Completed 200 OK in 92ms (Views: 63.8ms | ActiveRecord: 27.8ms)
+
+
+Started DELETE "/usuarios/6" for 187.101.242.55 at 2016-10-16 17:23:14 +0000
+Processing by UsuariosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TdXl3wjkUFJ1fmIBufrp+FS+KLscveGSrPO9BebryLh1+elPJwYw8nJ1Ekh9OG5IsQMNL2qFUVqmFkzC17XCfw==", "id"=>"6"}
+  [1m[35mUsuario Load (27.6ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (27.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.7ms)[0m  DELETE FROM "usuarios" WHERE "usuarios"."id" = $1  [["id", 6]]
+  [1m[36m (28.6ms)[0m  [1mCOMMIT[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/usuarios
+Completed 302 Found in 150ms (ActiveRecord: 111.3ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 17:23:15 +0000
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (27.7ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 98ms (Views: 69.1ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 17:23:24 +0000
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (28.0ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 79ms (Views: 50.2ms | ActiveRecord: 28.0ms)
+
+
+Started DELETE "/usuarios/5" for 187.101.242.55 at 2016-10-16 17:23:30 +0000
+Processing by UsuariosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OXgHua3BUE51aJmCkeYm+gLW9srbl3lU6rBgjhilN8ABVAspgiMw7nJj6ctVJKFK52vTXq2vyZzgVZFJKfs9Bw==", "id"=>"5"}
+  [1m[35mUsuario Load (27.5ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (27.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.5ms)[0m  DELETE FROM "usuarios" WHERE "usuarios"."id" = $1  [["id", 5]]
+  [1m[36m (28.2ms)[0m  [1mCOMMIT[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/usuarios
+Completed 302 Found in 115ms (ActiveRecord: 110.6ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 17:23:31 +0000
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (27.7ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 91ms (Views: 62.1ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 17:23:41 +0000
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (27.6ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 90ms (Views: 61.7ms | ActiveRecord: 27.6ms)
+
+
+Started DELETE "/usuarios/1" for 187.101.242.55 at 2016-10-16 17:24:06 +0000
+Processing by UsuariosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZrIh8vjE8GvYA8hT7QOT8FLnwV2tg3nXZIg5r6BBM/Reni1i1yaQy98IuBopwRRAt1rkydu7yR9ubchokR85Mw==", "id"=>"1"}
+  [1m[35mUsuario Load (27.6ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.6ms)[0m  DELETE FROM "usuarios" WHERE "usuarios"."id" = $1  [["id", 1]]
+  [1m[36m (28.2ms)[0m  [1mCOMMIT[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/usuarios
+Completed 302 Found in 115ms (ActiveRecord: 110.6ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 17:24:08 +0000
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (27.6ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 74ms (Views: 45.7ms | ActiveRecord: 27.6ms)
+
+
+Started GET "/usuarios" for 187.101.242.55 at 2016-10-16 17:24:09 +0000
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (27.5ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 76ms (Views: 47.9ms | ActiveRecord: 27.5ms)

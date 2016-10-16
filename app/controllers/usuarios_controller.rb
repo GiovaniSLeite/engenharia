@@ -32,7 +32,6 @@ class UsuariosController < ApplicationController
   			redirect_to controller: 'welcome', action: 'index', :notice => "Falha ao logar"
   		end
   	end
-	
   end
   
   # GET /usuarios/cadastro
@@ -48,13 +47,26 @@ class UsuariosController < ApplicationController
   	@usuario.user_type = "2"
   	@usuario.data_ingresso = Time.now
   	
-  	if @usuario.save
-  		session[:user_id] = @usuario.id
-  		redirect_to controller: 'welcome', action: 'painel'
-  	else
-  		redirect_to :cadastro, :notice => "Nao foi possivel cadastrar"
-  	end
+  	respond_to do |format|
+      if @usuario.save
+        session[:user_id] = @usuario.id
+        format.html { redirect_to controller: 'welcome', action: 'painel', notice: 'Usuario was successfully created.' }
+        #format.json { render :show, status: :created, location: @usuario }
+      else
+        format.html { render :cadastro }
+        format.json { render json: @usuario.errors, status: :unprocessable_entity }
+      end
+    end
+    
+#Codigo que estava antes
+#  	if @usuario.save
+#  		session[:user_id] = @usuario.id
+#  		redirect_to controller: 'welcome', action: 'painel'
+#  	else
+#  		redirect_to :cadastro, :notice => "Nao foi possivel cadastrar"
+#  	end
   end
+  
 
   # GET /usuarios/1/edit
   def edit

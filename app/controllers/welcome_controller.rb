@@ -4,8 +4,8 @@ class WelcomeController < ApplicationController
   end
   
   def painel
-		if session[:user_id] == nil
+    if session[:user_id] == nil
 			redirect_to action: 'index', :notice => "Por favor efetue o login"
-		end
-	end
+    end
+  end
 end
