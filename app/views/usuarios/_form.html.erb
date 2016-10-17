@@ -1,4 +1,5 @@
 <%= form_for(@usuario) do |f| %>
+
   <% if @usuario.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@usuario.errors.count, "error") %> prohibited this usuario from being saved:</h2>
@@ -11,47 +12,138 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
+  <div class="col-lg-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">Dados do Usuário</h2>
+      </div>
+      
+      <div class="panel-body">
+  
+        <div class="form-group">
+          <%= f.label :name, "Nome" %><br>
+          <%= f.text_field :name, class: "form-control", :required => true %>
+        </div>
+        
+        <div class="form-group">
+          <%= f.label :email, "E-mail" %><br>
+          <div class="input-group">
+            <span class="input-group-addon">@</span>
+            <%= f.text_field :email, type: "email", class: "form-control", :required => true %>
+          </div>
+        </div>
+        
+        <% if @usuario.provider == "email" %>
+        
+          <div class="form-group">
+            <%= f.label :access_token, "Senha" %><br>
+            <%= f.password_field :access_token, class: "form-control", :required => true %>
+          </div>
+          
+          <div class="form-group">
+            <%= f.label "confirmar", "Confirmar Senha" %><br>
+            <%= f.password_field "confirmar", class: "form-control", :required => true %>
+          </div>
+        
+        <% end %>
+        
+        <div class="form-group">
+          <%= f.label "provider", "Tipo de Acesso" %><br>
+          <%= f.hidden_field :provider %>
+          <% if @usuario.provider == "email" %>
+            E-mail
+          <% else %>
+            Facebook
+          <% end %>
+        </div>
+        
+        <div class="form_group">
+          <b>Data de Ingresso</b><br>
+          <%= @usuario.created_at.strftime "%d/%m/%Y %H:%M:%S" %><br>
+          
+          <br>
+          
+          <b>Última alteração</b><br>
+          <%= @usuario.updated_at.strftime "%d/%m/%Y %H:%M:%S" %>
+        </div>
+        
+      </div>
+    </div>
+    
   </div>
-  <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
+  
+  <div class="col-lg-4">
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">Manutenção Usuário</h2>
+      </div>
+      
+      <div class="panel-body">
+        
+        <div class="form-group">
+          <%= f.check_box :status %> <%= f.label :status, "Usuário Ativo" %><br>
+        </div>
+        
+        <div class="form-group">
+          <%= f.label :reason, "Motivo (em caso de inativação)" %><br>
+          <%= f.text_field :reason, class: "form-control" %>
+        </div>
+        
+        <div class="form-group">
+            <%= f.label "user_type", "Tipo de Usuário" %><br>
+              <%= f.radio_button :user_type, "1", :checked => true %> 
+              <%= f.label :user_type, "Administrador", :value => "1" %> &nbsp;
+              <%= f.radio_button :user_type, "2" %> 
+              <%= f.label :user_type, "Apostador", :value => "2"%>
+        </div>
+      
+      </div>
+      
+    </div>
+  
   </div>
-  <div class="field">
-    <%= f.label :access_token %><br>
-    <%= f.text_field :access_token %>
+  
+  <div class="col-lg-4">
+    
+    <% if @usuario.provider == "facebook" %>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">Dados do Facebook</h2>
+        </div>
+        
+        <div class="panel-body">
+          
+          <div class="form-group">
+            <%= f.label :uid, "UiD" %><br>
+            <%= f.text_field :uid, class: "form-control" %>
+          </div>
+          
+          <div class="form-group">
+            <%= f.label :access_token, "Token de Acesso" %><br>
+            <%= f.text_field :access_token, class: "form-control", :required => true %>
+          </div>
+          
+          <div class="form-group">
+            <%= f.label :photo_url, "Foto de Perfil" %><br>
+            <%= f.hidden_field :photo_url %>
+            <%= image_tag(@usuario.photo_url) %>
+          </div>
+          
+        </div>
+      </div>
+    
+    <% end %>
+        
   </div>
-  <div class="field">
-    <%= f.label :uid %><br>
-    <%= f.text_field :uid %>
+
+  <div class="col-lg-12">
+    <div class="actions">
+       <%= f.submit "Atualizar", class: "btn btn-primary" %>
+       <br>&nbsp;<br>
+    </div>
   </div>
-  <div class="field">
-    <%= f.label :photo_url %><br>
-    <%= f.text_field :photo_url %>
-  </div>
-  <div class="field">
-    <%= f.label :provider %><br>
-    <%= f.text_field :provider %>
-  </div>
-  <div class="field">
-    <%= f.label :status %><br>
-    <%= f.check_box :status %>
-  </div>
-  <div class="field">
-    <%= f.label :reason %><br>
-    <%= f.text_field :reason %>
-  </div>
-  <div class="field">
-    <%= f.label :user_type %><br>
-    <%= f.text_field :user_type %>
-  </div>
-  <div class="field">
-    <%= f.label :data_ingresso %><br>
-    <%= f.date_select :data_ingresso %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+
 <% end %>
+

@@ -8,14 +8,14 @@ RSpec.describe "usuarios/edit", type: :view do
       :access_token => "MyString",
       :uid => "MyString",
       :photo_url => "MyString",
-      :provider => "MyString",
+      :provider => "facebook",
       :status => false,
       :reason => "MyString",
       :user_type => "MyString"
     ))
   end
 
-  it "renders the edit usuario form" do
+  it "renders the edit usuario type form" do
     render
 
     assert_select "form[action=?][method=?]", usuario_path(@usuario), "post" do
@@ -36,7 +36,9 @@ RSpec.describe "usuarios/edit", type: :view do
 
       assert_select "input#usuario_reason[name=?]", "usuario[reason]"
 
-      assert_select "input#usuario_user_type[name=?]", "usuario[user_type]"
+      assert_select "input#usuario_user_type_1[name=?]", "usuario[user_type]"
+      
+      assert_select "input#usuario_user_type_2[name=?]", "usuario[user_type]"
     end
   end
 end
