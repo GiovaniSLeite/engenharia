@@ -40,8 +40,6 @@ gem 'spring',        group: :development
 
 gem 'puma'
 
-gem 'capybara-webkit'
-
 # Adding email validation
 gem 'valid_email'
 
