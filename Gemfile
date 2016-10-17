@@ -20,7 +20,7 @@ gem 'rspec-rails'
 gem 'capybara', group: [:test, :development]
 gem 'cucumber', group: [:test, :development]
 gem 'selenium-webdriver', group: [:test, :development]
-#gem 'capybara-webkit', group: [:test, :development]
+gem 'capybara-webkit', group: [:test, :development]
 gem "factory_girl_rails", "~> 4.0", group: [:test, :development]
 
 # Use jquery as the JavaScript library
@@ -39,6 +39,8 @@ gem 'spring',        group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'puma'
+
+gem 'capybara-webkit'
 
 # Adding email validation
 gem 'valid_email'

@@ -6,9 +6,8 @@ root = exports ? this
 
 root.verificacaoLogin = () ->
 	linkAtual = window.location.href
-	alert linkAtual
 	indicacaoFalhaLogin = linkAtual.indexOf "notice=Falha+ao+logar", 0
-	alert indicacaoFalhaLogin
+	textoExibixao = '<div class="alert"><span class="closebtn" onclick="this.parentElement.style.display=' + "'none'" + ';">&times;</span><strong>Erro de acesso!</strong> Login e/ou senha incorretos</div>'
 	if indicacaoFalhaLogin >= 0
-		alert "Login e/ou senha incorretos"
+		document.write(textoExibixao)
 	return

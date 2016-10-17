@@ -6,6 +6,10 @@ html, body {
 	min-width: 800px;
 }
 
+a:hover {
+	background-color: transparent;
+}
+
 hr {
 	border-bottom: 2px solid #FFFFFF;
 }
