@@ -13,5 +13,5 @@ When(/^I login with "([^"]*)" username and "([^"]*)" password$/) do |login, pass
 end
 
 Then(/^I should see the panel page$/) do
-  page.should have_content "Olá, você é o usuário numero"
+  expect(page).to have_content "Olá, você é o usuário numero"
 end
