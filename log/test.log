@@ -19967,3 +19967,516 @@ Completed 200 OK in 52ms (Views: 23.2ms | ActiveRecord: 27.6ms)
   [1m[36m (27.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   Rendered usuarios/show.html.erb (1.6ms)
   [1m[35m (29.6ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (27.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (28.1ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "usuarios" DISABLE TRIGGER ALL;ALTER TABLE "widgets" DISABLE TRIGGER ALL;ALTER TABLE "salas" DISABLE TRIGGER ALL;ALTER TABLE "aposta" DISABLE TRIGGER ALL
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (27.5ms)[0m  DELETE FROM "widgets"
+  [1m[36mFixture Insert (27.4ms)[0m  [1mINSERT INTO "widgets" ("name", "description", "stock", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', 1, '2016-10-17 01:29:05', '2016-10-17 01:29:05', 980190962)[0m
+  [1m[35mFixture Insert (27.6ms)[0m  INSERT INTO "widgets" ("name", "description", "stock", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', 1, '2016-10-17 01:29:05', '2016-10-17 01:29:05', 298486374)
+  [1m[36m (28.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (27.7ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "usuarios" ENABLE TRIGGER ALL;ALTER TABLE "widgets" ENABLE TRIGGER ALL;ALTER TABLE "salas" ENABLE TRIGGER ALL;ALTER TABLE "aposta" ENABLE TRIGGER ALL
+  [1m[36m (27.7ms)[0m  [1mBEGIN[0m
+------------------------------------------------
+WidgetsControllerTest: test_should_create_widget
+------------------------------------------------
+  [1m[35mWidget Load (27.6ms)[0m  SELECT  "widgets".* FROM "widgets" WHERE "widgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+  [1m[36m (27.4ms)[0m  [1mSELECT COUNT(*) FROM "widgets"[0m
+Processing by WidgetsController#create as HTML
+  Parameters: {"widget"=>{"description"=>"MyText", "name"=>"MyString", "stock"=>"1"}}
+  [1m[35m (27.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.6ms)[0m  [1mINSERT INTO "widgets" ("name", "description", "stock", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "MyString"], ["description", "MyText"], ["stock", 1], ["created_at", "2016-10-17 01:29:06.196850"], ["updated_at", "2016-10-17 01:29:06.196850"]]
+  [1m[35m (27.4ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/widgets/980190963
+Completed 302 Found in 119ms (ActiveRecord: 82.3ms)
+  [1m[36m (27.5ms)[0m  [1mSELECT COUNT(*) FROM "widgets"[0m
+  [1m[35m (27.7ms)[0m  ROLLBACK
+  [1m[36m (27.4ms)[0m  [1mBEGIN[0m
+-------------------------------------------
+WidgetsControllerTest: test_should_get_edit
+-------------------------------------------
+  [1m[35mWidget Load (27.5ms)[0m  SELECT  "widgets".* FROM "widgets" WHERE "widgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+Processing by WidgetsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mWidget Load (27.5ms)[0m  [1mSELECT  "widgets".* FROM "widgets" WHERE "widgets"."id" = $1 LIMIT 1[0m  [["id", 980190962]]
+  Rendered widgets/_form.html.erb (76.7ms)
+  Rendered widgets/edit.html.erb within layouts/application (91.9ms)
+Completed 200 OK in 1171ms (Views: 1138.3ms | ActiveRecord: 27.5ms)
+  [1m[35m (27.6ms)[0m  ROLLBACK
+  [1m[36m (27.5ms)[0m  [1mBEGIN[0m
+-------------------------------------------------
+WidgetsControllerTest: test_should_destroy_widget
+-------------------------------------------------
+  [1m[35mWidget Load (27.5ms)[0m  SELECT  "widgets".* FROM "widgets" WHERE "widgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+  [1m[36m (27.5ms)[0m  [1mSELECT COUNT(*) FROM "widgets"[0m
+Processing by WidgetsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mWidget Load (27.4ms)[0m  SELECT  "widgets".* FROM "widgets" WHERE "widgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+  [1m[36m (27.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.4ms)[0m  DELETE FROM "widgets" WHERE "widgets"."id" = $1  [["id", 980190962]]
+  [1m[36m (27.4ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/widgets
+Completed 302 Found in 141ms (ActiveRecord: 109.6ms)
+  [1m[35m (28.2ms)[0m  SELECT COUNT(*) FROM "widgets"
+  [1m[36m (27.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.4ms)[0m  BEGIN
+------------------------------------------------
+WidgetsControllerTest: test_should_update_widget
+------------------------------------------------
+  [1m[36mWidget Load (27.5ms)[0m  [1mSELECT  "widgets".* FROM "widgets" WHERE "widgets"."id" = $1 LIMIT 1[0m  [["id", 980190962]]
+Processing by WidgetsController#update as HTML
+  Parameters: {"widget"=>{"description"=>"MyText", "name"=>"MyString", "stock"=>"1"}, "id"=>"980190962"}
+  [1m[35mWidget Load (27.6ms)[0m  SELECT  "widgets".* FROM "widgets" WHERE "widgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+  [1m[36m (27.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (27.3ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/widgets/980190962
+Completed 302 Found in 86ms (ActiveRecord: 82.2ms)
+  [1m[36m (27.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.4ms)[0m  BEGIN
+--------------------------------------------
+WidgetsControllerTest: test_should_get_index
+--------------------------------------------
+  [1m[36mWidget Load (27.5ms)[0m  [1mSELECT  "widgets".* FROM "widgets" WHERE "widgets"."id" = $1 LIMIT 1[0m  [["id", 980190962]]
+Processing by WidgetsController#index as HTML
+  [1m[35mWidget Load (27.5ms)[0m  SELECT "widgets".* FROM "widgets"
+  Rendered widgets/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 33ms (Views: 5.6ms | ActiveRecord: 27.5ms)
+  [1m[36m (27.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.3ms)[0m  BEGIN
+------------------------------------------
+WidgetsControllerTest: test_should_get_new
+------------------------------------------
+  [1m[36mWidget Load (27.4ms)[0m  [1mSELECT  "widgets".* FROM "widgets" WHERE "widgets"."id" = $1 LIMIT 1[0m  [["id", 980190962]]
+Processing by WidgetsController#new as HTML
+  Rendered widgets/_form.html.erb (2.2ms)
+  Rendered widgets/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+----------------------------------------------
+WidgetsControllerTest: test_should_show_widget
+----------------------------------------------
+  [1m[35mWidget Load (27.3ms)[0m  SELECT  "widgets".* FROM "widgets" WHERE "widgets"."id" = $1 LIMIT 1  [["id", 980190962]]
+Processing by WidgetsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mWidget Load (27.4ms)[0m  [1mSELECT  "widgets".* FROM "widgets" WHERE "widgets"."id" = $1 LIMIT 1[0m  [["id", 980190962]]
+  Rendered widgets/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 5.1ms | ActiveRecord: 27.4ms)
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 77ms (Views: 11.6ms | ActiveRecord: 55.9ms)
+  [1m[35m (27.4ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (27.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+Processing by ApostaController#new as HTML
+  Parameters: {"params"=>{}, "session"=>{}}
+  Rendered aposta/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 115ms (Views: 25.9ms | ActiveRecord: 83.6ms)
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.0ms)[0m  BEGIN
+  [1m[36m (27.6ms)[0m  [1mSELECT COUNT(*) FROM "aposta"[0m
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.5ms)[0m  ROLLBACK
+  [1m[36m (27.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (27.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.0ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (26.9ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.0ms)[0m  ROLLBACK
+  [1m[36m (27.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.0ms)[0m  ROLLBACK
+  [1m[36m (27.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (27.1ms)[0m  [1mBEGIN[0m
+Processing by SalasController#new as HTML
+  Parameters: {"params"=>{}, "session"=>{}}
+  Rendered salas/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 70ms (Views: 4.5ms | ActiveRecord: 57.1ms)
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.0ms)[0m  ROLLBACK
+  [1m[36m (27.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  SELECT COUNT(*) FROM "salas"
+  [1m[36m (27.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.4ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.7ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "status", "user_type", "provider", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["status", "t"], ["user_type", "2"], ["provider", "email"], ["created_at", "2016-10-17 02:01:31.760479"], ["updated_at", "2016-10-17 02:01:31.760479"]]
+  [1m[36m (27.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsuariosController#index as HTML
+  Parameters: {"params"=>{}, "session"=>{}}
+  Rendered usuarios/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+  [1m[35mUsuario Load (27.4ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  [1m[36m (27.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.3ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "status", "user_type", "provider", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["status", "t"], ["user_type", "2"], ["provider", "email"], ["created_at", "2016-10-17 02:01:32.031328"], ["updated_at", "2016-10-17 02:01:32.031328"]]
+  [1m[36m (27.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsuariosController#show as HTML
+  Parameters: {"session"=>{}, "id"=>"1050"}
+  [1m[35mUsuario Load (27.3ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 1050]]
+  Rendered usuarios/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 76ms (Views: 3.7ms | ActiveRecord: 27.3ms)
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.3ms)[0m  BEGIN
+Processing by UsuariosController#new as HTML
+  Parameters: {"params"=>{}, "session"=>{}}
+  Rendered usuarios/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.3ms)[0m  BEGIN
+  [1m[36m (27.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.3ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "status", "user_type", "provider", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["status", "t"], ["user_type", "2"], ["provider", "email"], ["created_at", "2016-10-17 02:01:32.366968"], ["updated_at", "2016-10-17 02:01:32.366968"]]
+  [1m[36m (27.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsuariosController#edit as HTML
+  Parameters: {"session"=>{}, "id"=>"1051"}
+  [1m[35mUsuario Load (27.4ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 1051]]
+  Rendered usuarios/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 3.2ms | ActiveRecord: 27.4ms)
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.3ms)[0m  BEGIN
+  [1m[36m (27.3ms)[0m  [1mSELECT COUNT(*) FROM "usuarios"[0m
+Processing by UsuariosController#create as HTML
+  Parameters: {"usuario"=>{"name"=>"Jack", "email"=>"jack@gmail.com", "access_token"=>"chan", "status"=>true, "user_type"=>"2", "provider"=>"email"}, "session"=>{}}
+  [1m[35m (27.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.2ms)[0m  [1mINSERT INTO "usuarios" ("name", "email", "access_token", "provider", "status", "user_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["provider", "email"], ["status", "t"], ["user_type", "2"], ["created_at", "2016-10-17 02:01:32.599059"], ["updated_at", "2016-10-17 02:01:32.599059"]]
+  [1m[35m (27.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/usuarios/1052
+Completed 302 Found in 114ms (ActiveRecord: 81.7ms)
+  [1m[36m (27.3ms)[0m  [1mSELECT COUNT(*) FROM "usuarios"[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+Processing by UsuariosController#create as HTML
+  Parameters: {"usuario"=>{"name"=>"Jack", "email"=>"jack@gmail.com", "access_token"=>"chan", "status"=>true, "user_type"=>"2", "provider"=>"email"}, "session"=>{}}
+  [1m[35m (27.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.3ms)[0m  [1mINSERT INTO "usuarios" ("name", "email", "access_token", "provider", "status", "user_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["provider", "email"], ["status", "t"], ["user_type", "2"], ["created_at", "2016-10-17 02:01:32.825975"], ["updated_at", "2016-10-17 02:01:32.825975"]]
+  [1m[35m (27.3ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/usuarios/1053
+Completed 302 Found in 86ms (ActiveRecord: 81.7ms)
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (34.2ms)[0m  BEGIN
+Processing by UsuariosController#create as HTML
+  Parameters: {"usuario"=>{"name"=>"Jack", "email"=>"jack@gmail.com", "access_token"=>"chan", "status"=>true, "user_type"=>"2", "provider"=>"email"}, "session"=>{}}
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.3ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "provider", "status", "user_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["provider", "email"], ["status", "t"], ["user_type", "2"], ["created_at", "2016-10-17 02:01:33.009121"], ["updated_at", "2016-10-17 02:01:33.009121"]]
+  [1m[36m (27.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/usuarios/1054
+Completed 302 Found in 86ms (ActiveRecord: 81.7ms)
+  [1m[35mUsuario Load (28.0ms)[0m  SELECT  "usuarios".* FROM "usuarios"  ORDER BY "usuarios"."id" DESC LIMIT 1
+  [1m[36m (27.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+Processing by UsuariosController#create as HTML
+  Parameters: {"usuario"=>{"name"=>"Jack", "email"=>"jack", "access_token"=>"chan", "status"=>true, "user_type"=>"2"}, "session"=>{}}
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (27.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered usuarios/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 0.7ms | ActiveRecord: 54.4ms)
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+Processing by UsuariosController#create as HTML
+  Parameters: {"usuario"=>{"name"=>"Jack", "email"=>"jack", "access_token"=>"chan", "status"=>true, "user_type"=>"2"}, "session"=>{}}
+  [1m[36m (27.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered usuarios/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 57ms (Views: 0.6ms | ActiveRecord: 54.2ms)
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+  [1m[36m (27.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.4ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "status", "user_type", "provider", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["status", "t"], ["user_type", "2"], ["provider", "email"], ["created_at", "2016-10-17 02:01:33.502673"], ["updated_at", "2016-10-17 02:01:33.502673"]]
+  [1m[36m (27.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsuariosController#update as HTML
+  Parameters: {"usuario"=>{"name"=>"Joca"}, "session"=>{}, "id"=>"1055"}
+  [1m[35mUsuario Load (27.4ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 1055]]
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.4ms)[0m  UPDATE "usuarios" SET "name" = $1, "updated_at" = $2 WHERE "usuarios"."id" = $3  [["name", "Joca"], ["updated_at", "2016-10-17 02:01:33.618069"], ["id", 1055]]
+  [1m[36m (27.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/usuarios/1055
+Completed 302 Found in 143ms (ActiveRecord: 109.3ms)
+  [1m[35mUsuario Load (27.3ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 1055]]
+  [1m[36m (27.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.3ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "status", "user_type", "provider", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["status", "t"], ["user_type", "2"], ["provider", "email"], ["created_at", "2016-10-17 02:01:33.848687"], ["updated_at", "2016-10-17 02:01:33.848687"]]
+  [1m[36m (27.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsuariosController#update as HTML
+  Parameters: {"usuario"=>{"name"=>"Jack", "email"=>"jack@gmail.com", "access_token"=>"chan", "status"=>true, "user_type"=>"2", "provider"=>"email"}, "session"=>{}, "id"=>"1056"}
+  [1m[35mUsuario Load (27.5ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 1056]]
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (27.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/usuarios/1056
+Completed 302 Found in 85ms (ActiveRecord: 81.8ms)
+  [1m[36m (27.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.4ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "status", "user_type", "provider", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["status", "t"], ["user_type", "2"], ["provider", "email"], ["created_at", "2016-10-17 02:01:34.105044"], ["updated_at", "2016-10-17 02:01:34.105044"]]
+  [1m[36m (27.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsuariosController#update as HTML
+  Parameters: {"usuario"=>{"name"=>"Jack", "email"=>"jack@gmail.com", "access_token"=>"chan", "status"=>true, "user_type"=>"2", "provider"=>"email"}, "session"=>{}, "id"=>"1057"}
+  [1m[35mUsuario Load (27.3ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 1057]]
+  [1m[36m (27.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (27.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/usuarios/1057
+Completed 302 Found in 85ms (ActiveRecord: 81.6ms)
+  [1m[36m (27.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.3ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "status", "user_type", "provider", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["status", "t"], ["user_type", "2"], ["provider", "email"], ["created_at", "2016-10-17 02:01:34.361295"], ["updated_at", "2016-10-17 02:01:34.361295"]]
+  [1m[36m (27.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsuariosController#update as HTML
+  Parameters: {"usuario"=>{"name"=>"Jack", "email"=>"jack", "access_token"=>"chan", "status"=>true, "user_type"=>"2"}, "session"=>{}, "id"=>"1058"}
+  [1m[35mUsuario Load (27.4ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 1058]]
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered usuarios/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 0.6ms | ActiveRecord: 81.9ms)
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.2ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "status", "user_type", "provider", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["status", "t"], ["user_type", "2"], ["provider", "email"], ["created_at", "2016-10-17 02:01:34.616406"], ["updated_at", "2016-10-17 02:01:34.616406"]]
+  [1m[36m (27.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsuariosController#update as HTML
+  Parameters: {"usuario"=>{"name"=>"Jack", "email"=>"jack", "access_token"=>"chan", "status"=>true, "user_type"=>"2"}, "session"=>{}, "id"=>"1059"}
+  [1m[35mUsuario Load (27.2ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 1059]]
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered usuarios/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 0.7ms | ActiveRecord: 81.7ms)
+  [1m[36m (27.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.3ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.4ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "status", "user_type", "provider", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["status", "t"], ["user_type", "2"], ["provider", "email"], ["created_at", "2016-10-17 02:01:34.872085"], ["updated_at", "2016-10-17 02:01:34.872085"]]
+  [1m[36m (27.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (27.4ms)[0m  SELECT COUNT(*) FROM "usuarios"
+Processing by UsuariosController#destroy as HTML
+  Parameters: {"session"=>{}, "id"=>"1060"}
+  [1m[36mUsuario Load (27.2ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 1060]]
+  [1m[35m (27.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.6ms)[0m  [1mDELETE FROM "usuarios" WHERE "usuarios"."id" = $1[0m  [["id", 1060]]
+  [1m[35m (27.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/usuarios
+Completed 302 Found in 139ms (ActiveRecord: 109.2ms)
+  [1m[36m (27.4ms)[0m  [1mSELECT COUNT(*) FROM "usuarios"[0m
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.3ms)[0m  [1mINSERT INTO "usuarios" ("name", "email", "access_token", "status", "user_type", "provider", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "Jack"], ["email", "jack@gmail.com"], ["access_token", "chan"], ["status", "t"], ["user_type", "2"], ["provider", "email"], ["created_at", "2016-10-17 02:01:35.237655"], ["updated_at", "2016-10-17 02:01:35.237655"]]
+  [1m[35m (27.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by UsuariosController#destroy as HTML
+  Parameters: {"session"=>{}, "id"=>"1061"}
+  [1m[36mUsuario Load (27.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 1061]]
+  [1m[35m (27.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.2ms)[0m  [1mDELETE FROM "usuarios" WHERE "usuarios"."id" = $1[0m  [["id", 1061]]
+  [1m[35m (27.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/usuarios
+Completed 302 Found in 112ms (ActiveRecord: 109.0ms)
+  [1m[36m (27.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.3ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.4ms)[0m  BEGIN
+  [1m[36m (27.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+Started GET "/aposta" for 127.0.0.1 at 2016-10-17 02:01:36 +0000
+Processing by ApostaController#index as HTML
+  [1m[36mApostum Load (27.6ms)[0m  [1mSELECT "aposta".* FROM "aposta"[0m
+  Rendered aposta/index.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 259ms (Views: 215.8ms | ActiveRecord: 27.6ms)
+  [1m[35m (27.4ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+Started GET "/salas" for 127.0.0.1 at 2016-10-17 02:01:36 +0000
+Processing by SalasController#index as HTML
+  [1m[35mSala Load (27.3ms)[0m  SELECT "salas".* FROM "salas"
+  Rendered salas/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 35ms (Views: 7.3ms | ActiveRecord: 27.3ms)
+  [1m[36m (27.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.5ms)[0m  BEGIN
+Started GET "/usuarios" for 127.0.0.1 at 2016-10-17 02:01:36 +0000
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (27.4ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 34ms (Views: 6.5ms | ActiveRecord: 27.4ms)
+  [1m[35m (27.4ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.4ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (27.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (27.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.4ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.2ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.1ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.4ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.5ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.3ms)[0m  [1mINSERT INTO "aposta" ("idSala", "idUser", "palpite", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["idSala", 1], ["idUser", 1], ["palpite", "MyString"], ["created_at", "2016-10-17 02:01:38.820909"], ["updated_at", "2016-10-17 02:01:38.820909"]]
+  [1m[35m (27.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered aposta/_form.html.erb (53.9ms)
+  Rendered aposta/edit.html.erb (87.3ms)
+  [1m[36m (27.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.3ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.4ms)[0m  INSERT INTO "aposta" ("idSala", "idUser", "palpite", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["idSala", 2], ["idUser", 3], ["palpite", "Palpite"], ["created_at", "2016-10-17 02:01:39.117882"], ["updated_at", "2016-10-17 02:01:39.117882"]]
+  [1m[36m (27.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (27.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.3ms)[0m  [1mINSERT INTO "aposta" ("idSala", "idUser", "palpite", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["idSala", 2], ["idUser", 3], ["palpite", "Palpite"], ["created_at", "2016-10-17 02:01:39.202220"], ["updated_at", "2016-10-17 02:01:39.202220"]]
+  [1m[35m (27.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered aposta/index.html.erb (2.1ms)
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  Rendered aposta/_form.html.erb (2.2ms)
+  Rendered aposta/new.html.erb (3.3ms)
+  [1m[36m (27.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.3ms)[0m  BEGIN
+  [1m[36m (27.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.4ms)[0m  INSERT INTO "aposta" ("idSala", "idUser", "palpite", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["idSala", 2], ["idUser", 3], ["palpite", "Palpite"], ["created_at", "2016-10-17 02:01:39.487829"], ["updated_at", "2016-10-17 02:01:39.487829"]]
+  [1m[36m (27.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered aposta/show.html.erb (1.5ms)
+  [1m[35m (27.4ms)[0m  ROLLBACK
+  [1m[36m (27.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.3ms)[0m  [1mINSERT INTO "salas" ("name", "description", "idOwner", "sala_type", "reward", "stake", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "MyString"], ["description", "MyString"], ["idOwner", 1], ["sala_type", 1], ["reward", "MyString"], ["stake", 1], ["created_at", "2016-10-17 02:01:39.674541"], ["updated_at", "2016-10-17 02:01:39.674541"]]
+  [1m[35m (27.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered salas/_form.html.erb (8.1ms)
+  Rendered salas/edit.html.erb (19.0ms)
+  [1m[36m (27.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.4ms)[0m  INSERT INTO "salas" ("name", "description", "idOwner", "sala_type", "reward", "stake", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Name"], ["description", "Description"], ["idOwner", 2], ["sala_type", 3], ["reward", "Reward"], ["stake", 4], ["created_at", "2016-10-17 02:01:39.909184"], ["updated_at", "2016-10-17 02:01:39.909184"]]
+  [1m[36m (27.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (27.5ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.3ms)[0m  [1mINSERT INTO "salas" ("name", "description", "idOwner", "sala_type", "reward", "stake", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "Name"], ["description", "Description"], ["idOwner", 2], ["sala_type", 3], ["reward", "Reward"], ["stake", 4], ["created_at", "2016-10-17 02:01:39.993894"], ["updated_at", "2016-10-17 02:01:39.993894"]]
+  [1m[35m (27.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered salas/index.html.erb (2.2ms)
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  Rendered salas/_form.html.erb (2.8ms)
+  Rendered salas/new.html.erb (4.0ms)
+  [1m[36m (27.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.4ms)[0m  INSERT INTO "salas" ("name", "description", "idOwner", "sala_type", "reward", "stake", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["name", "Name"], ["description", "Description"], ["idOwner", 2], ["sala_type", 3], ["reward", "Reward"], ["stake", 4], ["created_at", "2016-10-17 02:01:40.280574"], ["updated_at", "2016-10-17 02:01:40.280574"]]
+  [1m[36m (27.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered salas/show.html.erb (1.7ms)
+  [1m[35m (27.3ms)[0m  ROLLBACK
+  [1m[36m (27.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.4ms)[0m  [1mINSERT INTO "usuarios" ("name", "email", "access_token", "uid", "photo_url", "provider", "status", "reason", "user_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "MyString"], ["email", "email@example.com"], ["access_token", "MyString"], ["uid", "MyString"], ["photo_url", "MyString"], ["provider", "MyString"], ["status", "f"], ["reason", "MyString"], ["user_type", "MyString"], ["created_at", "2016-10-17 02:01:40.463555"], ["updated_at", "2016-10-17 02:01:40.463555"]]
+  [1m[35m (27.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered usuarios/_form.html.erb (32.5ms)
+  Rendered usuarios/edit.html.erb (43.5ms)
+  [1m[36m (27.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.1ms)[0m  BEGIN
+  [1m[36m (27.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.7ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "uid", "photo_url", "provider", "status", "reason", "user_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["name", "Name"], ["email", "email@example.com"], ["access_token", "Access Token"], ["uid", "Uid"], ["photo_url", "Photo Url"], ["provider", "Provider"], ["status", "f"], ["reason", "Reason"], ["user_type", "User Type"], ["created_at", "2016-10-17 02:01:40.721549"], ["updated_at", "2016-10-17 02:01:40.721549"]]
+  [1m[36m (27.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (27.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (27.4ms)[0m  [1mINSERT INTO "usuarios" ("name", "email", "access_token", "uid", "photo_url", "provider", "status", "reason", "user_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Name"], ["email", "email@example.com"], ["access_token", "Access Token"], ["uid", "Uid"], ["photo_url", "Photo Url"], ["provider", "Provider"], ["status", "f"], ["reason", "Reason"], ["user_type", "User Type"], ["created_at", "2016-10-17 02:01:40.808239"], ["updated_at", "2016-10-17 02:01:40.808239"]]
+  [1m[35m (27.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered usuarios/index.html.erb (2.7ms)
+  [1m[36m (27.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.2ms)[0m  BEGIN
+  Rendered usuarios/_form.html.erb (5.4ms)
+  Rendered usuarios/new.html.erb (6.4ms)
+  [1m[36m (27.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (27.4ms)[0m  BEGIN
+  [1m[36m (27.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (27.5ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "uid", "photo_url", "provider", "status", "reason", "user_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["name", "Name"], ["email", "email@example.com"], ["access_token", "Access Token"], ["uid", "Uid"], ["photo_url", "Photo Url"], ["provider", "Provider"], ["status", "f"], ["reason", "Reason"], ["user_type", "User Type"], ["created_at", "2016-10-17 02:01:41.102659"], ["updated_at", "2016-10-17 02:01:41.102659"]]
+  [1m[36m (27.7ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered usuarios/show.html.erb (2.2ms)
+  [1m[35m (27.3ms)[0m  ROLLBACK
