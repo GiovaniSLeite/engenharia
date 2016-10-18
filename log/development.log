@@ -10650,3 +10650,2702 @@ Processing by UsuariosController#edit as HTML
   Rendered usuarios/_form.html.erb (5.7ms)
   Rendered usuarios/edit.html.erb within layouts/application (8.0ms)
 Completed 200 OK in 106ms (Views: 76.9ms | ActiveRecord: 27.4ms)
+
+
+Started GET "/" for 143.107.59.221 at 2016-10-18 18:04:11 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (47.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (42.8ms)
+Completed 200 OK in 978ms (Views: 859.5ms | ActiveRecord: 85.6ms)
+
+
+Started GET "/assets/style.self-184b1bdbd71245614b7fc677221f65b303280ad9cfcb2800d43f80c58ef151ee.css?body=1" for 143.107.59.221 at 2016-10-18 18:04:13 +0000
+
+
+Started GET "/assets/theme.self-39a0e352d84e1eaa04b5e10786d5585a80cfe1f7cd3c24d8bac8f165e324bd4b.css?body=1" for 143.107.59.221 at 2016-10-18 18:04:13 +0000
+
+
+Started GET "/" for 143.107.59.221 at 2016-10-18 18:04:13 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-afffd048703f42fcde7ead22f46cfc84af14321205fc95318473dd1c4861f835.css?body=1" for 143.107.59.221 at 2016-10-18 18:04:13 +0000
+
+
+Started GET "/assets/usuarios.self-0727f7f3792424b495783eba789a3481baa7fed795df64c1b8a2bbb5a2bc975b.css?body=1" for 143.107.59.221 at 2016-10-18 18:04:13 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 143.107.59.221 at 2016-10-18 18:04:13 +0000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 143.107.59.221 at 2016-10-18 18:04:13 +0000
+
+
+Started GET "/assets/welcome.self-1c27297be9df57879e7da1a17bdd95dcb510efc0dc6f0618be4c8f6456843c19.js?body=1" for 143.107.59.221 at 2016-10-18 18:04:13 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 143.107.59.221 at 2016-10-18 18:04:14 +0000
+
+
+Started GET "/assets/etapa-1.png" for 143.107.59.221 at 2016-10-18 18:04:17 +0000
+
+
+Started GET "/assets/etapa-2.png" for 143.107.59.221 at 2016-10-18 18:04:17 +0000
+
+
+Started GET "/assets/Bariol.woff" for 143.107.59.221 at 2016-10-18 18:04:17 +0000
+
+
+Started GET "/assets/banner-home.jpg" for 143.107.59.221 at 2016-10-18 18:04:17 +0000
+
+
+Started GET "/assets/content-home-1.png" for 143.107.59.221 at 2016-10-18 18:04:17 +0000
+
+
+Started GET "/assets/pier-regular.otf" for 143.107.59.221 at 2016-10-18 18:04:17 +0000
+
+
+Started GET "/assets/etapa-3.png" for 143.107.59.221 at 2016-10-18 18:04:18 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:04:43 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (62.7ms)
+Completed 200 OK in 389ms (Views: 260.3ms | ActiveRecord: 85.9ms)
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/style.self-184b1bdbd71245614b7fc677221f65b303280ad9cfcb2800d43f80c58ef151ee.css?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/welcome.self-afffd048703f42fcde7ead22f46cfc84af14321205fc95318473dd1c4861f835.css?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/theme.self-39a0e352d84e1eaa04b5e10786d5585a80cfe1f7cd3c24d8bac8f165e324bd4b.css?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/usuarios.self-0727f7f3792424b495783eba789a3481baa7fed795df64c1b8a2bbb5a2bc975b.css?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/welcome.self-1c27297be9df57879e7da1a17bdd95dcb510efc0dc6f0618be4c8f6456843c19.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 124ms (Views: 122.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 18:04:44 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 18:04:51 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 18:04:52 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ulN1QpQmjVYYynrugDf4cvzvwCNkwMUI8Tr2n0ucifnKloxA4BT//tRfU0jni+fpeTs3L66Vp9KpP6Jl2kzyCA==", "usuario"=>{"email"=>"ctccaio@hotmail.com", "access_token"=>"123456"}, "commit"=>"Entrar"}
+  [1m[35mUsuario Load (28.4ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1  [["email", "ctccaio@hotmail.com"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/painel?notice=Bem+vindo
+Completed 302 Found in 151ms (ActiveRecord: 60.2ms)
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 18:04:52 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 62ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:52 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:52 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:52 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:52 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:52 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:52 +0000
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 18:04:52 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:04:52 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:04:53 +0000
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:04:53 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 18:04:53 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 18:04:53 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 18:04:53 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 18:05:00 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 18:05:00 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 18:05:00 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qig13PZYgfPo8sALZBaMaGvGNNfcCXn7Saui6hN/JrwgUP0NEozQd5THUUzhKv/kCmo21vZ6on5lcvIR2ajwlg==", "usuario"=>{"email"=>"vaidar@errado.com.br", "access_token"=>"111"}, "commit"=>"Entrar"}
+  [1m[36mUsuario Load (32.1ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1[0m  [["email", "vaidar@errado.com.br"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+logar
+Completed 302 Found in 35ms (ActiveRecord: 32.1ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 18:05:00 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 121ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 18:05:01 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 91ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/style.self-184b1bdbd71245614b7fc677221f65b303280ad9cfcb2800d43f80c58ef151ee.css?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/theme.self-39a0e352d84e1eaa04b5e10786d5585a80cfe1f7cd3c24d8bac8f165e324bd4b.css?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/welcome.self-afffd048703f42fcde7ead22f46cfc84af14321205fc95318473dd1c4861f835.css?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/usuarios.self-0727f7f3792424b495783eba789a3481baa7fed795df64c1b8a2bbb5a2bc975b.css?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:19 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started GET "/assets/welcome.self-1c27297be9df57879e7da1a17bdd95dcb510efc0dc6f0618be4c8f6456843c19.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 18:05:20 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O8YILYfPoPaWL/CmDHiY7OKqOvqQazf0zn5M4RM98HEAXuPcz1lFijgFedMWfuVzAcISaW/8yfoYWeJbEiaBJw==", "usuario"=>{"email"=>"ctccaio@hotmail.com", "access_token"=>"123456"}, "commit"=>"Entrar"}
+  [1m[35mUsuario Load (27.7ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1  [["email", "ctccaio@hotmail.com"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/painel?notice=Bem+vindo
+Completed 302 Found in 31ms (ActiveRecord: 27.7ms)
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:05:27 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 18:05:28 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 18:05:28 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 18:05:28 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 18:05:34 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 18:05:34 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 18:05:34 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XtF53nHEI+ml9uYGccpvMOKdpLgNh8IO2Bet2MDgAaSAg22jZOH2dq1TgPej531Al+HG//5/SPrKP+RYHv0shg==", "usuario"=>{"email"=>"vaidar@errado.com.br", "access_token"=>"111"}, "commit"=>"Entrar"}
+  [1m[36mUsuario Load (27.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1[0m  [["email", "vaidar@errado.com.br"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+logar
+Completed 302 Found in 30ms (ActiveRecord: 27.5ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 18:05:34 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 58ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 18:05:35 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:51:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (44.6ms)
+Completed 200 OK in 568ms (Views: 445.7ms | ActiveRecord: 85.8ms)
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:51:42 +0000
+
+
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:51:42 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:51:42 +0000
+
+
+Started GET "/assets/theme.self-39a0e352d84e1eaa04b5e10786d5585a80cfe1f7cd3c24d8bac8f165e324bd4b.css?body=1" for 104.154.121.136 at 2016-10-18 18:51:42 +0000
+
+
+Started GET "/assets/style.self-184b1bdbd71245614b7fc677221f65b303280ad9cfcb2800d43f80c58ef151ee.css?body=1" for 104.154.121.136 at 2016-10-18 18:51:42 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:51:42 +0000
+
+
+Started GET "/assets/usuarios.self-0727f7f3792424b495783eba789a3481baa7fed795df64c1b8a2bbb5a2bc975b.css?body=1" for 104.154.121.136 at 2016-10-18 18:51:42 +0000
+
+
+Started GET "/assets/welcome.self-afffd048703f42fcde7ead22f46cfc84af14321205fc95318473dd1c4861f835.css?body=1" for 104.154.121.136 at 2016-10-18 18:51:43 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:43 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (28.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 18:51:43 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 104.154.121.136 at 2016-10-18 18:51:43 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:43 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:43 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:43 +0000
+
+
+Started GET "/assets/welcome.self-1c27297be9df57879e7da1a17bdd95dcb510efc0dc6f0618be4c8f6456843c19.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 116ms (Views: 114.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 18:51:44 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 18:51:51 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 18:51:51 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ckS2H2kSC1/9qTNQEwMqzw6Mci7EmdYc5glySvTqT2zG4H/AVFdEO5If+rC/KoerBO83Lx4dSOz+HAjZsAE+KA==", "usuario"=>{"email"=>"ctccaio@hotmail.com", "access_token"=>"123456"}, "commit"=>"Entrar"}
+  [1m[35mUsuario Load (27.9ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1  [["email", "ctccaio@hotmail.com"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/painel?notice=Bem+vindo
+Completed 302 Found in 124ms (ActiveRecord: 55.6ms)
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 18:51:51 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 242ms (Views: 214.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:52 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:52 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:52 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:52 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:52 +0000
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 18:51:52 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:52 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 107ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:51:52 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 58ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:51:52 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:51:52 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (72.7ms)
+Completed 200 OK in 329ms (Views: 216.8ms | ActiveRecord: 85.2ms)
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 18:51:53 +0000
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 18:51:53 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 18:51:59 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 18:51:59 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 18:51:59 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 18:51:59 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cvY4ih6LXQDaGoDWcSGOEluGbuSN/5ESd9FNy305UJZmRbMAe2AX56+Wut7ixqdUVbFa9/+pz3jnsg40PscMEw==", "usuario"=>{"email"=>"vaidar@errado.com.br", "access_token"=>"111"}, "commit"=>"Entrar"}
+  [1m[36mUsuario Load (27.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1[0m  [["email", "vaidar@errado.com.br"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+logar
+Completed 302 Found in 32ms (ActiveRecord: 27.5ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 18:51:59 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 121ms (Views: 119.2ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+Completed 200 OK in 104ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 78ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 18:52:00 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xWRqy7g8ruHLFlK+E5p7mZUAG3oNvtwFwryYQyAPpZZHkAkXP0+KN7nanoG7D99ejVv7Z7WKDqqxDF5lKg9O3g==", "usuario"=>{"email"=>"ctccaio@hotmail.com", "access_token"=>"123"}, "commit"=>"Entrar"}
+  [1m[35mUsuario Load (27.9ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1  [["email", "ctccaio@hotmail.com"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+logar
+Completed 302 Found in 122ms (ActiveRecord: 55.9ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 18:52:01 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 111ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:01 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:01 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:01 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:01 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:01 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 18:52:01 +0000
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 18:52:01 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 121ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:32:34 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (46.2ms)
+Completed 200 OK in 602ms (Views: 476.7ms | ActiveRecord: 85.9ms)
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:32:35 +0000
+
+
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:32:35 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:32:35 +0000
+
+
+Started GET "/assets/theme.self-39a0e352d84e1eaa04b5e10786d5585a80cfe1f7cd3c24d8bac8f165e324bd4b.css?body=1" for 104.154.121.136 at 2016-10-18 19:32:35 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:32:35 +0000
+
+
+Started GET "/assets/style.self-184b1bdbd71245614b7fc677221f65b303280ad9cfcb2800d43f80c58ef151ee.css?body=1" for 104.154.121.136 at 2016-10-18 19:32:35 +0000
+
+
+Started GET "/assets/usuarios.self-0727f7f3792424b495783eba789a3481baa7fed795df64c1b8a2bbb5a2bc975b.css?body=1" for 104.154.121.136 at 2016-10-18 19:32:35 +0000
+
+
+Started GET "/assets/welcome.self-afffd048703f42fcde7ead22f46cfc84af14321205fc95318473dd1c4861f835.css?body=1" for 104.154.121.136 at 2016-10-18 19:32:36 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:32:36 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:36 +0000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:36 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:36 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 104.154.121.136 at 2016-10-18 19:32:36 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:36 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:36 +0000
+
+
+Started GET "/assets/welcome.self-1c27297be9df57879e7da1a17bdd95dcb510efc0dc6f0618be4c8f6456843c19.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:36 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:36 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:37 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:32:37 +0000
+Processing by WelcomeController#index as HTML
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:37 +0000
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:37 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:37 +0000
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:32:37 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 19:32:37 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 19:32:37 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 19:32:37 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 19:32:37 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 117ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 19:32:44 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 19:32:51 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:32:51 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 77ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:51 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:51 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:51 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:51 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:51 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:32:51 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:32:51 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (43.4ms)
+Completed 200 OK in 363ms (Views: 242.2ms | ActiveRecord: 85.1ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:32:52 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 19:32:52 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 19:32:52 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 19:32:52 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 19:33:00 +0000
+
+
+Started GET "/" for 10.240.0.186 at 2016-10-18 19:43:40 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (28.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 633ms (Views: 498.9ms | ActiveRecord: 87.3ms)
+
+
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.179 at 2016-10-18 19:43:42 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.1.32 at 2016-10-18 19:43:42 +0000
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.119 at 2016-10-18 19:43:42 +0000
+
+
+Started GET "/assets/style.self-184b1bdbd71245614b7fc677221f65b303280ad9cfcb2800d43f80c58ef151ee.css?body=1" for 10.240.0.241 at 2016-10-18 19:43:42 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.208 at 2016-10-18 19:43:42 +0000
+
+
+Started GET "/assets/theme.self-39a0e352d84e1eaa04b5e10786d5585a80cfe1f7cd3c24d8bac8f165e324bd4b.css?body=1" for 10.240.0.204 at 2016-10-18 19:43:42 +0000
+
+
+Started GET "/assets/welcome.self-afffd048703f42fcde7ead22f46cfc84af14321205fc95318473dd1c4861f835.css?body=1" for 10.240.0.241 at 2016-10-18 19:43:42 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 10.240.1.15 at 2016-10-18 19:43:43 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (28.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/usuarios.self-0727f7f3792424b495783eba789a3481baa7fed795df64c1b8a2bbb5a2bc975b.css?body=1" for 10.240.0.186 at 2016-10-18 19:43:43 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.187 at 2016-10-18 19:43:43 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 10.240.0.241 at 2016-10-18 19:43:43 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 10.240.1.17 at 2016-10-18 19:43:43 +0000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 10.240.0.241 at 2016-10-18 19:43:43 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.1.15 at 2016-10-18 19:43:43 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.1.32 at 2016-10-18 19:43:43 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 10.240.0.208 at 2016-10-18 19:43:44 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.1.32 at 2016-10-18 19:43:44 +0000
+
+
+Started GET "/assets/welcome.self-1c27297be9df57879e7da1a17bdd95dcb510efc0dc6f0618be4c8f6456843c19.js?body=1" for 10.240.0.119 at 2016-10-18 19:43:44 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.207 at 2016-10-18 19:43:44 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 10.240.1.32 at 2016-10-18 19:43:44 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.186 at 2016-10-18 19:43:44 +0000
+
+
+Started GET "/assets/banner-home.jpg" for 10.240.0.119 at 2016-10-18 19:43:44 +0000
+
+
+Started GET "/assets/Bariol.woff" for 10.240.0.207 at 2016-10-18 19:43:44 +0000
+
+
+Started GET "/assets/etapa-1.png" for 10.240.0.186 at 2016-10-18 19:43:44 +0000
+
+
+Started GET "/assets/etapa-2.png" for 10.240.0.182 at 2016-10-18 19:43:44 +0000
+
+
+Started GET "/assets/content-home-1.png" for 10.240.0.208 at 2016-10-18 19:43:51 +0000
+
+
+Started GET "/assets/pier-regular.otf" for 10.240.0.241 at 2016-10-18 19:43:51 +0000
+
+
+Started GET "/assets/etapa-3.png" for 10.240.0.207 at 2016-10-18 19:43:51 +0000
+
+
+Started GET "/usuarios/cadastro" for 10.240.0.241 at 2016-10-18 19:44:02 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (127.1ms)
+Completed 200 OK in 231ms (Views: 228.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 87ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/usuarios.self-0727f7f3792424b495783eba789a3481baa7fed795df64c1b8a2bbb5a2bc975b.css?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/style.self-184b1bdbd71245614b7fc677221f65b303280ad9cfcb2800d43f80c58ef151ee.css?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/welcome.self-afffd048703f42fcde7ead22f46cfc84af14321205fc95318473dd1c4861f835.css?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/theme.self-39a0e352d84e1eaa04b5e10786d5585a80cfe1f7cd3c24d8bac8f165e324bd4b.css?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 104.154.121.136 at 2016-10-18 19:44:52 +0000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 104.154.121.136 at 2016-10-18 19:44:53 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:44:53 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:44:53 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:44:53 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:44:53 +0000
+
+
+Started GET "/assets/welcome.self-1c27297be9df57879e7da1a17bdd95dcb510efc0dc6f0618be4c8f6456843c19.js?body=1" for 104.154.121.136 at 2016-10-18 19:44:53 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:44:53 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:44:53 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:44:53 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.3ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:44:53 +0000
+Completed 200 OK in 125ms (Views: 124.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:00 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e9WMOYTN3mIBqvHZRwdahmd73ehZVtmQPO5jTqm0xfKFV+EKYpKZ0T0pyonK81GxNR01RVkmvph7ccsObidzIw==", "usuario"=>{"name"=>"Algum nome", "email"=>"abc@hotmail.com", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[35m (27.7ms)[0m  BEGIN
+  [1m[36mSQL (28.9ms)[0m  [1mINSERT INTO "usuarios" ("name", "email", "access_token", "provider", "status", "user_type", "data_ingresso", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Algum nome"], ["email", "abc@hotmail.com"], ["access_token", "123"], ["provider", "email"], ["status", "t"], ["user_type", "2"], ["data_ingresso", "2016-10-18"], ["created_at", "2016-10-18 19:45:00.968194"], ["updated_at", "2016-10-18 19:45:00.968194"]]
+  [1m[35m (28.5ms)[0m  COMMIT
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/painel?notice=Usuario+was+successfully+created.
+Completed 302 Found in 507ms (ActiveRecord: 112.8ms)
+
+
+Started GET "/painel?notice=Usuario+was+successfully+created." for 104.154.121.136 at 2016-10-18 19:45:01 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Usuario was successfully created."}
+  Rendered welcome/painel.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:01 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:01 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:01 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:01 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:01 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:01 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:01 +0000
+
+
+Started GET "/painel?notice=Usuario+was+successfully+created." for 104.154.121.136 at 2016-10-18 19:45:01 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Usuario was successfully created."}
+  Rendered welcome/painel.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 232ms (Views: 214.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:02 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:02 +0000
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:02 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (73.8ms)
+Completed 200 OK in 267ms (Views: 155.4ms | ActiveRecord: 85.7ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:45:03 +0000
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:09 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JvH+VpN+BI2UZqJ9Mx+9wWs8ZcElMk602A7skRyNDPSf3+DLe+AAcAB6dCdOrdPeRb31L9nbZh8JBGSZb8iSEg==", "usuario"=>{"name"=>"Algum nome", "email"=>"abcom", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[36m (27.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.5ms)[0m  ROLLBACK
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 129ms (Views: 69.6ms | ActiveRecord: 55.2ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:09 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:09 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.7ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:10 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bzwIwS6zjdVgUKiLRnk2JqId1BnhXraGD5xzuKP6DNaJ7oREYb/46c66sMRg0CRNcO8yuGpZdBbkUGpWfRnJlg==", "usuario"=>{"name"=>"Algum nome", "email"=>"", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[36m (27.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.6ms)[0m  ROLLBACK
+  Rendered usuarios/cadastro.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 130ms (Views: 70.0ms | ActiveRecord: 55.2ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 97ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 109ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:11 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HImNK4PAZetpuK5fskXEEOedDKOjgKQRZSmVuHwrv/26QQjkLjD6Q62lTwiKeOWgCE88WH8NvUfWRHxdgHlyKw==", "usuario"=>{"name"=>"", "email"=>"ab@hotmail.com", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[36m (28.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (27.8ms)[0m  ROLLBACK
+  Rendered usuarios/cadastro.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 124ms (Views: 63.0ms | ActiveRecord: 56.5ms)
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+
+
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.7ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 71ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (8.1ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:45:12 +0000
+Completed 200 OK in 121ms (Views: 119.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:13 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Pes/dzDi3I54NdeicK9hzIATLzBaj9cb1XxPrrfjQJqAe6wiSewxmFd+MS3JqTHahYhiknu3HOOk/Go6b4GLHQ==", "usuario"=>{"name"=>"", "email"=>"ab@hotmail.com", "access_token"=>""}, "commit"=>"Cadastrar"}
+  [1m[36m (27.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (33.7ms)[0m  ROLLBACK
+  Rendered usuarios/cadastro.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 178ms (Views: 110.6ms | ActiveRecord: 61.5ms)
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:13 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:13 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:13 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:13 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:45:13 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:13 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.1ms)
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:13 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:13 +0000
+Completed 200 OK in 83ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:45:13 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:45:13 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 133ms (Views: 132.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:45:14 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:14 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 19:45:14 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 19:45:14 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 19:45:14 +0000
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:45:14 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 19:45:14 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hu87iar/tP8/pCcs+X3s36eGNLY+xo/K0rT6tvoAnjy27+1ADcRGB2TdmnBxdFLip2QIFAJpVMglOddz4TowmQ==", "usuario"=>{"email"=>"ctccaio@hotmail.com", "access_token"=>"123456"}, "commit"=>"Entrar"}
+  [1m[35mUsuario Load (28.1ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1  [["email", "ctccaio@hotmail.com"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/painel?notice=Bem+vindo
+Completed 302 Found in 126ms (ActiveRecord: 55.8ms)
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 95ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 79ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:45:15 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4rtnbFcumaLywEijGgYV3uYibC/uKzgysx57PmsIYHIGNCJBuxh3QHG+giWqovvOKsKfbqMqt03pez1k8Dl/Sw==", "usuario"=>{"email"=>"vaidar@errado.com.br", "access_token"=>"111"}, "commit"=>"Entrar"}
+  [1m[36mUsuario Load (28.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1[0m  [["email", "vaidar@errado.com.br"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+logar
+Completed 302 Found in 91ms (ActiveRecord: 28.0ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 72ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:45:16 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:17 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:45:17 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 19:45:17 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8QZnGR2xn5tph4I70zWtSdjN7COmFh4itjpibJcfcPxlDcDe9iJsd5x7V4gbjNUZKA6NiJ5nbUQwTLjcxwql0g==", "usuario"=>{"email"=>"ctccaio@hotmail.com", "access_token"=>"123"}, "commit"=>"Entrar"}
+  [1m[35mUsuario Load (30.2ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1  [["email", "ctccaio@hotmail.com"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+logar
+Completed 302 Found in 39ms (ActiveRecord: 30.2ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:45:17 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:17 +0000
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:17 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:17 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:17 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:17 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:45:17 +0000
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:45:17 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 10.240.0.207 at 2016-10-18 19:45:37 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tkwgCv5HjVZozvjFKQRlecifJ1SvVRKDuN0d3REy6BwpslRnIBgrGg6RXY+HdDuqomuz4urrECqw9QbUdQQJeQ==", "usuario"=>{"name"=>"Alex", "email"=>"meuadvogado@criolo.com", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[36m (27.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.8ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "provider", "status", "user_type", "data_ingresso", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["name", "Alex"], ["email", "meuadvogado@criolo.com"], ["access_token", "123"], ["provider", "email"], ["status", "t"], ["user_type", "2"], ["data_ingresso", "2016-10-18"], ["created_at", "2016-10-18 19:45:37.742843"], ["updated_at", "2016-10-18 19:45:37.742843"]]
+  [1m[36m (28.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://dobro-ou-nada-giovanileite.c9users.io:8080/painel?notice=Usuario+was+successfully+created.
+Completed 302 Found in 404ms (ActiveRecord: 83.4ms)
+
+
+Started GET "/painel?notice=Usuario+was+successfully+created." for 10.240.0.206 at 2016-10-18 19:45:38 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Usuario was successfully created."}
+  Rendered welcome/painel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:11 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:46:11 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:46:11 +0000
+
+
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+
+
+Started GET "/assets/style.self-184b1bdbd71245614b7fc677221f65b303280ad9cfcb2800d43f80c58ef151ee.css?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+Started GET "/assets/welcome.self-afffd048703f42fcde7ead22f46cfc84af14321205fc95318473dd1c4861f835.css?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/theme.self-39a0e352d84e1eaa04b5e10786d5585a80cfe1f7cd3c24d8bac8f165e324bd4b.css?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/usuarios.self-0727f7f3792424b495783eba789a3481baa7fed795df64c1b8a2bbb5a2bc975b.css?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/welcome.self-1c27297be9df57879e7da1a17bdd95dcb510efc0dc6f0618be4c8f6456843c19.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:46:12 +0000
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:19 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U2Tqt+hLOgHWHq7ELqGIToi6WVSYtC9dgrlHuSpeJrUuUv3Y+skJ7t60cL8V3+M48L1JrPqFOpAPnHYQ6FVUEw==", "usuario"=>{"name"=>"Algum nome", "email"=>"abc@hotmail.com", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[36m (27.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.8ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "provider", "status", "user_type", "data_ingresso", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["name", "Algum nome"], ["email", "abc@hotmail.com"], ["access_token", "123"], ["provider", "email"], ["status", "t"], ["user_type", "2"], ["data_ingresso", "2016-10-18"], ["created_at", "2016-10-18 19:46:19.569025"], ["updated_at", "2016-10-18 19:46:19.569025"]]
+  [1m[36m (28.5ms)[0m  [1mCOMMIT[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/painel?notice=Usuario+was+successfully+created.
+Completed 302 Found in 91ms (ActiveRecord: 84.2ms)
+
+
+Started GET "/painel?notice=Usuario+was+successfully+created." for 104.154.121.136 at 2016-10-18 19:46:19 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Usuario was successfully created."}
+  Rendered welcome/painel.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:19 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:19 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:19 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:19 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:19 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:19 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:19 +0000
+
+
+Started GET "/painel?notice=Usuario+was+successfully+created." for 104.154.121.136 at 2016-10-18 19:46:19 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Usuario was successfully created."}
+  Rendered welcome/painel.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:20 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 78ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:20 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:20 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (4.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:46:20 +0000
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:28 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EutrzqVsqcQOpJy7wss1AsIouG13zJR5FcrT2LbtfSENFqx7GLAawobQYF/v6VxNYuBoQDcuGaZp4xlkaCtpUA==", "usuario"=>{"name"=>"Algum nome", "email"=>"abcom", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[35m (27.6ms)[0m  BEGIN
+  [1m[36m (29.3ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 134ms (Views: 72.4ms | ActiveRecord: 56.9ms)
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:28 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:28 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:28 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:28 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:29 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:29 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:29 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:29 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.6ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:46:29 +0000
+Completed 200 OK in 70ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:29 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 110ms (Views: 109.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:29 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:29 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 141ms (Views: 136.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:46:29 +0000
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:30 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0JvPIA9TyWnSD6Ns3iFHJTSXs6M3Sa393y1s0HxA92KDJhKUXpc+aa8qEeUSP9wwUB3PoSc7qd1q13W/hWfsvg==", "usuario"=>{"name"=>"Algum nome", "email"=>"", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[35m (27.5ms)[0m  BEGIN
+  [1m[36m (27.5ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/cadastro.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 128ms (Views: 65.7ms | ActiveRecord: 55.0ms)
+
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:30 +0000
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:30 +0000
+
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:30 +0000
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:30 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:30 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:30 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:30 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (4.8ms)
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:30 +0000
+Completed 200 OK in 107ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:46:30 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.7ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+Completed 200 OK in 78ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lh1c8Akf8qnWJ59gwlr55XzsnYbOfD7iaME2E3J46Aa/EDqjPldgMCcn/0tsBtDG+TRDGjuRTx40jRyoYDnl3A==", "usuario"=>{"name"=>"", "email"=>"ab@hotmail.com", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[35m (27.5ms)[0m  BEGIN
+  [1m[36m (27.6ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/cadastro.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 119ms (Views: 54.2ms | ActiveRecord: 55.1ms)
+
+
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:31 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 109ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:46:32 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:32 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 62ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:32 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:32 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 68ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:46:32 +0000
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:39 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nBoZ1O5hBfViWj1k3yPuN75rVruG9Jf/aj0QkuSfBwDiiEXXliU26E1tDsi2t9J20UeQ9H5xD2ep6i23TXzFZQ==", "usuario"=>{"name"=>"", "email"=>"ab@hotmail.com", "access_token"=>""}, "commit"=>"Cadastrar"}
+  [1m[35m (27.5ms)[0m  BEGIN
+  [1m[36m (27.5ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 111ms (Views: 49.7ms | ActiveRecord: 55.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+Processing by UsuariosController#cadastro as HTML
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 79ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 76ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:46:40 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 19:46:41 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 19:46:41 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 19:46:41 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 19:46:41 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 19:46:41 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2wUBMgFaC0rS1YrlyraAOEaR9iYGoKfz4rJ8gKCHCUXjJUKu06bmermcvNBKPOL6xU2DPvQTGBlXUxukU+Szbg==", "usuario"=>{"email"=>"ctccaio@hotmail.com", "access_token"=>"123456"}, "commit"=>"Entrar"}
+  [1m[35mUsuario Load (27.7ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1  [["email", "ctccaio@hotmail.com"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/painel?notice=Bem+vindo
+Completed 302 Found in 32ms (ActiveRecord: 27.7ms)
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 19:46:42 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:42 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:42 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:42 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:42 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:42 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:42 +0000
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 19:46:42 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 69ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:46:42 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:42 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:46:42 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 67ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ynuuALqKYPj+0Mn+WtXpFoHYNIsHvOQ8JTsf5yuP1C/DRMYFOyTDb4Qwf1+GJExhBx6Bv3mQumZmde9lkyK42g==", "usuario"=>{"email"=>"vaidar@errado.com.br", "access_token"=>"111"}, "commit"=>"Entrar"}
+  [1m[36mUsuario Load (27.6ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1[0m  [["email", "vaidar@errado.com.br"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+logar
+Completed 302 Found in 35ms (ActiveRecord: 27.6ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+
+
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:46:43 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 52ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+
+
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+
+
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SveyoXkNqKiMvzeewmS3Ukyr/aDCk3vk5a2klhhOdnni0+nAlNU05dAMO20U7SFTKJ6hYjn3OBtIxewmR3KZiA==", "usuario"=>{"email"=>"ctccaio@hotmail.com", "access_token"=>"123"}, "commit"=>"Entrar"}
+  [1m[35mUsuario Load (27.7ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1  [["email", "ctccaio@hotmail.com"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+logar
+Completed 302 Found in 32ms (ActiveRecord: 27.7ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:46:44 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:50:42 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/salas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:50:42 +0000
+
+
+Started GET "/assets/aposta.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:50:42 +0000
+
+
+Started GET "/assets/style.self-184b1bdbd71245614b7fc677221f65b303280ad9cfcb2800d43f80c58ef151ee.css?body=1" for 104.154.121.136 at 2016-10-18 19:50:42 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:50:42 +0000
+
+
+
+Started GET "/assets/theme.self-39a0e352d84e1eaa04b5e10786d5585a80cfe1f7cd3c24d8bac8f165e324bd4b.css?body=1" for 104.154.121.136 at 2016-10-18 19:50:42 +0000
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:50:42 +0000
+
+
+Started GET "/assets/welcome.self-afffd048703f42fcde7ead22f46cfc84af14321205fc95318473dd1c4861f835.css?body=1" for 104.154.121.136 at 2016-10-18 19:50:42 +0000
+
+
+Started GET "/assets/usuarios.self-0727f7f3792424b495783eba789a3481baa7fed795df64c1b8a2bbb5a2bc975b.css?body=1" for 104.154.121.136 at 2016-10-18 19:50:42 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 104.154.121.136 at 2016-10-18 19:50:42 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:42 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+
+
+
+Started GET "/assets/welcome.self-1c27297be9df57879e7da1a17bdd95dcb510efc0dc6f0618be4c8f6456843c19.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.8ms)
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:50:43 +0000
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:50:51 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wMu1MfIlIddyYzs1Cq2TTQwOUlN3eRe4xOkFvU7itHP1RnZyBvu2Xh5apkJnmZYAti4WNQRDecPUe9X2wvpzoA==", "usuario"=>{"name"=>"Algum nome", "email"=>"abc@hotmail.com", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[36m (27.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.5ms)[0m  INSERT INTO "usuarios" ("name", "email", "access_token", "provider", "status", "user_type", "data_ingresso", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["name", "Algum nome"], ["email", "abc@hotmail.com"], ["access_token", "123"], ["provider", "email"], ["status", "t"], ["user_type", "2"], ["data_ingresso", "2016-10-18"], ["created_at", "2016-10-18 19:50:51.294888"], ["updated_at", "2016-10-18 19:50:51.294888"]]
+  [1m[36m (29.1ms)[0m  [1mCOMMIT[0m
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/painel?notice=Usuario+was+successfully+created.
+Completed 302 Found in 92ms (ActiveRecord: 84.2ms)
+
+
+Started GET "/painel?notice=Usuario+was+successfully+created." for 104.154.121.136 at 2016-10-18 19:50:51 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Usuario was successfully created."}
+  Rendered welcome/painel.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:51 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:51 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:51 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:51 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:51 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:51 +0000
+
+
+Started GET "/painel?notice=Usuario+was+successfully+created." for 104.154.121.136 at 2016-10-18 19:50:51 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:51 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Usuario was successfully created."}
+  Rendered welcome/painel.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:50:51 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:52 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:50:52 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:50:52 +0000
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EK8tXc5Bz7Zu+7PUsiEWFAAy5na/xsmca9XCeQicQaB+4YbKNMkqTumH7vRxFT7I0VwvrtszELCjCfxCiA60mA==", "usuario"=>{"name"=>"Algum nome", "email"=>"abcom", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[35m (27.5ms)[0m  BEGIN
+  [1m[36m (28.2ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 105ms (Views: 44.4ms | ActiveRecord: 55.8ms)
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.2ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:50:59 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6TEbWK7eR+X0JbFgTVjaI/2jVYPOmmE8X5P2I4Jjl62/L0QP9VO0rivd8j8WikA7CGK4pVkDxvUfNlRqeSgIgg==", "usuario"=>{"name"=>"Algum nome", "email"=>"", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[35m (27.8ms)[0m  BEGIN
+  [1m[36m (27.6ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/cadastro.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 114ms (Views: 52.0ms | ActiveRecord: 55.3ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:00 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:51:00 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:51:00 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:51:00 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:00 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:51:00 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.1ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:51:00 +0000
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:51:00 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L37btqRjR3TtxrcaKowIbVG12L0syjNgMOtutLNvBEQRz4ZxZ/pWRxMt3OsR180+FlzVLMSmfghPKRzelWRc+g==", "usuario"=>{"name"=>"", "email"=>"ab@hotmail.com", "access_token"=>"123"}, "commit"=>"Cadastrar"}
+  [1m[35m (27.6ms)[0m  BEGIN
+  [1m[36m (27.6ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 110ms (Views: 50.3ms | ActiveRecord: 55.1ms)
+
+
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:51:00 +0000
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:00 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+
+
+Started POST "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+Processing by UsuariosController#cadastro_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NqdqptyabT/yeA4iuCvsIPDFYhIRRUgxiUwGloR0ZMlKNTHxYr1zD7vSA9e/WAeNw7mBJyDV9mFUxlQE7IYtSw==", "usuario"=>{"name"=>"", "email"=>"ab@hotmail.com", "access_token"=>""}, "commit"=>"Cadastrar"}
+  [1m[35m (27.5ms)[0m  BEGIN
+  [1m[36m (27.5ms)[0m  [1mROLLBACK[0m
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 117ms (Views: 56.7ms | ActiveRecord: 55.1ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+
+
+Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+Processing by UsuariosController#cadastro as HTML
+  Rendered usuarios/cadastro.html.erb within layouts/application (2.3ms)
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+Completed 200 OK in 47ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:51:01 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 47ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:51:02 +0000
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:02 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 84ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:51:02 +0000
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 19:51:02 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 19:51:02 +0000
+
+
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 19:51:02 +0000
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 19:51:09 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 19:51:09 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kPyA1BMhOj/C+/4aM1uEqxPuLWaRcTsh5mpX/vSdoU3qeigLzCgLKow3Cgm4MM5Jwvk4+/e+lZm3YRIMWLhAeQ==", "usuario"=>{"email"=>"ctccaio@hotmail.com", "access_token"=>"123456"}, "commit"=>"Entrar"}
+  [1m[35mUsuario Load (27.8ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1  [["email", "ctccaio@hotmail.com"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/painel?notice=Bem+vindo
+Completed 302 Found in 31ms (ActiveRecord: 27.8ms)
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 19:51:09 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:09 +0000
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:09 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:09 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:09 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:09 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:09 +0000
+
+
+Started GET "/painel?notice=Bem+vindo" for 104.154.121.136 at 2016-10-18 19:51:09 +0000
+Processing by WelcomeController#painel as HTML
+  Parameters: {"notice"=>"Bem vindo"}
+  Rendered welcome/painel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 64ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:51:09 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 79ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/content-home-1.png" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+Started GET "/assets/banner-home.jpg" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+
+
+
+
+Started GET "/assets/etapa-2.png" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+Started GET "/assets/etapa-3.png" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+
+
+Started GET "/assets/etapa-1.png" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PWIx8SZBIFJQdQ7JVT+lEQ5pi2NzJ073P2PjhDWWuWlT02lLdXCdM2CdWTFk8kr87ZlP1ZTJ+bK49TY3S9UO1w==", "usuario"=>{"email"=>"vaidar@errado.com.br", "access_token"=>"111"}, "commit"=>"Entrar"}
+  [1m[36mUsuario Load (27.8ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1[0m  [["email", "vaidar@errado.com.br"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+logar
+Completed 302 Found in 30ms (ActiveRecord: 27.8ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:10 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:11 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:11 +0000
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:51:11 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:51:11 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.154.121.136 at 2016-10-18 19:51:11 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:11 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios/login" for 104.154.121.136 at 2016-10-18 19:51:11 +0000
+Processing by UsuariosController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6jMoHOAPJ/WzqLpjsf8j6SW0UIsrOiV5p3be2Z/Sd4XVcLZERM5jk5X/iVLkCCnw0TmYUjZd0/gBym6hz2fwAg==", "usuario"=>{"email"=>"ctccaio@hotmail.com", "access_token"=>"123"}, "commit"=>"Entrar"}
+  [1m[35mUsuario Load (27.7ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."email" = $1 AND "usuarios"."provider" = $2 LIMIT 1  [["email", "ctccaio@hotmail.com"], ["provider", "email"]]
+Redirected to https://dobro-ou-nada-giovanileite.c9users.io/welcome/index?notice=Falha+ao+logar
+Completed 302 Found in 31ms (ActiveRecord: 27.7ms)
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:51:11 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/salas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:12 +0000
+Started GET "/assets/aposta.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:12 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:12 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:12 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:12 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 104.154.121.136 at 2016-10-18 19:51:12 +0000
+
+
+Started GET "/welcome/index?notice=Falha+ao+logar" for 104.154.121.136 at 2016-10-18 19:51:12 +0000
+Processing by WelcomeController#index as HTML
+  Parameters: {"notice"=>"Falha ao logar"}
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)

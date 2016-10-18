@@ -5,7 +5,18 @@ Feature: Sign in the system
   
   
   
-  Scenario: Correct Login
+  Scenario: Login HappyWay
     Given I am on the homepage
-    When I login with "ctccaio@hotmail.com" username and "123456" password
-    Then I should see the panel page
+    When I log in with "ctccaio@hotmail.com" username and "123456" password
+    Then I should see "Olá, você é o usuário numero"
+    
+  
+  Scenario: Login SadWay UserIncorrect
+    Given I am on the homepage
+    When I log in with "vaidar@errado.com.br" username and "111" password
+    Then I should see "Erro de acesso"
+    
+  Scenario: Login SadWay PasswordIncorrect
+    Given I am on the homepage
+    When I log in with "ctccaio@hotmail.com" username and "123" password
+    Then I should see "Erro de acesso"
