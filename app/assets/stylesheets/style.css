@@ -1,27 +1,27 @@
 html, body {
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	
-	min-width: 800px;
+ margin: 0;
+ width: 100%;
+ height: 100%;
+ 
+ min-width: 800px;
 }
 
 a:hover {
-	background-color: transparent;
+ background-color: transparent;
 }
 
 hr {
-	border-bottom: 2px solid #FFFFFF;
+ border-bottom: 2px solid #FFFFFF;
 }
 
 @font-face {
-	font-family: 'Pier Sans';
-	src: url("/assets/pier-regular.otf") format("opentype");
+ font-family: 'Pier Sans';
+ src: url("/assets/pier-regular.otf") format("opentype");
 }
 
 @font-face {
-	font-family: 'bariol';
-	src: url('/assets/Bariol.woff') format('woff');
+ font-family: 'bariol';
+ src: url('/assets/Bariol.woff') format('woff');
 }
 
 @keyframes semi-aparecer {
@@ -30,210 +30,238 @@ hr {
 }
 
 @keyframes slide-down-banner {
-	from {margin-top: 0px; opacity: 0;}
+ from {margin-top: 0px; opacity: 0;}
     to {margin-top: 200px;  opacity: 1.0;}
 }
 
 .bloco-home {
-	width: 100%;
-	height: 600px;
+ width: 100%;
+ height: 600px;
 }
 
 .card-bloco-home {
-	float: left;
-	width: 33.33%;
-	height: 100%;
+ float: left;
+ width: 33.33%;
+ height: 100%;
 }
-
+.card-bloco-home-center {
+ float: left;
+ width: 100%;
+ height: 100%;
+}
 .metade-home {
-	height: 100%;
-	width: 50%;
-	
-	float: left;
+ height: 100%;
+ width: 50%;
+ 
+ float: left;
 }
 
 .etapa-bloco-home {
-	width: 90%;
-	height: 90%;
-	
-	margin-top: 5%;
-	margin-left: 5%;
-	
-	border: 5px solid #F4F4F4;
-	
-	box-shadow: 0px 5px 5px #888888;
-	background-color: #FFFFFF;
-	border: 5px solid #FFFFFF;
-	
-	transition: all 0.3s ease;
+ width: 90%;
+ height: 90%;
+ 
+ margin-top: 5%;
+ margin-left: 5%;
+ 
+ border: 5px solid #F4F4F4;
+ 
+ box-shadow: 0px 5px 5px #888888;
+ background-color: #FFFFFF;
+ border: 5px solid #FFFFFF;
+ 
+ transition: all 0.3s ease;
 }
 .etapa-bloco-home:hover {
-	box-shadow: 0px 5px 10px #888888;
+ box-shadow: 0px 5px 10px #888888;
 }
 
 .imagem-etapa-bloco-home {
-	width: 100%;
-	height: 25%;
-	
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
+ width: 100%;
+ height: 25%;
+ 
+ background-position: center;
+ background-size: contain;
+ background-repeat: no-repeat;
 }
 
 .botao-banner-bloco-home {
-	width: 40%;
-	height: 50px;
-	
-	float: left;
-	
-	background-color: transparent;
-	
-	border: 1px solid #FFFFFF;
-	border-radius: 2px;
-	
-	font-family: "bariol";
-	font-size: 22px;
-	
-	transition: all 0.3s ease;
+ width: 40%;
+ height: 50px;
+ 
+ float: left;
+ 
+ background-color: transparent;
+ 
+ border: 1px solid #FFFFFF;
+ border-radius: 2px;
+ 
+ font-family: "bariol";
+ font-size: 22px;
+ 
+ transition: all 0.3s ease;
+}
+.caixa-banner-bloco-home {
+ width: 45%;
+ height: 230px;
+    margin: auto;
+    float: none;
+    position:relative;
+ background-color: rgba(255,255,255,.79);
+ border: 2px solid #FFFFFF;
+ border-radius: 2px;
+ font-family: "bariol";
+ font-size: 22px;
 }
 .botao-banner-bloco-home:hover {
-	background-color: #FFFFFF;
-	color: #333333;
+ background-color: #FFFFFF;
+ color: #333333;
 }
 
 .titulo-etapa-bloco-home {
-	font-family: "Pier Sans";
-	text-align: center;
-	font-size: 34px;
+ font-family: "Pier Sans";
+ text-align: center;
+ font-size: 34px;
 }
 
 .conteudo-etapa-bloco-home {
-	font-family: "bariol";
-	font-size: 22px;
-	text-align: center;
-	
-	line-height: 1.4;
+ font-family: "bariol";
+ font-size: 22px;
+ text-align: center;
+ 
+ line-height: 1.4;
 }
-
+.conteudo-etapa-bloco-home-center{
+ font-family: "bariol";
+ font-size: 22px;
+ text-align: center;
+ 
+ line-height: 1.0;
+}
 .box-content-home {
-	height: 90%;
-	width: 90%;
-	
-	margin-left: 5%;
-	margin-top: 5%;
-	
-	border-radius: 5px;
+ height: 90%;
+ width: 90%;
+ 
+ margin-left: 5%;
+ margin-top: 5%;
+ 
+ border-radius: 5px;
 }
 
 .imagem-content-home {
-	height: 40%;
-	width: 100%;
-	
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
+ height: 40%;
+ width: 100%;
+ 
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
 }
 
 .sub-content-home {
-	font-family: "Pier Sans";
-	font-size: 50px;
-	text-align: center;
+ font-family: "Pier Sans";
+ font-size: 50px;
+ text-align: center;
 }
 
 .ajuste-etapa {
-	box-shadow: none;
-	background-color: #f4f4f4;
-	border: none;
+ box-shadow: none;
+ background-color: #f4f4f4;
+ border: none;
 }
 .ajuste-etapa:hover {
-	box-shadow: none;
+ box-shadow: none;
 }
 
 #entrar-banner-bloco-home {
-	margin-left: 20%;
+ margin-left: 20%;
 }
 
 #banner-bloco-home {
-	background-image: url("/assets/banner-home.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+ background-image: url("/assets/banner-home.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
-
+#banner-bloco-home-new {
+ background-image: url("/assets/banner-home.jpg");
+ background-position: center;
+ background-repeat: repeat;
+ background-size:cover;
+}
 #cor-preto-bloco-home {
-	background-color: rgba(0, 0, 0, 0.7);
-	
-	animation-name: semi-aparecer;
+ background-color: rgba(0, 0, 0, 0.7);
+ 
+ animation-name: semi-aparecer;
     animation-duration: 1s;
 }
 
 #conheca {
-	background-color: #F4F4F4;
+ background-color: #F4F4F4;
 }
 
 #etapa-1 {
-	background-image: url(/assets/etapa-1.png);
+ background-image: url(/assets/etapa-1.png);
 }
 
 #etapa-2 {
-	background-image: url(/assets/etapa-2.png);
+ background-image: url(/assets/etapa-2.png);
 }
 
 #etapa-3 {
-	background-image: url(/assets/etapa-3.png);
+ background-image: url(/assets/etapa-3.png);
 }
 
 #conteudo-banner-bloco-home {
-	margin-top: 200px;
-	
-	color: #FFFFFF;
-	
-	animation-name: slide-down-banner;
+ margin-top: 200px;
+ 
+ color: #FFFFFF;
+ 
+ animation-name: slide-down-banner;
     animation-duration: 3s;
 }
 
 #titulo-banner-bloco-home {
-	text-align: center;
-	font-family: "Pier Sans";
-	font-size: 50px;
-	
-	
-	margin: 0px;
-	padding: 0px;
+ text-align: center;
+ font-family: "Pier Sans";
+ font-size: 50px;
+ 
+ 
+ margin: 0px;
+ padding: 0px;
 }
 
 #content-home-1 {
-	background-image: url(/assets/content-home-1.png);
+ background-image: url(/assets/content-home-1.png);
 }
 
 #content-home-2 {
-	background-image: url(/assets/content-home-2.jpg);
+ background-image: url(/assets/content-home-2.jpg);
 }
 
 #content-home {
-	background-color: #F4F4F4;
+ background-color: #F4F4F4;
 }
 
 #circulo-content-home-1 {
-	background-color: #893333;
-	color: #F4F4F4;
+ background-color: #893333;
+ color: #F4F4F4;
 }
 
 #circulo-content-home-2 {
-	background-color: #555589;
-	color: #F4F4F4;
+ background-color: #555589;
+ color: #F4F4F4;
 }
 
 #gradient-white {
-	background: linear-gradient(transparent 98%, #F4F4F4);
+ background: linear-gradient(transparent 98%, #F4F4F4);
 }
 
 #link-entrar {
-	color: #FFFFFF;
+ color: #FFFFFF;
 }
 
 
-/* --------------- LOGIN ---------------- */
+/* ---
+------------ LOGIN ---------------- */
 
 
 @keyframes show-top-to-center {
@@ -242,172 +270,223 @@ hr {
 }
 
 #fundo-login {
-	background-image: url(/assets/banner-home.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+ background-image: url(/assets/banner-home.jpg);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 
 #painel-login {
-	animation-name: show-top-to-center;
-	animation-duration: 2s;
-	
-	font-family: "bariol";
+ animation-name: show-top-to-center;
+ animation-duration: 2s;
+ 
+ font-family: "bariol";
 }
 
 #icone-painel-login {
-	height: 200px;
-	margin-bottom: 5%;
+ height: 200px;
+ margin-bottom: 5%;
 }
 
 #banner-painel {
-	height: 20%;
-	background-image: url(/assets/fundo-xadrez.jpg);
+ height: 20%;
+ background-image: url(/assets/fundo-xadrez.jpg);
 }
 
 #logo-painel {
-	height: 100%;
-	background-image: url(/assets/images/logo-full.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+ height: 100%;
+ background-image: url(/assets/images/logo-full.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
 }
 
 #menu-painel {
-	height: 5%;
-	background-color: #53D262;
-	
-	margin-bottom: 2%;
+ height: 5%;
+ background-color: #53D262;
+ 
+ margin-bottom: 2%;
 }
 
 #pedidos-bloco-painel {
-	background-image: url(/assets/images/entrega-bloco-painel.jpg);
+ background-image: url(/assets/images/entrega-bloco-painel.jpg);
 }
 
 #recado-bloco-painel {
-	background-image: url(/assets/images/cliente-bloco-painel.jpg);
+ background-image: url(/assets/images/cliente-bloco-painel.jpg);
 }
 
 #receita-bloco-painel {
-	background-image: url(/assets/images/receita-bloco-painel.jpg);
+ background-image: url(/assets/images/receita-bloco-painel.jpg);
 }
 
 #ingrediente-bloco-painel {
-	background-image: url(/assets/images/ingrediente-bloco-painel.jpg);
+ background-image: url(/assets/images/ingrediente-bloco-painel.jpg);
 }
 
 #promocao-bloco-painel {
-	background-image: url(/assets/images/promocao-bloco-painel.jpg);
+ background-image: url(/assets/images/promocao-bloco-painel.jpg);
 }
 
 #grafico-bloco-painel {
-	background-image: url(/assets/images/grafico-bloco-painel.jpg);
+ background-image: url(/assets/images/grafico-bloco-painel.jpg);
 }
 
 #btn-login {
-	font-size: 25px;
-	
-	transition: 0.3s all ease;
-	
-	background-color: #384587;
-	border: 2px solid #384587;
-	
-	border-radius: 3px;
-	
-	color: #F4F4F4;
-	
-	font-family: 'bariol';
+ font-size: 25px;
+ 
+ transition: 0.3s all ease;
+ 
+ background-color: #384587;
+ border: 2px solid #384587;
+ 
+ border-radius: 3px;
+ 
+ color: #F4F4F4;
+ 
+ font-family: 'bariol';
 }
 #btn-login:hover {
-	background-color: #5865A7;
-	border: 2px solid #5865A7;
-	
-	cursor: pointer;
+ background-color: #5865A7;
+ border: 2px solid #5865A7;
+ 
+ cursor: pointer;
 }
 
 .item-menu-painel {
-	cursor: pointer;
-	
-	transition: 0.3s all ease;
+ cursor: pointer;
+ 
+ transition: 0.3s all ease;
 }
 .item-menu-painel:hover {
-	background-color: #FFFFFF;
+ background-color: #FFFFFF;
 }
 .item-menu-painel:hover > .txt-menu-painel{
-	color: #53D262;
+ color: #53D262;
 }
 
 .txt-menu-painel {
-	text-align: center;
-	font-size: 18px;
-	color: #FFFFFF;
-	
-	transition: 0.3s all ease;
+ text-align: center;
+ font-size: 18px;
+ color: #FFFFFF;
+ 
+ transition: 0.3s all ease;
 }
 
 .bloco-painel {
-	height: 200px;
-	
-	margin-bottom: 20px; 
-	
-	filter: grayscale(50%);
-	
-	cursor: pointer;
-	
-	transition: 0.3s all ease;
-	
-	padding: 0;
-	
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+ height: 200px;
+ 
+ margin-bottom: 20px; 
+ 
+ filter: grayscale(50%);
+ 
+ cursor: pointer;
+ 
+ transition: 0.3s all ease;
+ 
+ padding: 0;
+ 
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 .bloco-painel:hover {
-	filter: grayscale(0%);
+ filter: grayscale(0%);
 }
 
 .txt-bloco-painel {
-	text-align: right;
-	color: #FFFFFF;
-	font-weight: bold;
-	font-size: 20px;
-	width: 100%;
-	height: 30px;
-	margin: 0;
-	padding: 0;
-	
-	margin-top: 170px;
-	
-	background-color: rgba(37, 155, 37, 0.7);
+ text-align: right;
+ color: #FFFFFF;
+ font-weight: bold;
+ font-size: 20px;
+ width: 100%;
+ height: 30px;
+ margin: 0;
+ padding: 0;
+ 
+ margin-top: 170px;
+ 
+ background-color: rgba(37, 155, 37, 0.7);
 }
 
 .full-height {
-	height: 100%;
+ height: 100%;
 }
 
 .full-width {
-	width: 100%;
+ width: 100%;
 }
 
 .logo-icone {
-	background-image: url(/assets/content-home-1.png);
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
+ background-image: url(/assets/content-home-1.png);
+ background-position: center;
+ background-size: contain;
+ background-repeat: no-repeat;
 }
 
 .fundo-branco {
-	background-color: #FFFFFF;
+ background-color: #FFFFFF;
 }
 
 .fade {
-	opacity: 0.95;
-	transition: 0.3s all ease;
+ opacity: 0.95;
+ transition: 0.3s all ease;
 }
 .fade:hover {
-	opacity: 1;
+ opacity: 1;
 }
 
 .control-label {
-	font-family: "Pier Sans";
-	font-size: 14px;
+ font-family: "Pier Sans";
+ font-size: 14px;
+}
+.control-label-cadastro {
+ font-family: "Pier Sans";
+ font-size: 16px;
+ color: black;
+ 
+
+}
+.actions {
+ font-family: "Pier Sans";
+ float: right;
+ font-size: 16px;
+ color: black;
+ opacity: 0.8;
+ margin-top: -9px;
+ background-color: blue;
+ border: 2px solid white;
+}
+
+/* --------------- Header Padrao ---------------- */
+
+
+.caixa-header{
+ width: 100%;
+ height: 50px;
+ background-color: #F0F0F0;
+ border: 2px solid #F0F0F0;
+ border-bottom-right-radius: 1em;
+ border-bottom-left-radius: 1em;
+ color: white;
+ text-align: center;
+ vertical-align: middle;
+ line-height: 24px;
+ position: static;
+ float: left;
+ margin-top: 2px;
+ cursor:pointer;
+}
+.caixa-logo{
+ margin-bottom: 2px;
+ margin-left:9px ;
+ position:static;
+ float: left;
+ margin-top: 5px;
+ cursor:pointer;
+}
+.field{
+ margin-bottom: 30px;
+ margin-left:auto ;
+ margin-top: auto;
+ cursor:pointer;
 }
