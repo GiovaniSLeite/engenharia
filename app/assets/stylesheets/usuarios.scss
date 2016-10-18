@@ -19,6 +19,23 @@ html, body {
 
 h1 {
 	font-family: 'Pier Sans';
+	
+	text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+	width: 90%;
+	margin: auto;
+	
+	border: none;
+	border-bottom: 1px solid #666666;
+	
+	color: #384587;
+	
+	transition: 0.3s all ease;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+	border-bottom: 1px solid #384587;
 }
 
 .fundo {
@@ -40,6 +57,7 @@ h1 {
 	width: 30%;
 	min-width: 300px;
 	margin: auto;
+	margin-top: 0px;
 	
 	background-color: rgba(244, 244, 244, 0.95);
 	
@@ -52,14 +70,17 @@ h1 {
 }
 
 .formulario {
+	height: 50%;
 	width: 100%;
 	margin: auto;
 	
-	margin-top: 30%;
+	padding-top: 30%;
 }
 
 .btn-cadastro {
-	width: 100%;
+	width: 90%;
+	
+	margin: auto;
 	
 	font-size: 25px;
 	
