@@ -1,54 +1,117 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @usuario.name %>
-</p>
+<div class="col-lg-12">
+  
+  <legend>Dados do Usuário</legend>
+  
+  <div class-"row">
+    
+    <div class="col-lg-4">
+      
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">Dados do Usuário</h2>
+        </div>
+        
+        <div class="panel-body">
 
-<p>
-  <strong>Email:</strong>
-  <%= @usuario.email %>
-</p>
+          <p>
+            <strong>Nome:</strong>
+            <%= @usuario.name %>
+          </p>
 
-<p>
-  <strong>Access token:</strong>
-  <%= @usuario.access_token %>
-</p>
+          <p>
+            <strong>E-mail:</strong>
+            <%= @usuario.email %>
+          </p>
+          
+          <p>
+            <strong>Tipo de Acesso:</strong>
+            <% if @usuario.provider == "email" %>
+              E-mail
+            <% else %>
+              Facebook
+            <% end %>
+          </p>
 
-<p>
-  <strong>Uid:</strong>
-  <%= @usuario.uid %>
-</p>
+          <p>
+            <strong>Data ingresso:</strong>
+            <%= @usuario.created_at %>
+          </p>
+          
+          <p>
+            <strong>Última Alteração:</strong>
+            <%= @usuario.updated_at %>
+          </p>
+        
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-lg-4">
+      
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">Manutenção Usuário</h2>
+        </div>
+        
+        <div class="panel-body">
+          
+          <p>
+            <strong>Tipo de Usuário:</strong>
+            <% if @usuario.user_type == "1" %>
+              Administrador
+            <% else %>
+              Apostador
+            <% end %>
+          </p>
+          
+          <p>
+            <strong>Status:</strong>
+            <% if @usuario.status %>
+              Ativo
+            <% else %>
+              Inativo
+            <% end %>
+          </p>
+          
+          <p>
+            <strong>Motivo:</strong>
+            <%= @usuario.reason %>
+          </p>
+        
+        </div>
+      </div>
+    </div>
+      
+    <% if @usuario.provider == "facebook" %>
+    <div class="col-lg-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">Dados do Facebook</h2>
+        </div>
+        
+        <div class="panel-body">
+          
+          <p>
+            <strong>UiD:</strong>
+            <%= @usuario.uid %>
+          </p>
+          
+          <p>
+            <strong>Foto de Perfil:</strong><br>
+            <%= image_tag(@usuario.photo_url) %>
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    <% end %>
+      
+  </div>
+</div>
 
-<p>
-  <strong>Photo url:</strong>
-  <%= @usuario.photo_url %>
-</p>
-
-<p>
-  <strong>Provider:</strong>
-  <%= @usuario.provider %>
-</p>
-
-<p>
-  <strong>Status:</strong>
-  <%= @usuario.status %>
-</p>
-
-<p>
-  <strong>Reason:</strong>
-  <%= @usuario.reason %>
-</p>
-
-<p>
-  <strong>User type:</strong>
-  <%= @usuario.user_type %>
-</p>
-
-<p>
-  <strong>Data ingresso:</strong>
-  <%= @usuario.data_ingresso %>
-</p>
-
-<%= link_to 'Edit', edit_usuario_path(@usuario) %> |
-<%= link_to 'Back', usuarios_path %>
+<div class="col-lg-12">
+  <%= link_to 'Edit', edit_usuario_path(@usuario) %> |
+  <%= link_to 'Back', usuarios_path %>
+</div>
