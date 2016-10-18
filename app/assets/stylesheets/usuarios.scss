@@ -12,6 +12,11 @@
 	src: url('/assets/Bariol.woff') format('woff');
 }
 
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
 h1 {
 	font-family: 'Pier Sans';
 }
@@ -26,6 +31,8 @@ h1 {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	
+	margin-top: 0px;
 }
 
 .pilar {
@@ -37,7 +44,39 @@ h1 {
 	background-color: rgba(244, 244, 244, 0.95);
 	
 	opacity: 0.9;
+	
+	transition: 0.3s all ease;
 }
 .pilar:hover {
 	opacity: 1;
+}
+
+.formulario {
+	width: 100%;
+	margin: auto;
+	
+	margin-top: 30%;
+}
+
+.btn-cadastro {
+	width: 100%;
+	
+	font-size: 25px;
+	
+	transition: 0.3s all ease;
+	
+	background-color: #384587;
+	border: 2px solid #384587;
+	
+	border-radius: 3px;
+	
+	color: #F4F4F4;
+	
+	font-family: 'bariol';
+}
+.btn-cadastro:hover {
+	background-color: #5865A7;
+	border: 2px solid #5865A7;
+	
+	cursor: pointer;
 }
