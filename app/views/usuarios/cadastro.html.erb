@@ -1,37 +1,43 @@
-<p id="notice"><%= notice %></p>
+<div class="fundo">
+	<div class="pilar">
+		<div class="formulario">
+			<p id="notice"><%= notice %></p>
 
-<h1>Cadastre-se</h1>
+			<h1>Cadastre-se</h1>
 
-<%= form_for @usuario, url: {controller: "usuarios", action: "cadastro_create"} do |f| %>
-  <% if @usuario.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@usuario.errors.count, "error") %> prohibited this usuario from being saved:</h2>
+			<%= form_for @usuario, url: {controller: "usuarios", action: "cadastro_create"} do |f| %>
+			  <% if @usuario.errors.any? %>
+				<div id="error_explanation">
+				  <h2><%= pluralize(@usuario.errors.count, "error") %> prohibited this usuario from being saved:</h2>
 
-      <ul>
-      <% @usuario.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
+				  <ul>
+				  <% @usuario.errors.full_messages.each do |message| %>
+					<li><%= message %></li>
+				  <% end %>
+				  </ul>
+				</div>
+			  <% end %>
 
-  <div class="field">
-    <%= f.label "Nome" %>
-    <%= f.text_field :name %>
-  </div>
+			  <div class="field">
+				<%= f.label "Nome" %>
+				<%= f.text_field :name %>
+			  </div>
 
-  <div class="field">
-    <%= f.label "E-mail" %>
-    <%= f.text_field :email %>
-  </div>
+			  <div class="field">
+				<%= f.label "E-mail" %>
+				<%= f.text_field :email %>
+			  </div>
 
-  <div class="field">
-    <%= f.label "Senha" %>
-    <%= f.password_field :access_token %>
-  </div>
+			  <div class="field">
+				<%= f.label "Senha" %>
+				<%= f.password_field :access_token %>
+			  </div>
 
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-  
-<% end %>
+			  <div class="actions">
+				<%= f.submit "Cadastrar" %>
+			  </div>
+			  
+			<% end %>
+		</div>
+	</div>
+</div>

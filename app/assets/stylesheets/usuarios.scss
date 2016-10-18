@@ -1,3 +1,43 @@
 // Place all the styles related to the Usuarios controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+	font-family: 'Pier Sans';
+	src: url("/assets/pier-regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'bariol';
+	src: url('/assets/Bariol.woff') format('woff');
+}
+
+h1 {
+	font-family: 'Pier Sans';
+}
+
+.fundo {
+	height: 100%;
+	width: 100%;
+	
+	font-family: 'bariol';
+	
+	background-image: url("/assets/banner-home.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pilar {
+	height: 100%;
+	width: 30%;
+	min-width: 300px;
+	margin: auto;
+	
+	background-color: rgba(244, 244, 244, 0.95);
+	
+	opacity: 0.9;
+}
+.pilar:hover {
+	opacity: 1;
+}
