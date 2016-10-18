@@ -101,3 +101,23 @@ input[type="text"]:focus, input[type="password"]:focus {
 	
 	cursor: pointer;
 }
+
+
+.header {
+	height: 100px;
+	width: 100%;
+	
+	background-color: #F4F4F4;
+	border: 2px solid #384587;
+}
+
+.titulo {
+	height: 100%;
+	width: 100%;
+	
+	font-family: 'Pier Sans';
+	font-size: 30px;
+	color: #666666;
+	
+	text-align: center;
+}
