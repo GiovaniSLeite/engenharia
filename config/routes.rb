@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :guesses
   resources :bets
   resources :aposta
   resources :aposta
