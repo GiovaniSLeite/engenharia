@@ -11,20 +11,55 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161016204103) do
+ActiveRecord::Schema.define(version: 20161028194046) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "aposta", force: :cascade do |t|
-    t.string   "idSala"
+    t.integer  "idSala"
     t.integer  "idUser"
     t.string   "palpite"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.boolean  "vencedor"
     t.integer  "status"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
+
+  create_table "bets", force: :cascade do |t|
+    t.string   "name"
+    t.string   "description"
+    t.integer  "ownerId"
+    t.string   "url_photo"
+    t.string   "category"
+    t.integer  "room_status"
+    t.integer  "room_type"
+    t.integer  "stake"
+    t.date     "final_date"
+    t.string   "final_answer"
+    t.string   "answer_type"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  create_table "guesses", force: :cascade do |t|
+    t.integer  "bet_id"
+    t.integer  "usuario_id"
+    t.boolean  "won_status"
+    t.string   "guess_text"
+    t.integer  "guess_status"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  create_table "messages", force: :cascade do |t|
+    t.text     "body"
+    t.integer  "usuario_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "messages", ["usuario_id"], name: "index_messages_on_usuario_id", using: :btree
 
   create_table "salas", force: :cascade do |t|
     t.string   "name"
@@ -62,4 +97,5 @@ ActiveRecord::Schema.define(version: 20161016204103) do
     t.datetime "updated_at"
   end
 
+  add_foreign_key "messages", "usuarios"
 end
