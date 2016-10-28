@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
 		
 		session[:user_id] = usuario.id
 		redirect_to controller: 'welcome', action: 'painel', :notice => "Voce esta online"
-	end
+    end
 
 	def failure
 		redirect_to controller: 'welcome', action: 'index', :notice => "Falha ao logar"

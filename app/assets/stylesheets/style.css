@@ -269,12 +269,13 @@ hr {
     to {margin-top: 0%; opacity: 0.95}
 }
 
+/*
 #fundo-login {
  background-image: url(/assets/banner-home.jpg);
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
-}
+}*/
 
 #painel-login {
  animation-name: show-top-to-center;

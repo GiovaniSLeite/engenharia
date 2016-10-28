@@ -47,7 +47,7 @@ class UsuariosController < ApplicationController
   	@usuario.user_type = "2"
   	@usuario.data_ingresso = Time.now
   	
-  	respond_to do |format|
+    respond_to do |format|
       if @usuario.save
         session[:user_id] = @usuario.id
         format.html { redirect_to controller: 'welcome', action: 'painel', notice: 'Usuario was successfully created.' }
