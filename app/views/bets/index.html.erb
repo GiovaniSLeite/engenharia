@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Bets</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Ownerid</th>
+      <th>Url photo</th>
+      <th>Category</th>
+      <th>Room status</th>
+      <th>Room type</th>
+      <th>Stake</th>
+      <th>Final date</th>
+      <th>Final answer</th>
+      <th>Answer type</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bets.each do |bet| %>
+      <tr>
+        <td><%= bet.name %></td>
+        <td><%= bet.description %></td>
+        <td><%= bet.ownerId %></td>
+        <td><%= bet.url_photo %></td>
+        <td><%= bet.category %></td>
+        <td><%= bet.room_status %></td>
+        <td><%= bet.room_type %></td>
+        <td><%= bet.stake %></td>
+        <td><%= bet.final_date %></td>
+        <td><%= bet.final_answer %></td>
+        <td><%= bet.answer_type %></td>
+        <td><%= link_to 'Show', bet %></td>
+        <td><%= link_to 'Edit', edit_bet_path(bet) %></td>
+        <td><%= link_to 'Destroy', bet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Bet', new_bet_path %>

@@ -1,0 +1,2 @@
+json.extract! bet, :id, :name, :description, :ownerId, :url_photo, :category, :room_status, :room_type, :stake, :final_date, :final_answer, :answer_type, :created_at, :updated_at
+json.url bet_url(bet, format: :json)
