@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @bet.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @bet.description %>
+</p>
+
+<p>
+  <strong>Ownerid:</strong>
+  <%= @bet.ownerId %>
+</p>
+
+<p>
+  <strong>Url photo:</strong>
+  <%= @bet.url_photo %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @bet.category %>
+</p>
+
+<p>
+  <strong>Room status:</strong>
+  <%= @bet.room_status %>
+</p>
+
+<p>
+  <strong>Room type:</strong>
+  <%= @bet.room_type %>
+</p>
+
+<p>
+  <strong>Stake:</strong>
+  <%= @bet.stake %>
+</p>
+
+<p>
+  <strong>Final date:</strong>
+  <%= @bet.final_date %>
+</p>
+
+<p>
+  <strong>Final answer:</strong>
+  <%= @bet.final_answer %>
+</p>
+
+<p>
+  <strong>Answer type:</strong>
+  <%= @bet.answer_type %>
+</p>
+
+<%= link_to 'Edit', edit_bet_path(@bet) %> |
+<%= link_to 'Back', bets_path %>

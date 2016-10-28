@@ -1,0 +1,61 @@
+<%= form_for(@bet) do |f| %>
+  <% if @bet.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@bet.errors.count, "error") %> prohibited this bet from being saved:</h2>
+
+      <ul>
+      <% @bet.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_field :description %>
+  </div>
+  <div class="field">
+    <%= f.label :ownerId %><br>
+    <%= f.number_field :ownerId %>
+  </div>
+  <div class="field">
+    <%= f.label :url_photo %><br>
+    <%= f.text_field :url_photo %>
+  </div>
+  <div class="field">
+    <%= f.label :category %><br>
+    <%= f.text_field :category %>
+  </div>
+  <div class="field">
+    <%= f.label :room_status %><br>
+    <%= f.number_field :room_status %>
+  </div>
+  <div class="field">
+    <%= f.label :room_type %><br>
+    <%= f.number_field :room_type %>
+  </div>
+  <div class="field">
+    <%= f.label :stake %><br>
+    <%= f.number_field :stake %>
+  </div>
+  <div class="field">
+    <%= f.label :final_date %><br>
+    <%= f.date_select :final_date %>
+  </div>
+  <div class="field">
+    <%= f.label :final_answer %><br>
+    <%= f.text_field :final_answer %>
+  </div>
+  <div class="field">
+    <%= f.label :answer_type %><br>
+    <%= f.text_field :answer_type %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

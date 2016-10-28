@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Bet:</strong>
+  <%= @guess.bet_id %>
+</p>
+
+<p>
+  <strong>Usuario:</strong>
+  <%= @guess.usuario_id %>
+</p>
+
+<p>
+  <strong>Won status:</strong>
+  <%= @guess.won_status %>
+</p>
+
+<p>
+  <strong>Guess text:</strong>
+  <%= @guess.guess_text %>
+</p>
+
+<p>
+  <strong>Guess status:</strong>
+  <%= @guess.guess_status %>
+</p>
+
+<%= link_to 'Edit', edit_guess_path(@guess) %> |
+<%= link_to 'Back', guesses_path %>

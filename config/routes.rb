@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resources :aposta
+  resources :guesses
+  resources :bets
   resources :aposta
   resources :aposta
   resources :aposta
@@ -7,7 +8,6 @@ Rails.application.routes.draw do
   get "/usuarios/cadastro" => "usuarios#cadastro"
   get "/painel" => "welcome#painel"
   post "/usuarios/cadastro" => "usuarios#cadastro_create"
-  resources :salas
   resources :usuarios
   get "/auth/:provider/callback" => "sessions#create", as: :auth_callback
   get "/auth/failure" => "sessions#failure", as: :auth_failure
