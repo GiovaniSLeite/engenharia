@@ -57,14 +57,6 @@ class UsuariosController < ApplicationController
         format.json { render json: @usuario.errors, status: :unprocessable_entity }
       end
     end
-    
-#Codigo que estava antes
-#  	if @usuario.save
-#  		session[:user_id] = @usuario.id
-#  		redirect_to controller: 'welcome', action: 'painel'
-#  	else
-#  		redirect_to :cadastro, :notice => "Nao foi possivel cadastrar"
-#  	end
   end
   
 

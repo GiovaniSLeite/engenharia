@@ -1,3 +1,6 @@
-<P> Olá, você é o usuário numero <%= session[:user_id] %>.</P>
+<p> Olá, você é o usuário numero <%= session[:user_id] %>.</p>
 
+<br /><br />
+<%= link_to "Nova aposta", controller: 'bets', action: 'nova' %>
+<br /><br />
 <%= link_to "logout", controller: 'sessions', action: 'destroy' %>

@@ -14,4 +14,4 @@ Capybara::Webkit.configure do |config|
     config.allow_url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
     config.allow_url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
     config.allow_url("https://dobro-ou-nada-giovanileite.c9users.io/")
-  end
+end

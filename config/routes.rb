@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
   resources :guesses
   resources :bets
-  resources :aposta
-  resources :aposta
-  resources :aposta
+  get "/apostas/nova" => "bets#nova"
+  post "/apostas/nova" => "bets#bet_create"
   post "/usuarios/login" => "usuarios#login"
   get "/usuarios/cadastro" => "usuarios#cadastro"
   get "/painel" => "welcome#painel"
@@ -13,7 +12,6 @@ Rails.application.routes.draw do
   get "/auth/failure" => "sessions#failure", as: :auth_failure
   get "/logout" => "sessions#destroy", as: :logout
   get 'welcome/index'
-
   resources :widgets
 
   # The priority is based upon order of creation: first created -> highest priority.

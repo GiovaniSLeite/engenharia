@@ -1,0 +1,44 @@
+<%= form_for @bet, url: {controller: "bets", action: "bet_create"} do |f| %>
+                    <% if @bet.errors.any? %>
+                      <div id="error_explanation">
+                        <h2><%= pluralize(@bet.errors.count, "error") %> prohibited this bet from being saved:</h2>
+                  
+                        <ul>
+                        <% @bet.errors.full_messages.each do |message| %>
+                          <li><%= message %></li>
+                        <% end %>
+                        </ul>
+                      </div>
+                    <% end %>
+                    
+                   <br>
+                 
+                    <label for="Nome">Nome:  </label>
+                      <%= f.text_field :name %>
+                      
+                    <br>
+                 
+                    <label for="Descrição">Descrição:  </label>
+                      <%= f.text_field :description %>
+                      
+                    <br>
+                 
+                    <label  for="Foto">Link para foto:  </label>
+                      <%= f.text_field :url_photo %>
+                      
+                    <br>
+                    <label  for="Privacidade">Pública (0) ou provada (1):  </label>
+                      <%= f.text_field :room_type %>
+                    
+                    <br>
+                    <label  for="Valor apostado">Valor apostado:  </label>
+                      <%= f.text_field :stake %>
+                    
+            
+                    <br>
+                    <br>
+                   
+                        <%= f.submit "Criar aposta"%>
+                    
+                    
+<% end %>
