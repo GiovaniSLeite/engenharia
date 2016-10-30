@@ -49,3 +49,5 @@ gem 'valid_email'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# https://github.com/SchemaPlus/schema_validations
+gem "schema_validations"

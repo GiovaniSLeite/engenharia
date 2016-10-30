@@ -24,11 +24,15 @@ RSpec.describe BetsController, type: :controller do
   # Bet. As you add validations to Bet, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    skip("Add a hash of attributes valid for your model")
+    { name: "Fabio vai cair de uma escada", description: "Qual escada?", ownerId: 1, url_photo: "MyString",
+    category: "Personalizado", room_status: 1, room_type: 1, stake: 1, final_date: "2016-10-25",
+    final_answer: "Titanic 1", answer_type: "MyString"}
   }
 
   let(:invalid_attributes) {
-    skip("Add a hash of attributes invalid for your model")
+    { name: "Fabio vai cair de uma escada", description: "Qual escada?", ownerId: nil, url_photo: "MyString",
+    category: "Personalizado", room_status: "sdash", room_type: "asdsaih", stake: 1, final_date: "2016-10-25",
+    final_answer: "Titanic 1", answer_type: "MyString"}
   }
 
   # This should return the minimal set of values that should be in the session
@@ -47,7 +51,7 @@ RSpec.describe BetsController, type: :controller do
   describe "GET #show" do
     it "assigns the requested bet as @bet" do
       bet = Bet.create! valid_attributes
-      get :show, params: {id: bet.to_param}, session: valid_session
+      get :show, id: bet.to_param, session: valid_session
       expect(assigns(:bet)).to eq(bet)
     end
   end
@@ -62,7 +66,7 @@ RSpec.describe BetsController, type: :controller do
   describe "GET #edit" do
     it "assigns the requested bet as @bet" do
       bet = Bet.create! valid_attributes
-      get :edit, params: {id: bet.to_param}, session: valid_session
+      get :edit, id: bet.to_param, session: valid_session
       expect(assigns(:bet)).to eq(bet)
     end
   end
@@ -71,30 +75,30 @@ RSpec.describe BetsController, type: :controller do
     context "with valid params" do
       it "creates a new Bet" do
         expect {
-          post :create, params: {bet: valid_attributes}, session: valid_session
+          post :create, bet: valid_attributes, session: valid_session
         }.to change(Bet, :count).by(1)
       end
 
       it "assigns a newly created bet as @bet" do
-        post :create, params: {bet: valid_attributes}, session: valid_session
+        post :create, bet: valid_attributes, session: valid_session
         expect(assigns(:bet)).to be_a(Bet)
         expect(assigns(:bet)).to be_persisted
       end
 
       it "redirects to the created bet" do
-        post :create, params: {bet: valid_attributes}, session: valid_session
+        post :create, bet: valid_attributes, session: valid_session
         expect(response).to redirect_to(Bet.last)
       end
     end
 
     context "with invalid params" do
       it "assigns a newly created but unsaved bet as @bet" do
-        post :create, params: {bet: invalid_attributes}, session: valid_session
+        post :create, bet: invalid_attributes, session: valid_session
         expect(assigns(:bet)).to be_a_new(Bet)
       end
 
       it "re-renders the 'new' template" do
-        post :create, params: {bet: invalid_attributes}, session: valid_session
+        post :create, bet: invalid_attributes, session: valid_session
         expect(response).to render_template("new")
       end
     end
@@ -103,25 +107,26 @@ RSpec.describe BetsController, type: :controller do
   describe "PUT #update" do
     context "with valid params" do
       let(:new_attributes) {
-        skip("Add a hash of attributes valid for your model")
+        { name: 'Marcus vai cair' }
       }
 
       it "updates the requested bet" do
         bet = Bet.create! valid_attributes
-        put :update, params: {id: bet.to_param, bet: new_attributes}, session: valid_session
+        put :update, id: bet.to_param, bet: new_attributes, session: valid_session
         bet.reload
-        skip("Add assertions for updated state")
+        expect(bet.attributes).to include( { "name" => "Marcus vai cair"} )
       end
+
 
       it "assigns the requested bet as @bet" do
         bet = Bet.create! valid_attributes
-        put :update, params: {id: bet.to_param, bet: valid_attributes}, session: valid_session
+        put :update, id: bet.to_param, bet: valid_attributes, session: valid_session
         expect(assigns(:bet)).to eq(bet)
       end
 
       it "redirects to the bet" do
         bet = Bet.create! valid_attributes
-        put :update, params: {id: bet.to_param, bet: valid_attributes}, session: valid_session
+        put :update, id: bet.to_param, bet: valid_attributes, session: valid_session
         expect(response).to redirect_to(bet)
       end
     end
@@ -129,13 +134,13 @@ RSpec.describe BetsController, type: :controller do
     context "with invalid params" do
       it "assigns the bet as @bet" do
         bet = Bet.create! valid_attributes
-        put :update, params: {id: bet.to_param, bet: invalid_attributes}, session: valid_session
+        put :update, id: bet.to_param, bet: invalid_attributes, session: valid_session
         expect(assigns(:bet)).to eq(bet)
       end
 
       it "re-renders the 'edit' template" do
         bet = Bet.create! valid_attributes
-        put :update, params: {id: bet.to_param, bet: invalid_attributes}, session: valid_session
+        put :update, id: bet.to_param, bet: invalid_attributes, session: valid_session
         expect(response).to render_template("edit")
       end
     end
@@ -145,13 +150,13 @@ RSpec.describe BetsController, type: :controller do
     it "destroys the requested bet" do
       bet = Bet.create! valid_attributes
       expect {
-        delete :destroy, params: {id: bet.to_param}, session: valid_session
+        delete :destroy, id: bet.to_param, session: valid_session
       }.to change(Bet, :count).by(-1)
     end
 
     it "redirects to the bets list" do
       bet = Bet.create! valid_attributes
-      delete :destroy, params: {id: bet.to_param}, session: valid_session
+      delete :destroy, id: bet.to_param, session: valid_session
       expect(response).to redirect_to(bets_url)
     end
   end

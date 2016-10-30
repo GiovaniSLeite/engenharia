@@ -27,17 +27,17 @@ ActiveRecord::Schema.define(version: 20161028194046) do
   end
 
   create_table "bets", force: :cascade do |t|
-    t.string   "name"
-    t.string   "description"
-    t.integer  "ownerId"
-    t.string   "url_photo"
-    t.string   "category"
-    t.integer  "room_status"
-    t.integer  "room_type"
-    t.integer  "stake"
-    t.date     "final_date"
-    t.string   "final_answer"
-    t.string   "answer_type"
+    t.string   "name" #nome
+    t.string   "description" #descricao, regras
+    t.integer  "ownerId"  #id do dono da aposta
+    t.string   "url_photo" #url pra uma foto
+    t.string   "category" #categoria (personalizado pra todos por enquanto), podia ter futebol ou coisa do tipo pra personalizar o resto dos campos
+    t.integer  "room_status" #ativa, fechada, finalizada
+    t.integer  "room_type" #publica, privada
+    t.integer  "stake" #valor apostado
+    t.date     "final_date" #data final para palpites
+    t.string   "final_answer" #a resposta final - preencher ao finalizar
+    t.string   "answer_type" #tipo de resposta, numero ou algo do tipo
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
   end

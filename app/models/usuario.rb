@@ -1,5 +1,5 @@
 class Usuario < ActiveRecord::Base
-    
+    schema_validations auto_create: false
 	def self.find_or_create_with_omniauth(auth)
 		
 		usuario = self.find_or_initialize_by(provider: auth.provider, uid: auth.uid)

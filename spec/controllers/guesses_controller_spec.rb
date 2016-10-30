@@ -24,11 +24,11 @@ RSpec.describe GuessesController, type: :controller do
   # Guess. As you add validations to Guess, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    skip("Add a hash of attributes valid for your model")
+    { bet_id: 1, usuario_id: 1, won_status: false, guess_text: 'MyString', guess_status: 1}
   }
 
   let(:invalid_attributes) {
-    skip("Add a hash of attributes invalid for your model")
+    { bet_id: 1, usuario_id: 1, won_status: false, guess_status: nil}
   }
 
   # This should return the minimal set of values that should be in the session
@@ -47,7 +47,7 @@ RSpec.describe GuessesController, type: :controller do
   describe "GET #show" do
     it "assigns the requested guess as @guess" do
       guess = Guess.create! valid_attributes
-      get :show, params: {id: guess.to_param}, session: valid_session
+      get :show, id: guess.to_param, session: valid_session
       expect(assigns(:guess)).to eq(guess)
     end
   end
@@ -62,7 +62,7 @@ RSpec.describe GuessesController, type: :controller do
   describe "GET #edit" do
     it "assigns the requested guess as @guess" do
       guess = Guess.create! valid_attributes
-      get :edit, params: {id: guess.to_param}, session: valid_session
+      get :edit, id: guess.to_param, session: valid_session
       expect(assigns(:guess)).to eq(guess)
     end
   end
@@ -71,30 +71,30 @@ RSpec.describe GuessesController, type: :controller do
     context "with valid params" do
       it "creates a new Guess" do
         expect {
-          post :create, params: {guess: valid_attributes}, session: valid_session
+          post :create, guess: valid_attributes, session: valid_session
         }.to change(Guess, :count).by(1)
       end
 
       it "assigns a newly created guess as @guess" do
-        post :create, params: {guess: valid_attributes}, session: valid_session
+        post :create, guess: valid_attributes, session: valid_session
         expect(assigns(:guess)).to be_a(Guess)
         expect(assigns(:guess)).to be_persisted
       end
 
       it "redirects to the created guess" do
-        post :create, params: {guess: valid_attributes}, session: valid_session
+        post :create, guess: valid_attributes, session: valid_session
         expect(response).to redirect_to(Guess.last)
       end
     end
 
     context "with invalid params" do
       it "assigns a newly created but unsaved guess as @guess" do
-        post :create, params: {guess: invalid_attributes}, session: valid_session
+        post :create, guess: invalid_attributes, session: valid_session
         expect(assigns(:guess)).to be_a_new(Guess)
       end
 
       it "re-renders the 'new' template" do
-        post :create, params: {guess: invalid_attributes}, session: valid_session
+        post :create, guess: invalid_attributes, session: valid_session
         expect(response).to render_template("new")
       end
     end
@@ -103,25 +103,25 @@ RSpec.describe GuessesController, type: :controller do
   describe "PUT #update" do
     context "with valid params" do
       let(:new_attributes) {
-        skip("Add a hash of attributes valid for your model")
+        {guess_text: "Vai cair 2x"}
       }
 
       it "updates the requested guess" do
         guess = Guess.create! valid_attributes
-        put :update, params: {id: guess.to_param, guess: new_attributes}, session: valid_session
+        put :update, id: guess.to_param, guess: new_attributes, session: valid_session
         guess.reload
-        skip("Add assertions for updated state")
+        expect(guess.attributes).to include( { "guess_text" => "Vai cair 2x"} )
       end
 
       it "assigns the requested guess as @guess" do
         guess = Guess.create! valid_attributes
-        put :update, params: {id: guess.to_param, guess: valid_attributes}, session: valid_session
+        put :update, id: guess.to_param, guess: valid_attributes, session: valid_session
         expect(assigns(:guess)).to eq(guess)
       end
 
       it "redirects to the guess" do
         guess = Guess.create! valid_attributes
-        put :update, params: {id: guess.to_param, guess: valid_attributes}, session: valid_session
+        put :update, id: guess.to_param, guess: valid_attributes, session: valid_session
         expect(response).to redirect_to(guess)
       end
     end
@@ -129,29 +129,30 @@ RSpec.describe GuessesController, type: :controller do
     context "with invalid params" do
       it "assigns the guess as @guess" do
         guess = Guess.create! valid_attributes
-        put :update, params: {id: guess.to_param, guess: invalid_attributes}, session: valid_session
+        put :update, id: guess.to_param, guess: invalid_attributes, session: valid_session
         expect(assigns(:guess)).to eq(guess)
       end
 
       it "re-renders the 'edit' template" do
         guess = Guess.create! valid_attributes
-        put :update, params: {id: guess.to_param, guess: invalid_attributes}, session: valid_session
+        put :update, id: guess.to_param, guess: invalid_attributes, session: valid_session
         expect(response).to render_template("edit")
       end
     end
   end
+  
 
   describe "DELETE #destroy" do
     it "destroys the requested guess" do
       guess = Guess.create! valid_attributes
       expect {
-        delete :destroy, params: {id: guess.to_param}, session: valid_session
+        delete :destroy, id: guess.to_param, session: valid_session
       }.to change(Guess, :count).by(-1)
     end
 
     it "redirects to the guesses list" do
       guess = Guess.create! valid_attributes
-      delete :destroy, params: {id: guess.to_param}, session: valid_session
+      delete :destroy, id: guess.to_param, session: valid_session
       expect(response).to redirect_to(guesses_url)
     end
   end
