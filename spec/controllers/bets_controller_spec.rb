@@ -24,13 +24,13 @@ RSpec.describe BetsController, type: :controller do
   # Bet. As you add validations to Bet, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    { name: "Fabio vai cair de uma escada", description: "Qual escada?", ownerId: 1, url_photo: "MyString",
+    { name: "Fabio vai cair de uma escada", description: "Qual escada?", usuario_id: 1, url_photo: "MyString",
     category: "Personalizado", room_status: 1, room_type: 1, stake: 1, final_date: "2016-10-25",
     final_answer: "Titanic 1", answer_type: "MyString"}
   }
 
   let(:invalid_attributes) {
-    { name: "Fabio vai cair de uma escada", description: "Qual escada?", ownerId: nil, url_photo: "MyString",
+    { name: "Fabio vai cair de uma escada", description: "Qual escada?", usuario_id: nil, url_photo: "MyString",
     category: "Personalizado", room_status: "sdash", room_type: "asdsaih", stake: 1, final_date: "2016-10-25",
     final_answer: "Titanic 1", answer_type: "MyString"}
   }

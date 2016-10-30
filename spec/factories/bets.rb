@@ -2,7 +2,7 @@ FactoryGirl.define do
   factory :bet do
     name "Fabio vai cair de uma escada"
     description "Qual escada?"
-    ownerId 1
+    usuario_id 1
     url_photo "MyString"
     category "Personalizado"
     room_status 1

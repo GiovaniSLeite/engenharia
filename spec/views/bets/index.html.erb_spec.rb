@@ -6,7 +6,7 @@ RSpec.describe "bets/index", type: :view do
       Bet.create!(
         :name => "Name",
         :description => "Description",
-        :ownerId => 2,
+        :usuario_id => 2,
         :url_photo => "Url Photo",
         :category => "Category",
         :room_status => 3,
@@ -18,7 +18,7 @@ RSpec.describe "bets/index", type: :view do
       Bet.create!(
         :name => "Name",
         :description => "Description",
-        :ownerId => 2,
+        :usuario_id => 2,
         :url_photo => "Url Photo",
         :category => "Category",
         :room_status => 3,
