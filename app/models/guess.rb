@@ -8,4 +8,7 @@ class Guess < ActiveRecord::Base
     end
     
     validates :bet_id, :usuario_id, numericality: { only_integer: true }
+    
+    belongs_to :bet
+    belongs_to :usuario
 end
