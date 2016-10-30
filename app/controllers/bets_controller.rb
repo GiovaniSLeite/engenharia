@@ -44,8 +44,8 @@ class BetsController < ApplicationController
   
   def bet_create
   	@bet = Bet.new(bet_params)
-    @bet.ownerId = session[:user_id]
-    @bet.category = "Personalizado"
+    @bet.usuario_id = session[:user_id]
+    @bet.category = 'Personalizado'
     @bet.room_status = 1
     
     respond_to do |format|
@@ -53,7 +53,7 @@ class BetsController < ApplicationController
         format.html { redirect_to controller: 'welcome', action: 'painel', notice: 'bet was successfully created.' }
         #format.json { render :show, status: :created, location: @usuario }
       else
-        format.html { render :nova }
+        format.html { render:nova }
         format.json { render json: @bet.errors, status: :unprocessable_entity }
       end
     end

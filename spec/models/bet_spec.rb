@@ -16,18 +16,7 @@ RSpec.describe Bet, type: :model do
     
     it "aposta inválida (sem nome)" do
         aposta = Bet.new
-        aposta.ownerId = 1
-        aposta.category = "Personalizado"
-        aposta.room_status = 0 #ativa
-        aposta.room_type = 0 #publica|privada
-        aposta.stake = 0
-        aposta.answer_type = "text" #para verificacao minima
-        expect(aposta.valid?).to be_falsey
-    end
-    
-    it "aposta inválida (sem dono)" do
-        aposta = Bet.new
-        aposta.name = "Fabio vai cair da escada"
+        aposta.usuario_id = 1
         aposta.category = "Personalizado"
         aposta.room_status = 0 #ativa
         aposta.room_type = 0 #publica|privada
@@ -127,18 +116,7 @@ RSpec.describe Bet, type: :model do
       aposta.answer_type = "text" #para verificacao minima
       expect(aposta.valid?).to be_falsey
     end
-    
-    it "aposta inválida (ownerId com texto)" do
-      aposta = Bet.new
-      aposta.name = "Fabio vai cair da escada"
-      aposta.ownerId = "asuhdsai"
-      aposta.category = "Personalizado"
-      aposta.room_status = 0 #ativa
-      aposta.room_type = 0 #publica|privada
-      aposta.stake = 0
-      aposta.answer_type = "text" #para verificacao minima
-      expect(aposta.valid?).to be_falsey
-    end
+
     
   end
     

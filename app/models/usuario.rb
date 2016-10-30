@@ -26,4 +26,7 @@ class Usuario < ActiveRecord::Base
     	provider == "facebook"
     end
     
+    has_many :bets, class_name: 'Bet', foreign_key: 'usuario_id', dependent: :destroy
+    
+    
 end
