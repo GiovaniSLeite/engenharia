@@ -5,7 +5,7 @@ RSpec.describe "bets/new", type: :view do
     assign(:bet, Bet.new(
       :name => "MyString",
       :description => "MyString",
-      :usuario_id => 1,
+      #:usuario_id => 1,
       :url_photo => "MyString",
       :category => "MyString",
       :room_status => 1,
@@ -25,7 +25,7 @@ RSpec.describe "bets/new", type: :view do
 
       assert_select "input#bet_description[name=?]", "bet[description]"
 
-      assert_select "input#usuario_id[name=?]", "bet[usuario_id]"
+      #assert_select "input#usuario_id[name=?]", "bet[usuario_id]"
 
       assert_select "input#bet_url_photo[name=?]", "bet[url_photo]"
 
