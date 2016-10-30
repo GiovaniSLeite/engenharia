@@ -5,7 +5,7 @@ RSpec.describe Bet, type: :model do
     it "aposta válida" do
         aposta = Bet.new
         aposta.name = "Fabio vai cair da escada"
-        aposta.ownerId = 1
+        aposta.usuario_id = 1
         aposta.category = "Personalizado"
         aposta.room_status = 0 #ativa
         aposta.room_type = 0 #publica|privada
