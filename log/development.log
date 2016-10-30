@@ -13445,3 +13445,101 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 [0m
+
+
+Started GET "/" for 179.54.227.177 at 2016-10-30 16:14:04 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (28.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 1054ms (Views: 943.7ms | ActiveRecord: 87.0ms)
+
+
+Started GET "/assets/bets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.54.227.177 at 2016-10-30 16:14:06 +0000
+
+
+Started GET "/assets/guesses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.54.227.177 at 2016-10-30 16:14:06 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/assets/style.self-109919ac50edd66919c6ee695238242ba9d82640817000084aa064c6352b423f.css?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/assets/theme.self-39a0e352d84e1eaa04b5e10786d5585a80cfe1f7cd3c24d8bac8f165e324bd4b.css?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/assets/usuarios.self-951ad5e5e9f2fe8561e9a5e99892403697c8e9479127560819042bbed5f598fb.css?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/assets/welcome.self-afffd048703f42fcde7ead22f46cfc84af14321205fc95318473dd1c4861f835.css?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/assets/bets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/assets/guesses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.227.177 at 2016-10-30 16:14:07 +0000
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 179.54.227.177 at 2016-10-30 16:14:08 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.227.177 at 2016-10-30 16:14:08 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.227.177 at 2016-10-30 16:14:08 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 179.54.227.177 at 2016-10-30 16:14:08 +0000
+
+
+Started GET "/assets/welcome.self-1c27297be9df57879e7da1a17bdd95dcb510efc0dc6f0618be4c8f6456843c19.js?body=1" for 179.54.227.177 at 2016-10-30 16:14:08 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.227.177 at 2016-10-30 16:14:08 +0000
+
+
+Started GET "/assets/banner-home.jpg" for 179.54.227.177 at 2016-10-30 16:14:08 +0000
+
+
+Started GET "/assets/pier-regular.otf" for 179.54.227.177 at 2016-10-30 16:14:08 +0000
+
+
+Started GET "/assets/etapa-3.png" for 179.54.227.177 at 2016-10-30 16:14:08 +0000
+
+
+Started GET "/assets/Bariol.woff" for 179.54.227.177 at 2016-10-30 16:14:13 +0000
+
+
+Started GET "/assets/etapa-1.png" for 179.54.227.177 at 2016-10-30 16:14:13 +0000
+
+
+Started GET "/assets/content-home-1.png" for 179.54.227.177 at 2016-10-30 16:14:13 +0000
+
+
+Started GET "/assets/etapa-2.png" for 179.54.227.177 at 2016-10-30 16:14:14 +0000
