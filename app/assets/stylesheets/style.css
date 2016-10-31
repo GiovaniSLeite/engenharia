@@ -352,6 +352,18 @@ hr {
  cursor: pointer;
 }
 
+#notice {
+	padding: none;
+	margin: none;
+	
+	position: absolute;
+	
+	background-color: #FFFFFF;
+	color: #666666;
+	
+	font-family: 'bariol'
+}
+
 .item-menu-painel {
  cursor: pointer;
  
@@ -450,11 +462,7 @@ hr {
  font-family: "Pier Sans";
  float: right;
  font-size: 16px;
- color: black;
  opacity: 1;
- margin-top: -9px;
- background-color: blue;
- border: 2px solid white;
 }
 
 /* --------------- Header Padrao ---------------- */

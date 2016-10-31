@@ -90,7 +90,6 @@ h1 {
 	transition: 0.3s all ease;
 	
 	background-color: #384587;
-	border: 2px solid #384587;
 	
 	border-radius: 3px;
 	
@@ -100,7 +99,6 @@ h1 {
 }
 .btn-cadastro:hover {
 	background-color: #5865A7;
-	border: 2px solid #5865A7;
 	
 	cursor: pointer;
 }
@@ -118,10 +116,20 @@ h1 {
 	width: 100%;
 	
 	font-family: 'Pier Sans';
-	font-size: 70px;
+	font-size: 22px;
 	color: #FFFFFF;
 	
 	text-align: center;
+}
+
+.lbl-header {
+	background-color: #FFFFFF;
+	font-size: 70px;
 	
 	padding-top: 10px;
+}
+
+.lbl-cadastro {
+	margin: none;
+	margin-left: 5%;
 }
