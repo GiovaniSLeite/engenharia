@@ -491,3 +491,39 @@ hr {
  margin-top: auto;
  cursor:pointer;
 }
+
+/* --------------- Footer Padrao ---------------- */
+.caixa-footer{
+ padding-top: 15px;
+ padding-bottom: 15px;
+ margin-top: 60px;
+ color: #99979c;
+  text-align: center;
+ background-color: #d8d8d8;
+
+}
+.container {
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-links {
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+ul{
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+.footer-text{
+ color: #787878;
+ text-align: center;
+ text-shadow: 1px;
+ font-family: arial, helvetica;
+ font-weight: bold ;
+ font-size: 11px;
+ width: 50%;
+ margin-top: 10px;
+ 
+}
