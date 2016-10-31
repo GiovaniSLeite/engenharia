@@ -25,7 +25,8 @@ h1 {
 
 .input-login-page{
 	width: 90%;
-	margin-left: 5%;;
+	height: 20px;
+	margin-left: 5%;
 	
 	background-color: transparent;
 	
@@ -90,7 +91,7 @@ h1 {
 	transition: 0.3s all ease;
 	
 	background-color: #384587;
-	
+	border: none;
 	border-radius: 3px;
 	
 	color: #F4F4F4;
@@ -130,6 +131,9 @@ h1 {
 }
 
 .lbl-cadastro {
+	width: 90%;
+	
+	padding: none;
 	margin: none;
 	margin-left: 5%;
 }
