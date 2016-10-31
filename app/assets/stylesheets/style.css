@@ -494,8 +494,8 @@ hr {
 
 /* --------------- Footer Padrao ---------------- */
 .caixa-footer{
- padding-top: 15px;
- padding-bottom: 15px;
+ padding-top: 10px;
+ padding-bottom: 10px;
  margin-top: 60px;
  color: #99979c;
   text-align: center;
@@ -515,15 +515,4 @@ hr {
 ul{
   margin-top: 0;
   margin-bottom: 6px;
-}
-.footer-text{
- color: #787878;
- text-align: center;
- text-shadow: 1px;
- font-family: arial, helvetica;
- font-weight: bold ;
- font-size: 11px;
- width: 50%;
- margin-top: 10px;
- 
 }

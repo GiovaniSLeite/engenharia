@@ -1,16 +1,11 @@
-<div class="header">
-	<div class="logo">
-	</div>
-	<div class="titulo">
-		<p>Dobro ou Nada</p>
-	</div>
-</div>
-
+<%= render "layouts/header" %>
 <p id="notice"><%= notice %></p>
 
 <div class="col-lg-9">
 
 <legend>Usuários</legend>
+</div>
+
 
 <table class="table table-hover">
   <thead>
@@ -70,14 +65,4 @@
   <span class='glyphicon glyphicon-plus-sign'></span>&nbsp;Novo Usuário
 <% end %>
 
-</div>
-<footer class="caixa-footer">
-	<div class="container">
-	  <p class= "titulo">Dobro ou Nada</p>
-	  <ul class= footer-links> 
-		  <a href="https://github.com/GiovaniSLeite/dobroounada" class="footer-text" >Git Hub</a>
-		  <a href="https://c9.io/marcuscampos" class="footer-text" >Cloud9</a>
-		</ul>
-		<p> Texto para encher </p>
-	</div>
-</footer>
+<%= render "layouts/footer" %>

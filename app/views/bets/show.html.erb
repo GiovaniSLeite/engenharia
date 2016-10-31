@@ -1,59 +1,79 @@
+<%= render "layouts/header" %>
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @bet.name %>
-</p>
+<div class="col-lg-12"><legend style="text-align:center">Dados da Bet</legend>
+  
+      <div class="panel panel-default" style="margin-left:35%; margin-right:35%">
+        <div class="panel-heading">
+          <h2 class="panel-title">Bet</h2>
+        </div>
+        
+        <div class="panel-body" >
 
-<p>
-  <strong>Description:</strong>
-  <%= @bet.description %>
-</p>
+          <p>
+            <strong>Name:</strong>
+            <%= @bet.name %>
+          </p>
+          
+          <p>
+            <strong>Description:</strong>
+            <%= @bet.description %>
+          </p>
+          
+          <p>
+            <strong>Usuario:</strong>
+            <%= @bet.usuario_id %>
+          </p>
+          
+          <p>
+            <strong>Url photo:</strong>
+            <%= @bet.url_photo %>
+          </p>
+          
+          <p>
+            <strong>Category:</strong>
+            <%= @bet.category %>
+          </p>
+          
+          <p>
+            <strong>Room status:</strong>
+            <%= @bet.room_status %>
+          </p>
+          
+          <p>
+            <strong>Room type:</strong>
+            <%= @bet.room_type %>
+          </p>
+          
+          <p>
+            <strong>Stake:</strong>
+            <%= @bet.stake %>
+          </p>
+          
+          <p>
+            <strong>Final date:</strong>
+            <%= @bet.final_date %>
+          </p>
+          
+          <p>
+            <strong>Final answer:</strong>
+            <%= @bet.final_answer %>
+          </p>
+          
+          <p>
+            <strong>Answer type:</strong>
+            <%= @bet.answer_type %>
+          </p>
+        
+        </div>
+      </div>
+    
+  </div>
+</div>
 
-<p>
-  <strong>Usuario:</strong>
-  <%= @bet.usuario_id %>
-</p>
 
-<p>
-  <strong>Url photo:</strong>
-  <%= @bet.url_photo %>
-</p>
+<button type="button" class="btn btn-default" style= "margin-left: 46%;"><%= link_to 'Edit', edit_bet_path(@bet) %></button> 
+<button type="button" class="btn btn-default"><%= link_to 'Back', bets_path %></button> 
+</div>
 
-<p>
-  <strong>Category:</strong>
-  <%= @bet.category %>
-</p>
-
-<p>
-  <strong>Room status:</strong>
-  <%= @bet.room_status %>
-</p>
-
-<p>
-  <strong>Room type:</strong>
-  <%= @bet.room_type %>
-</p>
-
-<p>
-  <strong>Stake:</strong>
-  <%= @bet.stake %>
-</p>
-
-<p>
-  <strong>Final date:</strong>
-  <%= @bet.final_date %>
-</p>
-
-<p>
-  <strong>Final answer:</strong>
-  <%= @bet.final_answer %>
-</p>
-
-<p>
-  <strong>Answer type:</strong>
-  <%= @bet.answer_type %>
-</p>
-
-<%= link_to 'Edit', edit_bet_path(@bet) %> |
-<%= link_to 'Back', bets_path %>
+<%= render "layouts/footer" %>
