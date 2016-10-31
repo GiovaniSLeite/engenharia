@@ -23,18 +23,21 @@ h1 {
 	text-align: center;
 }
 
-input[type="text"], input[type="password"] {
+.input-login-page{
 	width: 90%;
-	margin: auto;
+	margin-left: 5%;;
+	
+	background-color: transparent;
 	
 	border: none;
 	border-bottom: 1px solid #666666;
 	
-	color: #384587;
+	color: #666666;
 	
 	transition: 0.3s all ease;
 }
-input[type="text"]:focus, input[type="password"]:focus {
+.input-login-page:focus {
+	color: #384587;
 	border-bottom: 1px solid #384587;
 }
 
@@ -107,8 +110,7 @@ input[type="text"]:focus, input[type="password"]:focus {
 	height: 100px;
 	width: 100%;
 	
-	background-color: #F4F4F4;
-	border: 2px solid #384587;
+	background-color: #00afc7;
 }
 
 .titulo {
@@ -116,8 +118,10 @@ input[type="text"]:focus, input[type="password"]:focus {
 	width: 100%;
 	
 	font-family: 'Pier Sans';
-	font-size: 30px;
-	color: #666666;
+	font-size: 70px;
+	color: #FFFFFF;
 	
 	text-align: center;
+	
+	padding-top: 10px;
 }

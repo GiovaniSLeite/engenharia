@@ -102,12 +102,11 @@ hr {
 }
 .caixa-banner-bloco-home {
  width: 45%;
- height: 230px;
+ height: 300px;
     margin: auto;
     float: none;
     position:relative;
- background-color: rgba(255,255,255,.79);
- border: 2px solid #FFFFFF;
+ background-color: rgba(255,255,255,1);
  border-radius: 2px;
  font-family: "bariol";
  font-size: 22px;
@@ -443,7 +442,7 @@ hr {
 .control-label-cadastro {
  font-family: "Pier Sans";
  font-size: 16px;
- color: black;
+ color: #666666;
  
 
 }
@@ -452,7 +451,7 @@ hr {
  float: right;
  font-size: 16px;
  color: black;
- opacity: 0.8;
+ opacity: 1;
  margin-top: -9px;
  background-color: blue;
  border: 2px solid white;
