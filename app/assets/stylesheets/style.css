@@ -102,7 +102,7 @@ hr {
 }
 .caixa-banner-bloco-home {
  width: 45%;
- height: 80%;
+ height: 85%;
     margin: auto;
  background-color: rgba(255,255,255,1);
  border-radius: 2px;
@@ -493,7 +493,6 @@ hr {
 }
 .field{
  margin-left:auto ;
- margin-top: auto;
 }
 
 /* --------------- Footer Padrao ---------------- */
