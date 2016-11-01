@@ -15624,6 +15624,414 @@ ORDER BY c.conname
 [0m
 
 
+Started GET "/" for 143.107.59.221 at 2016-11-01 18:05:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 547ms (Views: 425.5ms | ActiveRecord: 84.8ms)
+
+
+Started GET "/" for 143.107.59.221 at 2016-11-01 18:05:06 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-home.jpg" for 143.107.59.221 at 2016-11-01 18:05:07 +0000
+
+
+Started GET "/assets/pier-regular.otf" for 143.107.59.221 at 2016-11-01 18:05:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/content-home-1.png" for 143.107.59.221 at 2016-11-01 18:05:13 +0000
+
+
+Started GET "/assets/Bariol.woff" for 143.107.59.221 at 2016-11-01 18:05:13 +0000
+
+
+Started GET "/assets/etapa-2.png" for 143.107.59.221 at 2016-11-01 18:05:13 +0000
+
+
+Started GET "/assets/etapa-1.png" for 143.107.59.221 at 2016-11-01 18:05:13 +0000
+
+
+Started GET "/assets/etapa-3.png" for 143.107.59.221 at 2016-11-01 18:05:13 +0000
+
+
+Started GET "/usuarios" for 143.107.59.221 at 2016-11-01 18:05:14 +0000
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (28.0ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (136.2ms)
+Completed 200 OK in 290ms (Views: 155.9ms | ActiveRecord: 113.2ms)
+
+
+Started GET "/usuarios" for 143.107.59.221 at 2016-11-01 18:05:15 +0000
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (27.8ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (40.9ms)
+Completed 200 OK in 90ms (Views: 61.2ms | ActiveRecord: 27.8ms)
+
+
+Started GET "/assets/pier-regular.otf" for 143.107.59.221 at 2016-11-01 18:05:15 +0000
+
+
+Started GET "/bet" for 143.107.59.221 at 2016-11-01 18:06:43 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/bet"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (18.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (107.8ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:06:51 +0000
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (27.9ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (27.8ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."name" = $1 LIMIT 1[0m  [["name", "Alex"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."name" = $1 LIMIT 1  [["name", "Alex"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."name" = $1 LIMIT 1[0m  [["name", "Alex"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."name" = $1 LIMIT 1  [["name", "Alex"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."name" = $1 LIMIT 1[0m  [["name", "Alex"]]
+  Rendered bets/index.html.erb within layouts/application (305.5ms)
+Completed 200 OK in 652ms (Views: 415.0ms | ActiveRecord: 223.9ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:06:52 +0000
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (27.6ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (27.3ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."name" = $1 LIMIT 1[0m  [["name", "Alex"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."name" = $1 LIMIT 1  [["name", "Alex"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."name" = $1 LIMIT 1[0m  [["name", "Alex"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."name" = $1 LIMIT 1  [["name", "Alex"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."name" = $1 LIMIT 1[0m  [["name", "Alex"]]
+  Rendered bets/index.html.erb within layouts/application (62.8ms)
+Completed 200 OK in 113ms (Views: 57.3ms | ActiveRecord: 55.0ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:07:17 +0000
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (27.7ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (29.9ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mUsuario Load (27.6ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (183.1ms)
+Completed 200 OK in 263ms (Views: 176.2ms | ActiveRecord: 85.3ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:07:17 +0000
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (27.7ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (27.6ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mUsuario Load (27.6ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (93.6ms)
+Completed 200 OK in 133ms (Views: 49.4ms | ActiveRecord: 83.0ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:07:19 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (28.1ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (27.7ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mUsuario Load (27.6ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (344.9ms)
+Completed 200 OK in 763ms (Views: 477.0ms | ActiveRecord: 254.0ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:07:21 +0000
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (27.5ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (27.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mUsuario Load (27.5ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (95.6ms)
+Completed 200 OK in 143ms (Views: 59.1ms | ActiveRecord: 82.5ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:07:22 +0000
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (27.5ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (27.4ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mUsuario Load (27.6ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (158.6ms)
+Completed 200 OK in 216ms (Views: 132.4ms | ActiveRecord: 82.6ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:07:22 +0000
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (27.6ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (27.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mUsuario Load (28.4ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (98.6ms)
+Completed 200 OK in 183ms (Views: 98.1ms | ActiveRecord: 83.6ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:09:50 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (27.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (28.0ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (31.2ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."ID" = 14 LIMIT 1[0m
+  Rendered bets/index.html.erb within layouts/application (208.4ms)
+Completed 500 Internal Server Error in 249ms (ActiveRecord: 172.0ms)
+
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  column usuarios.ID does not exist
+LINE 1: SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."ID" =...
+                                                   ^
+: SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."ID" = 14 LIMIT 1):
+    23:         <tr>
+    24:           <td><%= bet.name %></td>
+    25:           <td><%= bet.description %></td>
+    26:           <% user = Usuario.find_by(ID: bet.usuario_id) %>
+    27:           <td><%= user.name %></td>
+    28:           <td><%= bet.category %></td>
+    29:           <td>
+  app/views/bets/index.html.erb:26:in `block in _app_views_bets_index_html_erb__2132752321772817091_53669020'
+  app/views/bets/index.html.erb:22:in `_app_views_bets_index_html_erb__2132752321772817091_53669020'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.8ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:10:24 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (28.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (28.2ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (28.2ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mUsuario Load (27.8ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (334.9ms)
+Completed 200 OK in 665ms (Views: 385.2ms | ActiveRecord: 253.9ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:10:26 +0000
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (28.0ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (28.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mUsuario Load (27.9ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (95.7ms)
+Completed 200 OK in 150ms (Views: 64.9ms | ActiveRecord: 84.0ms)
+
+
+Started GET "/" for 143.107.59.221 at 2016-11-01 18:34:26 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (28.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 469ms (Views: 347.6ms | ActiveRecord: 85.6ms)
+
+
+Started GET "/" for 143.107.59.221 at 2016-11-01 18:34:27 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (28.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 483ms (Views: 362.2ms | ActiveRecord: 85.4ms)
+
+
+Started GET "/assets/banner-home.jpg" for 143.107.59.221 at 2016-11-01 18:34:29 +0000
+
+
+Started GET "/assets/etapa-1.png" for 143.107.59.221 at 2016-11-01 18:34:29 +0000
+
+
+Started GET "/assets/Bariol.woff" for 143.107.59.221 at 2016-11-01 18:34:29 +0000
+
+
+Started GET "/assets/content-home-1.png" for 143.107.59.221 at 2016-11-01 18:34:29 +0000
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:34:30 +0000
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (28.1ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (28.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mUsuario Load (27.8ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (237.8ms)
+Completed 200 OK in 313ms (Views: 136.5ms | ActiveRecord: 167.4ms)
+
+
+Started GET "/bets" for 143.107.59.221 at 2016-11-01 18:34:30 +0000
+
+
+Started GET "/assets/pier-regular.otf" for 143.107.59.221 at 2016-11-01 18:34:30 +0000
+Processing by BetsController#index as HTML
+
+
+Started GET "/assets/etapa-2.png" for 143.107.59.221 at 2016-11-01 18:34:31 +0000
+  [1m[35mBet Load (27.6ms)[0m  SELECT "bets".* FROM "bets"
+
+
+Started GET "/assets/etapa-3.png" for 143.107.59.221 at 2016-11-01 18:34:31 +0000
+  [1m[36mUsuario Load (28.2ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mUsuario Load (29.4ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (95.2ms)
+Completed 200 OK in 156ms (Views: 69.0ms | ActiveRecord: 85.2ms)
+
+
+Started GET "/bets/new" for 143.107.59.221 at 2016-11-01 18:39:11 +0000
+Processing by BetsController#new as HTML
+  [1m[35mUsuario Load (27.7ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered bets/new.html.erb within layouts/application (55.2ms)
+Completed 200 OK in 98ms (Views: 67.9ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/assets/pier-regular.otf" for 143.107.59.221 at 2016-11-01 18:39:12 +0000
+
+
+Started GET "/usuarioss/new" for 143.107.59.221 at 2016-11-01 18:43:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/usuarioss/new"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (50.7ms)
+
+
+Started GET "/usuarios/new" for 143.107.59.221 at 2016-11-01 18:43:37 +0000
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/new.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 100ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for 143.107.59.221 at 2016-11-01 18:43:37 +0000
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pier-regular.otf" for 143.107.59.221 at 2016-11-01 18:43:37 +0000
+
+
+Started GET "/bets/new" for 143.107.59.221 at 2016-11-01 18:43:53 +0000
+Processing by BetsController#new as HTML
+  [1m[36mUsuario Load (27.9ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered bets/new.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 114ms (Views: 85.3ms | ActiveRecord: 27.9ms)
+
+
+Started GET "/bets/new" for 143.107.59.221 at 2016-11-01 18:43:54 +0000
+Processing by BetsController#new as HTML
+  [1m[35mUsuario Load (27.9ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered bets/new.html.erb within layouts/application (56.2ms)
+Completed 200 OK in 218ms (Views: 116.3ms | ActiveRecord: 84.0ms)
+
+
+Started GET "/usuarios" for 143.107.59.221 at 2016-11-01 19:02:51 +0000
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (27.7ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (42.7ms)
+Completed 200 OK in 142ms (Views: 113.7ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/usuarios" for 143.107.59.221 at 2016-11-01 19:02:52 +0000
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (27.7ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (37.1ms)
+Completed 200 OK in 80ms (Views: 51.1ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/bets/" for 143.107.59.221 at 2016-11-01 19:10:47 +0000
+Processing by BetsController#index as HTML
+  [1m[35mBet Load (28.4ms)[0m  SELECT "bets".* FROM "bets"
+  [1m[36mUsuario Load (27.6ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mUsuario Load (27.6ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (101.5ms)
+Completed 200 OK in 159ms (Views: 74.4ms | ActiveRecord: 83.7ms)
+
+
+Started GET "/bets/" for 143.107.59.221 at 2016-11-01 19:10:47 +0000
+Processing by BetsController#index as HTML
+  [1m[36mBet Load (27.7ms)[0m  [1mSELECT "bets".* FROM "bets"[0m
+  [1m[35mUsuario Load (27.5ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mUsuario Load (27.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 16]]
+  Rendered bets/index.html.erb within layouts/application (185.7ms)
+Completed 200 OK in 287ms (Views: 175.1ms | ActiveRecord: 110.3ms)
 Started GET "/usuarios/cadastro" for 104.154.121.136 at 2016-10-31 00:28:20 +0000
   [1m[36mActiveRecord::SchemaMigration Load (28.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by UsuariosController#cadastro as HTML
