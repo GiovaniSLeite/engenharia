@@ -27,14 +27,14 @@
           <td><%= user.name %></td>
           <td><%= bet.category %></td>
           <td>
-            <% if bet.room_status == "0" %>
+            <% if bet.room_status == 0 %>
               Inativa
             <% else %>
               Ativa
             <% end %>
           </td>
           <td>
-            <% if bet.room_type == "0" %>
+            <% if bet.room_type == 0 %>
               Privada
             <% else %>
               Pública
