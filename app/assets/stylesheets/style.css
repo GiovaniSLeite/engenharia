@@ -102,10 +102,8 @@ hr {
 }
 .caixa-banner-bloco-home {
  width: 45%;
- height: 300px;
+ height: 80%;
     margin: auto;
-    float: none;
-    position:relative;
  background-color: rgba(255,255,255,1);
  border-radius: 2px;
  font-family: "bariol";
@@ -459,6 +457,7 @@ hr {
 
 }
 .actions {
+	width: 30%;
  font-family: "Pier Sans";
  float: right;
  font-size: 16px;
