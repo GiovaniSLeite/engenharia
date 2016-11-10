@@ -47,13 +47,13 @@
             %></td>
         <td><%= usuario.created_at.strftime "%d/%m/%Y" %></td>
         <td>
-          <%= link_to usuario, title: "Visualizar" do %>
-            <span class='glyphicon glyphicon-share'></span>
+          <%= link_to usuario, title: "Visualizar", id: "visu" << usuario.id.to_s do %>
+          <%=   content_tag(:span, '',:class=>'glyphicon glyphicon-share') %>
           <% end %>
         </td>
         <td>
-            <%= link_to edit_usuario_path(usuario), title: "Editar" do %>
-              <span class='glyphicon glyphicon-edit'></span>
+            <%= link_to edit_usuario_path(usuario), title: "Editar", id: "edit" << usuario.id.to_s do %>
+              <%=   content_tag(:span, '',:class=>'glyphicon glyphicon-edit') %>
             <% end %>
         </td>
       </tr>
