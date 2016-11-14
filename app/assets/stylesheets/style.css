@@ -459,7 +459,7 @@ hr {
 .actions {
 	width: 30%;
  font-family: "Pier Sans";
- float: right;
+ /*float: right;*/
  font-size: 16px;
  opacity: 1;
 }
