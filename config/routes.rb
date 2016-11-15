@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get "/apostas/inside_bet" => "bets#inside_bet"
   post "/apostas/inside_bet" => "bets#inside_bet"
   get "/bets/" => "bets#inside_bet"
+  get "/guesses/nova" => "guesses#nova"
+  post "/guesses/nova" => "guesses#guess_create"
   post "/usuarios/login" => "usuarios#login"
   get "/usuarios/cadastro" => "usuarios#cadastro"
   get "/painel" => "welcome#painel"
