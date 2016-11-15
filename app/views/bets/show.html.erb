@@ -62,20 +62,12 @@
 		</div>
 	</div>
 </div>
-<<<<<<< HEAD
 <%= link_to edit_bet_path(@bet) do %>
 <span class='glyphicon glyphicon-edit'></span>&nbsp;Editar
 <% end %>
 <%= link_to bets_path do %>
 <span class='glyphicon glyphicon-chevron-left'></span>&nbsp;Voltar
 <% end %>
-<%= render "layouts/footer" %>
-=======
-
-
-<button type="button" class="btn btn-default" style= "margin-left: 46%;"><%= link_to 'Edit', edit_bet_path(@bet) %></button> 
-<button type="button" class="btn btn-default"><%= link_to 'Back', bets_path %></button> 
 <button type="button" class="btn "><%= link_to 'Entrar na Aposta', controller: "bets", action:'inside_bet', :id => @bet%>
 </button> 
 <%= render "layouts/footer" %>
->>>>>>> 9e7731971fe6f4347bde06bb2e673cabae31af86

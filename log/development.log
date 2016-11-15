@@ -33259,3 +33259,102 @@ Processing by BetsController#lista as HTML
   Rendered bets/lista.html.erb within layouts/application (32.1ms)
 Completed 200 OK in 74ms (Views: 44.9ms | ActiveRecord: 27.9ms)
 >>>>>>> 9e7731971fe6f4347bde06bb2e673cabae31af86
+
+
+Started GET "/bets/43" for 179.54.173.231 at 2016-11-15 13:20:46 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (28.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BetsController#show as HTML
+  Parameters: {"id"=>"43"}
+  [1m[35mBet Load (28.4ms)[0m  SELECT  "bets".* FROM "bets" WHERE "bets"."id" = $1 LIMIT 1  [["id", 43]]
+  Rendered layouts/_header.html.erb (0.4ms)
+  [1m[36mUsuario Load (28.3ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 54]]
+  Rendered layouts/_footer.html.erb (0.6ms)
+  Rendered bets/show.html.erb within layouts/application (141.0ms)
+Completed 200 OK in 931ms (Views: 607.1ms | ActiveRecord: 229.3ms)
+
+
+Started GET "/assets/chat.self-2c28b087ead130ff10d8478a90070cdb420e6a1642dffc8ca7e2e9406f73d3e2.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:47 +0000
+
+
+Started GET "/assets/invites.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:48 +0000
+
+
+Started GET "/assets/usuarios.self-519d289ae7a7291adf1bd6006ead7f73a630540a9a5807041f111fcc6e86a50a.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:48 +0000
+
+
+Started GET "/assets/style.self-b9dfe41a7b98d309647e5c4d9bf1a52543424d5dd3df99b8c9f602513d88bf62.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:48 +0000
+
+
+Started GET "/assets/bets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:48 +0000
+
+
+Started GET "/assets/welcome.self-afffd048703f42fcde7ead22f46cfc84af14321205fc95318473dd1c4861f835.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:48 +0000
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:48 +0000
+
+
+Started GET "/assets/guesses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:48 +0000
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:48 +0000
+
+
+Started GET "/assets/application.self-27a424817124a538a1bd8a9038aea5396ae2ca72ec5dbb40fa23fc96e0859767.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:48 +0000
+
+
+Started GET "/assets/chat.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:48 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (28.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:48 +0000
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+
+
+Started GET "/assets/theme.self-39a0e352d84e1eaa04b5e10786d5585a80cfe1f7cd3c24d8bac8f165e324bd4b.css?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+
+
+Started GET "/bets/43" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+Processing by BetsController#show as HTML
+  Parameters: {"id"=>"43"}
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+
+
+Started GET "/assets/bets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+
+
+Started GET "/assets/guesses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+  [1m[35mBet Load (28.6ms)[0m  SELECT  "bets".* FROM "bets" WHERE "bets"."id" = $1 LIMIT 1  [["id", 43]]
+  Rendered layouts/_header.html.erb (0.3ms)
+
+
+Started GET "/assets/script.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+  [1m[36mUsuario Load (28.3ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 54]]
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered bets/show.html.erb within layouts/application (143.2ms)
+
+
+Started GET "/assets/welcome.self-c8fd016366f581864965fac6192c9321d9c40f833a3cae60b955ffdfd884bd87.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+Completed 200 OK in 511ms (Views: 203.9ms | ActiveRecord: 229.3ms)
+
+
+Started GET "/assets/invites.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+
+
+Started GET "/assets/usuarios.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+
+
+Started GET "/assets/widgets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
+
+
+Started GET "/assets/application.self-a17d2003147ee718a970d22b803457c375bf8e8cdded2d15cadfa033d87dc580.js?body=1" for 179.54.173.231 at 2016-11-15 13:20:49 +0000
