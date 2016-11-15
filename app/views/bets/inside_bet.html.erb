@@ -46,6 +46,6 @@
    <%= link_to "Apostar",controller: 'guesses', action: 'new', :bet_id => @bet.id, :usuario_id => session[:user_id]%>
 </button> 
 <button type="button" class="btn btn-default" style= "margin-top:20px;margin-left: 10px;">
-   <%= link_to "Convidar", controller: 'invites', action: 'new' %>
+   <%= link_to "Convidar", novo_invite_path(@bet.id) %>
 </button> 
 <%= render "layouts/footer" %>

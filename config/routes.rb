@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "/invites/:id_bet/novo" => "invites#novo", as: "novo_invite"
+  get "/invites/inserir" => "invites#inserir", as: "inserir"
   resources :invites
   resources :guesses
   resources :bets
@@ -12,6 +14,7 @@ Rails.application.routes.draw do
   post "/usuarios/login" => "usuarios#login"
   get "/usuarios/cadastro" => "usuarios#cadastro"
   get "/painel" => "welcome#painel"
+  get "/usuarios_srch" => "invites#usuarios_srch", as: 'usuarios_srch'
   post "/usuarios/cadastro" => "usuarios#cadastro_create"
   resources :usuarios
   get "/auth/:provider/callback" => "sessions#create", as: :auth_callback
