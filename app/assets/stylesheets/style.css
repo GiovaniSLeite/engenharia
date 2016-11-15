@@ -44,11 +44,25 @@ hr {
  width: 33.33%;
  height: 100%;
 }
+
+.card-bloco-painel {
+ float: left;
+ width: 50%;
+ height: 100%;
+}
+
 .card-bloco-home-center {
  float: left;
  width: 100%;
  height: 100%;
 }
+
+.card-bloco-painel-center {
+ float: left;
+ width: 100%;
+ height: 50%;
+}
+
 .metade-home {
  height: 100%;
  width: 50%;
@@ -459,7 +473,7 @@ hr {
 .actions {
 	width: 30%;
  font-family: "Pier Sans";
- float: right;
+ /*float: right;*/
  font-size: 16px;
  opacity: 1;
 }
@@ -493,6 +507,10 @@ hr {
 }
 .field{
  margin-left:auto ;
+}
+.conteudo{
+ padding-left: 15px;
+ padding-right: 15px;
 }
 
 /* --------------- Footer Padrao ---------------- */

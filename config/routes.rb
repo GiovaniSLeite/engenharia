@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
+  resources :invites
   resources :guesses
   resources :bets
   get "/apostas/nova" => "bets#nova"
   post "/apostas/nova" => "bets#bet_create"
+  get "/apostas/inside_bet" => "bets#inside_bet"
+  post "/apostas/inside_bet" => "bets#inside_bet"
+  get "/bets/" => "bets#inside_bet"
   post "/usuarios/login" => "usuarios#login"
   get "/usuarios/cadastro" => "usuarios#cadastro"
   get "/painel" => "welcome#painel"
@@ -13,7 +17,7 @@ Rails.application.routes.draw do
   get "/logout" => "sessions#destroy", as: :logout
   get 'welcome/index'
   resources :widgets
-
+  get "/apostas/minhas" => "bets#lista"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

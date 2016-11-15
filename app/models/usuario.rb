@@ -27,6 +27,6 @@ class Usuario < ActiveRecord::Base
     end
     
     has_many :bets, class_name: 'Bet', foreign_key: 'usuario_id', dependent: :destroy
-    
+    has_many :invites
     
 end
