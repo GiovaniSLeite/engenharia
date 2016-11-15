@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   resources :bets
   get "/apostas/nova" => "bets#nova"
   post "/apostas/nova" => "bets#bet_create"
+  get "/apostas/inside_bet" => "bets#inside_bet"
+  post "/apostas/inside_bet" => "bets#inside_bet"
+  get "/bets/" => "bets#inside_bet"
   post "/usuarios/login" => "usuarios#login"
   get "/usuarios/cadastro" => "usuarios#cadastro"
   get "/painel" => "welcome#painel"
