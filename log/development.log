@@ -20469,3 +20469,40 @@ Processing by WelcomeController#index as HTML
   Parameters: {"notice"=>"Falha ao logar"}
   Rendered welcome/index.html.erb within layouts/application (2.0ms)
 Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/3" for 143.107.59.221 at 2016-11-10 18:28:29 +0000
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUsuario Load (31.9ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered usuarios/show.html.erb within layouts/application (128.4ms)
+Completed 200 OK in 2382ms (Views: 2124.8ms | ActiveRecord: 31.9ms)
+
+
+Started GET "/usuarios/3" for 143.107.59.221 at 2016-11-10 18:28:32 +0000
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUsuario Load (28.3ms)[0m  SELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered usuarios/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 584ms (Views: 537.5ms | ActiveRecord: 28.3ms)
+
+
+Started GET "/usuarios" for 143.107.59.221 at 2016-11-10 18:28:40 +0000
+Processing by UsuariosController#index as HTML
+  Rendered layouts/_header.html.erb (0.1ms)
+  [1m[36mUsuario Load (56.4ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered layouts/_footer.html.erb (2.0ms)
+  Rendered usuarios/index.html.erb within layouts/application (315.4ms)
+Completed 200 OK in 1035ms (Views: 963.7ms | ActiveRecord: 56.4ms)
+
+
+Started GET "/usuarios" for 143.107.59.221 at 2016-11-10 18:28:42 +0000
+Processing by UsuariosController#index as HTML
+  Rendered layouts/_header.html.erb (0.9ms)
+
+
+Started GET "/assets/pier-regular.otf" for 143.107.59.221 at 2016-11-10 18:28:42 +0000
+  [1m[36mUsuario Load (56.2ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered layouts/_footer.html.erb (1.5ms)
+  Rendered usuarios/index.html.erb within layouts/application (153.2ms)
+Completed 200 OK in 357ms (Views: 297.2ms | ActiveRecord: 56.2ms)
