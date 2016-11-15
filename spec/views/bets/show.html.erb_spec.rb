@@ -1,3 +1,5 @@
+=begin 
+
 require 'rails_helper'
 
 RSpec.describe "bets/show", type: :view do
@@ -43,3 +45,4 @@ RSpec.describe "bets/show", type: :view do
   end
 end
 
+=end
