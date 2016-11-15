@@ -59,6 +59,13 @@ class BetsController < ApplicationController
     end
   end
   
+  def lista
+    myBets
+  end
+  
+  def myBets
+    @bets = Bet.where(usuario_id:  session[:user_id])
+  end
   
 
   # PATCH/PUT /bets/1
