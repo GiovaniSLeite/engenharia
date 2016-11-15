@@ -1,3 +1,5 @@
+=begin
+
 require 'rails_helper'
 
 RSpec.describe "bets/show", type: :view do
@@ -30,3 +32,5 @@ RSpec.describe "bets/show", type: :view do
     expect(rendered).to match(/Answer Type/)
   end
 end
+
+=end
