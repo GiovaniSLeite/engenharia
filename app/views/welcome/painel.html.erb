@@ -1,4 +1,4 @@
-﻿<p id="notice"><%= notice %></p>
+﻿﻿<p id="notice"><%= notice %></p>
 <div class="full-width full-height" >
    <div class="full-width full-height" id="banner-bloco-home">
     <div class="full-width full-height" id="cor-preto-bloco-home">
@@ -58,7 +58,7 @@
 					   <br><%= link_to "Nova aposta", controller: 'bets', action: 'nova' %>
 					   <br><%= link_to "Minhas apostas", controller: 'bets', action: 'lista' %>
 					   <br>Apostas que estou participando
-					   <br>Apostas que fui convidado a participar
+					   <br><%= link_to "Apostas que fui convidado a participar", controller: 'invites', action: 'index' %>
 					   <br>Tutorial
 					    
 					</p>
