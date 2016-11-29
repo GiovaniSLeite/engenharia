@@ -5,7 +5,7 @@ Feature: Sign in the system
   
   Scenario: Login HappyWay
     Given I am on the homepage
-    When I log in with "ctccaio@hotmail.com" username and "123456" password
+    When I log in with "sousa_giovani@hotmail.com" username and "123" password
     Then I should see "Seja Bem-vindo"
     
   

@@ -16,7 +16,7 @@ RSpec.describe "usuarios/index", type: :view do
       ),
       Usuario.create!(
         :name => "Name",
-        :email => "email@example.com", #modifiquei
+        :email => "email2@example.com", #modifiquei
         :access_token => "Access Token",
         :uid => "Uid",
         :photo_url => "Photo Url",
@@ -31,7 +31,7 @@ RSpec.describe "usuarios/index", type: :view do
   it "renders a list of usuarios" do
     render
     assert_select "tr>td", :text => "Name".to_s, :count => 2
-    assert_select "tr>td", :text => "email@example.com".to_s, :count => 2 #modifiquei "" era "Email"
+    assert_select "tr>td", :text => "email@example.com".to_s, :count => 1 #modifiquei "" era "Email"
     assert_select "tr>td", :text => "E-mail".to_s, :count => 2
     assert_select "tr>td", :text => "Inativo".to_s, :count => 2
     assert_select "tr>td", :text => "Apostador".to_s, :count => 2

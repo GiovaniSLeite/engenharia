@@ -5,19 +5,19 @@ Feature: Administrar usuários
         
 Scenario: Visualizar perfil do usuários
         Given I on the usuarios page
-        When I click on "visu3"
+        When I click on "visu1"
         Then I should see "Dados do Usuário"
 
 Scenario: Banir usuário
         Given I on the usuarios page
-        When I click on "edit20"
+        When I click on "edit1"
         And I uncheck "usuario_status"
         And I click on "atualiza_btn"
         Then I should see "Usuario was successfully updated"
         
 Scenario: Reativar usuário
         Given I on the usuarios page
-        When I click on "edit20"
+        When I click on "edit1"
         And I check "usuario_status"
         And I click on "atualiza_btn"
         Then I should see "Usuario was successfully updated"

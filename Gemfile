@@ -51,3 +51,5 @@ gem 'valid_email'
 
 # https://github.com/SchemaPlus/schema_validations
 gem "schema_validations"
+
+gem 'faker'

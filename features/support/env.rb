@@ -1,6 +1,7 @@
 require 'rspec/expectations'
 require 'capybara/cucumber'
 require 'capybara-webkit'
+require 'faker'
 
 Capybara.configure do |config|
   config.run_server = false

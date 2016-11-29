@@ -55,8 +55,8 @@
 					<br/>
 					<p class="conteudo-etapa-bloco-home">
 					    
-					   <br><%= link_to "Nova aposta", controller: 'bets', action: 'nova' %>
-					   <br><%= link_to "Minhas apostas", controller: 'bets', action: 'lista' %>
+					   <br><%= link_to "Nova aposta", {controller: 'bets', action: 'nova'}, id: "novaAposta" %>
+					   <br><%= link_to "Minhas apostas", {controller: 'bets', action: 'lista'}, id: "minhas" %>
 					   <br>Apostas que estou participando
 					   <br>Apostas que fui convidado a participar
 					   <br>Tutorial
