@@ -9,6 +9,15 @@ class Usuario < ActiveRecord::Base
 		
 		usuario
 	end
+	
+	def self.search(search)
+	   
+	   if(search)
+	       where('name LIKE ? AND status = ? AND user_type = ?', "%#{search}%", true, '2')
+	   else
+	       where('status = ? AND user_type = ?', true, '2') 
+	   end
+	end
     
     validates :name, presence: true
     validates :email, presence: true, email: true, uniqueness: true #Melhorar verificacao (melhor opcao eh enviar um email - n usar regex)
