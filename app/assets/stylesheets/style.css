@@ -538,15 +538,29 @@ hr {
 }
 
 .pavanelli {
- width: 50%;
+ width: 25%;
  height: 100%;
  
- margin-left: 25%;
+
  
  background-image: url(/assets/content-home-1.png);
  background-size: contain;
  background-position: center;
  background-repeat: no-repeat;
+ 
+ float: left;
+}
+
+.pavanelli-2 {
+	font-family: 'Pier Sans';
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	
+	height: 80%;
+	width: 50%;
+	margin-top: 10%;
+	float: left;
 }
 
 .header {
